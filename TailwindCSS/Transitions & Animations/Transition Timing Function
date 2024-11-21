@@ -1,0 +1,29 @@
+### Transition Timing Function in TailwindCSS
+
+**Transition Timing Function**: TailwindCSS provides utilities to control the **timing function** of transitions, which defines the speed curve of the transition effect. This determines how the transition progresses over time, creating different easing effects.
+
+#### Common Transition Timing Function Classes:
+- **`ease-linear`**: Transitions at a constant speed.
+- **`ease-in`**: Starts slowly, then speeds up.
+- **`ease-out`**: Starts quickly, then slows down.
+- **`ease-in-out`**: Starts slowly, speeds up, then slows down.
+
+> **过渡时间函数**：TailwindCSS 提供了控制 **过渡时间函数** 的工具类，定义过渡效果的速度曲线，影响动画的加速或减速方式。
+
+#### React Example with JSX Comments:
+
+```jsx
+{/* Ease-in-out timing function */}
+<div className="transition-all duration-500 ease-in-out transform hover:scale-110 p-4 bg-blue-500 text-white">
+  Hover to scale with ease-in-out
+</div>
+
+{/* Linear timing function */}
+<div className="transition-all duration-500 ease-linear transform hover:scale-110 p-4 bg-green-500 text-white">
+  Hover to scale with linear timing
+</div>
+```
+
+In this React example:
+- **`ease-in-out`** creates a smooth acceleration and deceleration during the scaling effect.
+- **`ease-linear`** applies a constant speed throughout the transition.

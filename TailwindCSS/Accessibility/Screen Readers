@@ -1,0 +1,27 @@
+### Screen Readers in TailwindCSS
+
+**Screen Readers**: TailwindCSS provides the **`sr-only`** utility to visually hide elements while keeping them accessible to screen readers. This is useful for providing additional context or instructions that are important for assistive technologies but unnecessary for sighted users. To make hidden elements visible again, use the **`not-sr-only`** utility.
+
+#### Common Screen Reader Classes:
+- **`sr-only`**: Hides the element visually but keeps it accessible to screen readers.
+- **`not-sr-only`**: Makes the previously hidden element visible again.
+
+> **屏幕阅读器**：TailwindCSS 提供了 **`sr-only`** 工具类，用于将元素视觉上隐藏，但仍然让屏幕阅读器能够访问。**`not-sr-only`** 则可以重新显示这些元素。
+
+#### React Example with JSX Comments:
+
+```jsx
+{/* Visually hidden but accessible to screen readers */}
+<div className="sr-only">
+  This text is hidden but accessible to screen readers.
+</div>
+
+{/* Visible content */}
+<div className="not-sr-only">
+  This text is visible to everyone.
+</div>
+```
+
+In this React example:
+- **`sr-only`** hides the element from view but allows screen readers to access it.
+- **`not-sr-only`** makes the element visible again.
