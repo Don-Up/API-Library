@@ -2,7 +2,7 @@
 
 - **`req.url`**: This property contains the full URL path of the request, including the path and query string (if any). It represents the part of the URL that comes after the domain. You can use it to inspect or manipulate the requested path or query parameters.
 
-> **`req.url`**：此属性包含请求的完整 URL 路径，包括路径和查询字符串（如果有）。它表示在域名之后的 URL 部分。你可以使用它来检查或处理请求的路径或查询参数。
+> **`req.url`**：此属性**包含请求的完整 URL 路径**，包括路径和查询字符串（如果有）。它表示在域名之后的 URL 部分。你可以使用它来检查或处理请求的路径或查询参数。
 
 | Parameter | Description                        | Example Value         |
 | --------- | ---------------------------------- | --------------------- |

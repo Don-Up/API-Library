@@ -2,7 +2,7 @@
 
 - **`req.method`**: This property contains the HTTP method used in the request, such as `GET`, `POST`, `PUT`, `DELETE`, etc. It helps determine what kind of action the client is requesting, allowing the server to handle the request appropriately depending on the method used.
 
-> **`req.method`**：此属性包含请求中使用的 HTTP 方法，例如 `GET`、`POST`、`PUT`、`DELETE` 等。它用于确定客户端请求的操作类型，帮助服务器根据使用的方法来处理请求。
+> **`req.method`**：此属性**包含请求中使用的 HTTP 方法**，例如 `GET`、`POST`、`PUT`、`DELETE` 等。它用于确定客户端请求的操作类型，帮助服务器根据使用的方法来处理请求。
 
 | Parameter | Description                     | Example Value |
 | --------- | ------------------------------- | ------------- |

@@ -2,7 +2,7 @@
 
 - **`req.get(field)`**: This method retrieves the value of a specific HTTP request header by its name. It is case-insensitive and can be used to access request headers like `Content-Type`, `Authorization`, or custom headers. If the header is not found, it returns `undefined`.
 
-> **`req.get(field)`**：此方法用于按名称获取指定的 HTTP 请求头的值。它对大小写不敏感，常用于访问 `Content-Type`、`Authorization` 等请求头。如果请求头不存在，会返回 `undefined`。
+> **`req.get(field)`**：此方法用于**按名称获取指定的 HTTP 请求头的值**。它对大小写不敏感，常用于访问 `Content-Type`、`Authorization` 等请求头。如果请求头不存在，会返回 `undefined`。
 
 | Parameter | Description                        | Example Value    |
 | --------- | ---------------------------------- | ---------------- |

@@ -2,7 +2,7 @@
 
 - **`req.cookies`**: This object contains cookies sent by the client in the `Cookie` header. To access `req.cookies`, you must use middleware like `cookie-parser` to parse the cookies. Each cookie is stored as a key-value pair in `req.cookies`, where the key is the cookie name, and the value is its content.
 
-> **`req.cookies`**：此对象包含客户端通过 `Cookie` 头发送的 cookie。要访问 `req.cookies`，需要使用中间件（如 `cookie-parser`）来解析 cookie。每个 cookie 作为键值对存储在 `req.cookies` 中，键是 cookie 的名称，值是其内容。
+> **`req.cookies`**：此对象**包含客户端通过 `Cookie` 头发送的 cookie**。要访问 `req.cookies`，需要使用中间件（如 `cookie-parser`）来解析 cookie。每个 cookie 作为键值对存储在 `req.cookies` 中，键是 cookie 的名称，值是其内容。
 
 | Parameter   | Description                        | Example Value |
 | ----------- | ---------------------------------- | ------------- |

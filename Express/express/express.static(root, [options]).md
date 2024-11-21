@@ -25,4 +25,4 @@ app.listen(3000, () => {
 });
 ```
 
-In this example, `express.static()` serves files from the `public` directory. If a file like `/public/style.css` exists, it can be accessed directly via `/style.css`.
+ In this example, `express.static()` serves files from the `public` directory. If a file like `/public/style.css` exists, it can be accessed directly via `/style.css`.

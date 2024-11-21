@@ -2,7 +2,7 @@
 
 - **`req.body`**: This object contains data sent in the body of an HTTP request, typically in a POST or PUT request. To access `req.body`, middleware like `express.json()` or `express.urlencoded()` must be used to parse incoming JSON or URL-encoded data. It allows you to handle form data, JSON payloads, etc., submitted by the client.
 
-> **`req.body`**：此对象包含通过 HTTP 请求主体发送的数据，通常在 POST 或 PUT 请求中使用。要访问 `req.body`，需要使用中间件（如 `express.json()` 或 `express.urlencoded()`）来解析传入的 JSON 或 URL 编码数据。它允许你处理客户端提交的表单数据、JSON 数据等。
+> **`req.body`**：此对象**包含通过 HTTP 请求主体发送的数据**，通常在 POST 或 PUT 请求中使用。要访问 `req.body`，需要使用中间件（如 `express.json()` 或 `express.urlencoded()`）来解析传入的 JSON 或 URL 编码数据。它允许你处理客户端提交的表单数据、JSON 数据等。
 
 | Parameter | Description                       | Example Value |
 | --------- | --------------------------------- | ------------- |
