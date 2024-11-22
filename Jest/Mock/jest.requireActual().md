@@ -22,4 +22,6 @@ test('uses the real fetchData implementation', () => {
 });
 ```
 
+<audio src="../../../../Downloads/这段代码展示了如何在 Jest.mp3"></audio>
+
 `jest.requireActual()` is helpful when you want to mock parts of a module but still use the real implementation for certain tests.

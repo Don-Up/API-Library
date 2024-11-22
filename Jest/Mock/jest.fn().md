@@ -21,4 +21,6 @@ test('tracks calls to the mock function', () => {
 });
 ```
 
+<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (7).mp3"></audio>
+
 `jest.fn()` is useful for testing how functions are called and their behavior without needing a real implementation.

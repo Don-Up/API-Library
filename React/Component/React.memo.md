@@ -2,13 +2,21 @@
 
 **`React.memo`**: This is a higher-order component (HOC) that **memoizes** functional components. It prevents unnecessary re-renders by performing a **shallow comparison** of the component’s **props**. If the props haven't changed, React skips re-rendering the component, optimizing performance. It’s useful for **pure functional components** where the output is solely determined by props. You can also pass a custom comparison function to handle more complex scenarios.
 
+<audio src="../../../../Downloads/__`React.memo`_.mp3"></audio>
+
 #### Key Points:
 - Prevents re-renders if **props** haven’t changed.
 - Ideal for **pure functional components**.
 
 > **`React.memo`**：这是一个高阶组件，用于对函数组件进行缓存，防止不必要的重新渲染。它通过对 `props` 进行浅比较，如果 `props` 未改变，则跳过重新渲染，优化性能。
+>
+> <audio src="../../../../Downloads/React.memo：这是一个.mp3"></audio>
 
 #### Example with Comments:
+
+<audio src="../../../../Downloads/这段代码展示了如何使用 `Re.mp3"></audio>
+
+<audio src="../../../../Downloads/This code demon.mp3"></audio>
 
 ```jsx
 import React from 'react';

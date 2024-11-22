@@ -20,4 +20,6 @@ test('checks if element has correct text content', () => {
 });
 ```
 
+<audio src="../../../../Downloads/这段代码展示了如何使用Jest.mp3"></audio>
+
 `expect().toHaveTextContent()` is useful for verifying that an element displays the correct text content, ensuring expected UI rendering.
