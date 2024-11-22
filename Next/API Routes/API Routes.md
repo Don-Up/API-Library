@@ -2,11 +2,15 @@
 
 **API Routes**: Next.js allows you to create server-side API endpoints by placing JavaScript files inside the `pages/api` directory. Each file in this directory maps to an API route, and you can handle requests like **GET**, **POST**, **PUT**, etc. These routes run on a Node.js server, allowing you to interact with databases, external APIs, or perform backend logic.
 
+<audio src="C:\Users\10691\Downloads\API Routes_ Nex.mp3"></audio>
+
 #### Key Points:
 - Create API endpoints under **`pages/api`**.
 - Handle HTTP methods using **`req`** and **`res`** objects.
 
 > **API 路由**：Next.js 允许通过在 `pages/api` 目录中创建 JavaScript 文件来创建服务器端 API 端点。每个文件对应一个 API 路由，可以处理 GET、POST 等请求。
+>
+> <audio src="C:\Users\10691\Downloads\API 路由：Next.js .mp3"></audio>
 
 #### Example with JSX Comments:
 

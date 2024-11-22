@@ -2,7 +2,7 @@
 
 - **`expect().toMatch()`**: Asserts that a string matches a given regular expression or substring. It’s useful for checking patterns or partial matches within strings.
 
-> **`expect().toMatch()`**：断言字符串匹配给定的正则表达式或子字符串，适合检查字符串中的模式或部分匹配。
+> **`expect().toMatch()`**：断言字符串匹配给定的**正则表达式**或**子字符串**，适合检查字符串中的**模式**或**部分**匹配。
 
 ```js
 test('checks string match', () => {

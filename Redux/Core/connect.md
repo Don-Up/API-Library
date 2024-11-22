@@ -2,7 +2,11 @@
 
 - **`connect`**: A higher-order component (HOC) provided by React Redux that connects a React component to the Redux store. It maps state (`mapStateToProps`) and dispatch (`mapDispatchToProps`) to the component's props, allowing the component to access the store and dispatch actions without using hooks like `useSelector` or `useDispatch`.
 
+- <audio src="C:\Users\10691\Downloads\__`connect`___ .mp3"></audio>
+
 > **`connect`**：React Redux 提供的高阶组件，用于将 React 组件连接到 Redux store。它通过 `mapStateToProps` 和 `mapDispatchToProps` 将状态和 dispatch 映射到组件的 props，使组件能够访问 store 并分发操作，而无需使用钩子。
+>
+> <audio src="C:\Users\10691\Downloads\`connect`：React.mp3"></audio>
 
 #### Example:
 
@@ -32,4 +36,8 @@ const mapDispatchToProps = (dispatch) => ({
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ```
 
+<audio src="C:\Users\10691\Downloads\这段代码展示了一个通过 Red.mp3"></audio>
+
 `connect` is useful in class components or when you prefer using HOCs over hooks for accessing Redux state and dispatching actions.
+
+<audio src="C:\Users\10691\Downloads\`connect` is us.mp3"></audio>

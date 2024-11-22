@@ -9,7 +9,7 @@
   - **`bg-white`**: Sets the background color to white.
   - **`bg-{color}-{shade}`**: Sets the background color to a specific shade of a color (e.g., `bg-red-700` or `bg-gray-300`).
 
-> **Background Color**：TailwindCSS 提供了一组工具类，用于给元素应用 **背景颜色**。这些类直接映射到 CSS 的 `background-color` 属性。Tailwind 提供了多种预定义颜色及其不同的深浅度，你也可以在配置文件中自定义或扩展颜色。
+> **Background Color**：用于给元素应用 **背景颜色**。这些类直接映射到 CSS 的 `background-color` 属性。Tailwind 提供了多种预定义颜色及其不同的深浅度，你也可以在配置文件中自定义或扩展颜色。
 
 #### Example Color Classes:
   - **`bg-blue-500`**: Applies a medium blue background.

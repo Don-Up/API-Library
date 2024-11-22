@@ -2,7 +2,11 @@
 
 - **`jest.requireActual()`**: Returns the actual (unmocked) implementation of a module. Useful when you mock a module but still need access to its real implementation in some tests.
 
+- <audio src="C:\Users\10691\Downloads\__`jest.require.mp3"></audio>
+
 > **`jest.requireActual()`**：返回模块的真实（未模拟）实现。当你模拟一个模块但仍需要访问其真实实现时非常有用。
+>
+> <audio src="C:\Users\10691\Downloads\`jest.requireAc.mp3"></audio>
 
 ```js
 // myModule.js

@@ -2,6 +2,8 @@
 
 - **`expect().toContain()`**: Asserts that an array or string contains a specific item or substring. Useful for checking if arrays include elements or if strings contain substrings.
 
+- <audio src="C:\Users\10691\Downloads\Asserts that an.mp3"></audio>
+
 > **`expect().toContain()`**：断言数组或字符串包含指定的元素或子字符串，常用于检查数组是否包含特定元素或字符串是否包含子字符串。
 
 ```js

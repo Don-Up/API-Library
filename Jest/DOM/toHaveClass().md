@@ -2,7 +2,11 @@
 
 - **`expect().toHaveClass()`**: Asserts that an HTML element has one or more specified CSS classes. Useful for checking if elements have the correct styling.
 
+- <audio src="C:\Users\10691\Downloads\__`expect().toH (1).mp3"></audio>
+
 > **`expect().toHaveClass()`**：断言一个 HTML 元素具有指定的一个或多个 CSS 类，常用于检查元素是否具有正确的样式。
+>
+> <audio src="C:\Users\10691\Downloads\`expect().toHav.mp3"></audio>
 
 ```js
 import { render, screen } from '@testing-library/react';

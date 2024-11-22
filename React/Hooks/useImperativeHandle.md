@@ -2,13 +2,22 @@
 
 **`useImperativeHandle`**: This React Hook allows you to **customize the instance value** that is exposed to **parent components** when using `ref`. Normally, refs expose DOM nodes or component instances, but `useImperativeHandle` lets you control what gets exposed. It is typically used with **`forwardRef`** to pass a ref to a child component and define custom methods or properties that the parent can access.
 
+<audio src="C:\Users\10691\Downloads\__`useImperativ.mp3"></audio>
+
 #### Key Points:
+
+<audio src="C:\Users\10691\Downloads\- __Customizes .mp3"></audio>
+
 - **Customizes ref behavior**.
 - Used with **`forwardRef`** to expose specific methods or properties.
 
 > **`useImperativeHandle`**：此钩子允许您自定义通过 `ref` 暴露给父组件的实例值。通常与 `forwardRef` 一起使用，用于向父组件提供自定义方法或属性。
+>
+> <audio src="C:\Users\10691\Downloads\`useImperativeH.mp3"></audio>
 
 #### Example with Comments:
+
+<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Rea (4).mp3"></audio>
 
 ```jsx
 import React, { useImperativeHandle, forwardRef, useRef } from 'react';
@@ -45,3 +54,5 @@ export default function ParentComponent() {
 
 In this example:
 - **`useImperativeHandle`** customizes the ref to expose **`focus`** and **`clear`** methods, allowing the parent to directly control the input component.
+
+- <audio src="C:\Users\10691\Downloads\__`useImperativ (1).mp3"></audio>

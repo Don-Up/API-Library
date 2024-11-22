@@ -7,6 +7,8 @@
 - Use **CSS Modules** for **scoped styles** in components.
 
 > **内置的 CSS 和 Sass 支持**：Next.js 内置支持直接在组件或页面中导入 CSS 和 Sass 文件。全局样式可以在 `_app.js` 中导入，模块化的 CSS 或 Sass 可通过 CSS Modules 实现，避免类名冲突。
+>
+> <audio src="C:\Users\10691\Downloads\内置的 CSS 和 Sass .mp3"></audio>
 
 #### Example with Comments:
 

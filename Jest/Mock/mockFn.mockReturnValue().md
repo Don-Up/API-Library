@@ -2,7 +2,11 @@
 
 - **`mockFn.mockReturnValue()`**: Configures the mock function to always return a specific value whenever it is called.
 
+- <audio src="C:\Users\10691\Downloads\__`mockFn.mockR (4).mp3"></audio>
+
 > **`mockFn.mockReturnValue()`**：将模拟函数配置为每次调用时始终返回指定的值。
+>
+> <audio src="C:\Users\10691\Downloads\mockFn.mockRetu.mp3"></audio>
 
 ```js
 test('mock function returns a specific value', () => {
@@ -13,4 +17,8 @@ test('mock function returns a specific value', () => {
 });
 ```
 
+<audio src="C:\Users\10691\Downloads\这段代码演示了如何使用 Jes (2).mp3"></audio>
+
 `mockFn.mockReturnValue()` is useful for simulating a consistent return value from a mock function in tests.
+
+<audio src="C:\Users\10691\Downloads\`mockFn.mockRet.mp3"></audio>

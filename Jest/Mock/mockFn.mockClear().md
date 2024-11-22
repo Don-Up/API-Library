@@ -2,7 +2,11 @@
 
 - **`mockFn.mockClear()`**: Resets all information stored in the mock function, such as call count, arguments, and results, but keeps the mock’s implementation intact.
 
+- <audio src="C:\Users\10691\Downloads\__`mockFn.mockC.mp3"></audio>
+
 > **`mockFn.mockClear()`**：重置模拟函数的所有信息，如调用次数、参数和结果，但保留其实现。
+>
+> <audio src="C:\Users\10691\Downloads\`mockFn.mockCle.mp3"></audio>
 
 ```js
 test('clear mock function call history', () => {
