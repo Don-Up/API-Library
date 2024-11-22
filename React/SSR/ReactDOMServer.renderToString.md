@@ -8,7 +8,7 @@
 
 > **`ReactDOMServer.renderToString`**：此方法在服务器端将 React 组件树渲染为 HTML 字符串，常用于**服务端渲染 (SSR)**。生成的 HTML 字符串可直接发送到客户端，用于更快的页面加载和更好的 SEO。与 `renderToStaticMarkup` 不同，它包含 React 的特殊属性（如 `data-reactroot`），以便客户端进行 hydration。
 >
-> <audio src="C:\Users\10691\Downloads\`ReactDOMServer.mp3"></audio>
+> <audio src="..\..\mp3\`ReactDOMServer.mp3"></audio>
 
 #### Example with Comments:
 

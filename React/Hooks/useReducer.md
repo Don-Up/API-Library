@@ -2,7 +2,7 @@
 
 **`useReducer`**: This React Hook is an alternative to `useState` for managing more **complex state logic**. It takes a **reducer function** and an **initial state** as arguments. The reducer function defines how the state should be updated based on the **action** dispatched. It returns the current state and a dispatch function to trigger state updates. It’s useful when state logic involves multiple sub-values or complex transitions.
 
-<audio src="C:\Users\10691\Downloads\__`useReducer`_.mp3"></audio>
+<audio src="..\..\mp3\__`useReducer`_.mp3"></audio>
 
 #### Key Points:
 - Manages **complex state** logic.
@@ -11,15 +11,15 @@
 
 - Returns **state** and a **dispatch function**.
 
-- <audio src="C:\Users\10691\Downloads\- Manages __com.mp3"></audio>
+- <audio src="..\..\mp3\- Manages __com.mp3"></audio>
 
 > **`useReducer`**：这是 `useState` 的替代钩子，用于管理更复杂的状态逻辑。它接收一个 reducer 函数和初始状态。reducer 函数定义如何根据操作更新状态，返回当前状态和用于触发状态更新的 dispatch 函数。
 >
-> <audio src="C:\Users\10691\Downloads\useReducer：这是 `.mp3"></audio>
+> <audio src="..\..\mp3\useReducer：这是 `.mp3"></audio>
 
 #### Example with Comments:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Rea (7).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 Rea (7).mp3"></audio>
 
 ```jsx
 import React, { useReducer } from 'react';
@@ -53,4 +53,4 @@ export default function Counter() {
 In this example:
 - **`useReducer`** manages the `count` state with actions (`increment` and `decrement`) dispatched to the reducer to update the state.
 
-- <audio src="C:\Users\10691\Downloads\__`useReducer`_ (1).mp3"></audio>
+- <audio src="..\..\mp3\__`useReducer`_ (1).mp3"></audio>

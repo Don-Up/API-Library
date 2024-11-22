@@ -4,7 +4,7 @@
 
 > **`expect().toBeDefined()`**：断言接收到的值不是 `undefined`，即值已被定义。
 >
-> <audio src="C:\Users\10691\Downloads\`expect().toBeD.mp3"></audio>
+> <audio src="..\..\mp3\`expect().toBeD.mp3"></audio>
 
 ```js
 test('checks if value is defined', () => {

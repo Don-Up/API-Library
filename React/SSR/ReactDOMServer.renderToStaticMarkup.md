@@ -8,7 +8,7 @@
 
 > **`ReactDOMServer.renderToStaticMarkup`**：此方法将 React 组件树渲染为一个静态 HTML 字符串，不包含 React 特有的属性（如 `data-reactroot`）。它适用于生成静态 HTML 页面（无需 React 管理 DOM）或电子邮件模板。与 `renderToString` 不同，它生成的内容不可进行 hydration。
 >
-> <audio src="C:\Users\10691\Downloads\`ReactDOMServer (1).mp3"></audio>
+> <audio src="..\..\mp3\`ReactDOMServer (1).mp3"></audio>
 
 #### Example with Comments:
 

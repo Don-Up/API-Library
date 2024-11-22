@@ -2,11 +2,11 @@
 
 - **`mockFn.mockImplementation()`**: Configures the mock function to use a custom implementation when it is called. This allows you to define specific behavior for the mock.
 
-- <audio src="C:\Users\10691\Downloads\- __`mockFn.moc.mp3"></audio>
+- <audio src="..\..\mp3\- __`mockFn.moc.mp3"></audio>
 
 > **`mockFn.mockImplementation()`**：配置模拟函数使用自定义实现，当函数被调用时执行指定的行为。
 >
-> <audio src="C:\Users\10691\Downloads\mockFn.mockImpl.mp3"></audio>
+> <audio src="..\..\mp3\mockFn.mockImpl.mp3"></audio>
 
 ```js
 test('mock function with custom implementation', () => {
@@ -19,4 +19,4 @@ test('mock function with custom implementation', () => {
 
 `mockFn.mockImplementation()` is useful for defining custom behavior in mock functions, especially when different logic is needed during testing.
 
-<audio src="C:\Users\10691\Downloads\`mockFn.mockImp.mp3"></audio>
+<audio src="..\..\mp3\`mockFn.mockImp.mp3"></audio>

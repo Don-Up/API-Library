@@ -2,11 +2,11 @@
 
 - **`mockFn.mock.calls`**: An array that records all the calls made to a mock function, including their arguments. Each entry is an array of arguments passed during a specific call.
 
-- <audio src="C:\Users\10691\Downloads\__`mockFn.mock..mp3"></audio>
+- <audio src="..\..\mp3\__`mockFn.mock..mp3"></audio>
 
 > **`mockFn.mock.calls`**：一个数组，记录对模拟函数的所有调用及其传递的参数。每个条目是某次调用时传入的参数数组。
 >
-> <audio src="C:\Users\10691\Downloads\`mockFn.mock.ca.mp3"></audio>
+> <audio src="..\..\mp3\`mockFn.mock.ca.mp3"></audio>
 
 ```js
 test('tracks mock function calls and arguments', () => {

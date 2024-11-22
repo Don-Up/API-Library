@@ -8,7 +8,7 @@
 
 > **`next.config.js`**：`next.config.js` 文件用于自定义和配置 Next.js 应用程序的设置，允许修改 Webpack 配置、环境变量、图像域名、国际化等功能。
 >
-> <audio src="C:\Users\10691\Downloads\`next.config.js.mp3"></audio>
+> <audio src="..\..\mp3\`next.config.js.mp3"></audio>
 
 #### Example with Comments:
 

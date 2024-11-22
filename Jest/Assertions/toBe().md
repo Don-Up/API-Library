@@ -4,7 +4,7 @@
 
 > **`expect().toBe()`**：断言接收到的值严格等于（使用 `===`）预期值，检查值和类型是否相同。
 >
-> <audio src="C:\Users\10691\Downloads\`expect().to Be.mp3"></audio>
+> <audio src="..\..\mp3\`expect().to Be.mp3"></audio>
 
 ```js
 test('checks strict equality', () => {

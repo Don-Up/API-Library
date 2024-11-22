@@ -2,11 +2,11 @@
 
 - **`expect().toHaveAttribute()`**: Asserts that an HTML element has a specific attribute, and optionally checks its value.
 
-- <audio src="C:\Users\10691\Downloads\__`expect().toH.mp3"></audio>
+- <audio src="..\..\mp3\__`expect().toH.mp3"></audio>
 
 > **`expect().toHaveAttribute()`**：断言 HTML 元素具有指定的属性，并可选地检查其值。
 >
-> <audio src="C:\Users\10691\Downloads\expect toHaveAt.mp3"></audio>
+> <audio src="..\..\mp3\expect toHaveAt.mp3"></audio>
 
 ```js
 import { render, screen } from '@testing-library/react';

@@ -2,22 +2,22 @@
 
 **`componentDidCatch`**: This lifecycle method is part of **error boundaries** and is invoked when a descendant component throws an error. It provides two arguments: the **error** and an **info object** containing details about where the error occurred (e.g., component stack trace). Unlike `getDerivedStateFromError`, which updates the state, `componentDidCatch` is used to perform **side effects** like logging errors to an external service.
 
-<audio src="C:\Users\10691\Downloads\__`componentDid.mp3"></audio>
+<audio src="..\..\mp3\__`componentDid.mp3"></audio>
 
 #### Key Points:
 - Catches errors thrown by child components.
 
 - Used for **logging errors** or performing side effects.
 
-- <audio src="C:\Users\10691\Downloads\- Catches error.mp3"></audio>
+- <audio src="..\..\mp3\- Catches error.mp3"></audio>
 
 > **`componentDidCatch`**：这是错误边界的生命周期方法，当子组件抛出错误时被调用。它提供两个参数：错误对象和包含错误发生位置信息的对象，通常用于记录错误或执行副作用。
 >
-> <audio src="C:\Users\10691\Downloads\componentDidCat.mp3"></audio>
+> <audio src="..\..\mp3\componentDidCat.mp3"></audio>
 
 #### Example with Comments:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Rea (11).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 Rea (11).mp3"></audio>
 
 ```jsx
 import React, { Component } from 'react';
@@ -64,4 +64,4 @@ export default function App() {
 In this example:
 - **`componentDidCatch`** logs the error and the component stack when **`BuggyComponent`** crashes.
 
-- <audio src="C:\Users\10691\Downloads\__`componentDid (1).mp3"></audio>
+- <audio src="..\..\mp3\__`componentDid (1).mp3"></audio>

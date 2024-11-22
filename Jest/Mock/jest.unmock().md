@@ -2,11 +2,11 @@
 
 - **`jest.unmock()`**: Removes the mock on a module that was previously mocked with `jest.mock()`, restoring its original implementation.
 
-- <audio src="C:\Users\10691\Downloads\__`jest.unmock(.mp3"></audio>
+- <audio src="..\..\mp3\__`jest.unmock(.mp3"></audio>
 
 > **`jest.unmock()`**：移除之前使用 `jest.mock()` 模拟的模块，恢复其原始实现。
 >
-> <audio src="C:\Users\10691\Downloads\`jest.unmock()`.mp3"></audio>
+> <audio src="..\..\mp3\`jest.unmock()`.mp3"></audio>
 
 ```js
 // myModule.js

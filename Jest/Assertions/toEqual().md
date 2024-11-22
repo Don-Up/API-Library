@@ -2,7 +2,7 @@
 
 - **`expect().toEqual()`**: Asserts that the received value is **deeply equal** to the expected value. It recursively checks the equality of objects, arrays, and nested data structures.
 
-- <audio src="C:\Users\10691\Downloads\_Asserts that t.mp3"></audio>
+- <audio src="..\..\mp3\_Asserts that t.mp3"></audio>
 
 > **`expect().toEqual()`**：断言接收到的值与预期值**深度相等**，递归检查对象、数组和嵌套数据结构的相等性。
 

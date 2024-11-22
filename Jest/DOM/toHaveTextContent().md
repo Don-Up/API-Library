@@ -2,11 +2,11 @@
 
 - **`expect().toHaveTextContent()`**: Asserts that an HTML element contains specific text content, useful for validating rendered text in UI components.
 
-- <audio src="C:\Users\10691\Downloads\__`expect().toH (2).mp3"></audio>
+- <audio src="..\..\mp3\__`expect().toH (2).mp3"></audio>
 
 > **`expect().toHaveTextContent()`**：断言 HTML 元素包含特定文本内容，常用于验证 UI 组件中渲染的文本。
 >
-> <audio src="C:\Users\10691\Downloads\`expect().toHav (1).mp3"></audio>
+> <audio src="..\..\mp3\`expect().toHav (1).mp3"></audio>
 
 ```js
 import { render, screen } from '@testing-library/react';

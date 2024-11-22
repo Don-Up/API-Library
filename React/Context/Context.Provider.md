@@ -2,22 +2,22 @@
 
 **`Context.Provider`**: This component is used to **provide** a context value to components in its subtree. Any component wrapped by the `Provider` can access the context value using `useContext` or `Context.Consumer`. It accepts a `value` prop, which will be the context data shared across the component tree. If no `Provider` is found, the components will use the **default value** defined by `createContext`.
 
-<audio src="C:\Users\10691\Downloads\__`Context.Prov.mp3"></audio>
+<audio src="..\..\mp3\__`Context.Prov.mp3"></audio>
 
 #### Key Points:
 - **Provides** a context value to descendants.
 
 - Requires a `value` prop to share data.
 
-- <audio src="C:\Users\10691\Downloads\- __Provides__ .mp3"></audio>
+- <audio src="..\..\mp3\- __Provides__ .mp3"></audio>
 
 > **`Context.Provider`**：此组件用于向其子树中的组件提供上下文值。被 `Provider` 包裹的组件可以通过 `useContext` 或 `Context.Consumer` 访问上下文值。如果没有找到 `Provider`，组件将使用 `createContext` 定义的默认值。
 >
-> <audio src="C:\Users\10691\Downloads\Context.Provide.mp3"></audio>
+> <audio src="..\..\mp3\Context.Provide.mp3"></audio>
 
 #### Example with Comments:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Rea (15).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 Rea (15).mp3"></audio>
 
 ```jsx
 import React, { createContext, useContext } from 'react';
@@ -44,4 +44,4 @@ export default function App() {
 In this example:
 - **`UserContext.Provider`** provides the value `"Alice"` to its descendants, and the `Greeting` component can access this value using **`useContext(UserContext)`**.
 
-- <audio src="C:\Users\10691\Downloads\__`UserContext..mp3"></audio>
+- <audio src="..\..\mp3\__`UserContext..mp3"></audio>

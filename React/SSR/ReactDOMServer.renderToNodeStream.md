@@ -8,7 +8,7 @@
 
 > **`ReactDOMServer.renderToNodeStream`**：此方法用于**流式服务端渲染 (SSR)**，生成一个 **Node.js 可读流**的 HTML。它可逐步将 HTML 发送到客户端，从而加快大页面的渲染速度，使浏览器更早显示内容。在 React 18 中已被 **`renderToPipeableStream`** 取代。
 >
-> <audio src="C:\Users\10691\Downloads\ReactDOMServer..mp3"></audio>
+> <audio src="..\..\mp3\ReactDOMServer..mp3"></audio>
 
 #### Example with Comments:
 

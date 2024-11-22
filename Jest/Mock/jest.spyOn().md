@@ -2,11 +2,11 @@
 
 - **`jest.spyOn()`**: Creates a mock that spies on an existing object method, allowing you to track calls and optionally modify its implementation.
 
-- <audio src="C:\Users\10691\Downloads\__`jest.spyOn().mp3"></audio>
+- <audio src="..\..\mp3\__`jest.spyOn().mp3"></audio>
 
 > **`jest.spyOn()`**：为现有对象方法创建一个间谍函数，允许跟踪其调用，并可选择性地修改其实现。
 >
-> <audio src="C:\Users\10691\Downloads\`jest.spyOn()`：.mp3"></audio>
+> <audio src="..\..\mp3\`jest.spyOn()`：.mp3"></audio>
 
 ```js
 const myObj = {

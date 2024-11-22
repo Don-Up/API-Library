@@ -8,7 +8,7 @@
 
 > **`ReactDOMServer.renderToPipeableStream`**：此方法用于**流式服务端渲染 (SSR)**，可以在生成 HTML 时逐步将其发送到客户端，提升大页面的渲染性能。它返回一个**可读流**，可直接传输到 HTTP 响应中，支持 React 18 的并发渲染。你还可以通过 `onShellReady` 回调获知初始 HTML 准备就绪的时机。
 >
-> <audio src="C:\Users\10691\Downloads\`ReactDOMServer (2).mp3"></audio>
+> <audio src="..\..\mp3\`ReactDOMServer (2).mp3"></audio>
 
 #### Example with Comments:
 

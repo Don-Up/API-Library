@@ -2,11 +2,11 @@
 
 - **`mockFn.mock.results`**: An array that stores the results of each call to the mock function. Each entry contains data about whether the function returned normally or threw an error, and the result value.
 
-- <audio src="C:\Users\10691\Downloads\__`mockFn.mock. (1).mp3"></audio>
+- <audio src="..\..\mp3\__`mockFn.mock. (1).mp3"></audio>
 
 > **`mockFn.mock.results`**：一个数组，存储每次调用模拟函数的结果。每个条目包含函数是正常返回还是抛出错误，以及返回的值。
 >
-> <audio src="C:\Users\10691\Downloads\`mockFn.mock.re.mp3"></audio>
+> <audio src="..\..\mp3\`mockFn.mock.re.mp3"></audio>
 
 ```js
 test('tracks mock function results', () => {

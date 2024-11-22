@@ -2,15 +2,15 @@
 
 - **`Provider`**: A component from React Redux that makes the Redux store available to any nested components within the app. It wraps the entire application (or part of it) and passes the Redux store down via React's context API, enabling components to access the store using hooks like `useSelector` and `useDispatch`.
 
-- <audio src="C:\Users\10691\Downloads\__`Provider`___.mp3"></audio>
+- <audio src="..\..\mp3\__`Provider`___.mp3"></audio>
 
 > **`Provider`**：React Redux 提供的组件，作用是将 Redux 的 store 提供给应用中的嵌套组件。它通过 React 的上下文 API 传递 store，允许组件使用 `useSelector` 和 `useDispatch` 等钩子访问 store。
 >
-> <audio src="C:\Users\10691\Downloads\`Provider`：Reac.mp3"></audio>
+> <audio src="..\..\mp3\`Provider`：Reac.mp3"></audio>
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这段代码的重点是 Provid.mp3"></audio>
+<audio src="..\..\mp3\这段代码的重点是 Provid.mp3"></audio>
 
 ```jsx
 import React from 'react';
@@ -30,4 +30,4 @@ export default Root;
 
 Here, `Provider` ensures that all components within `App` can access the Redux store and interact with it, either by reading state or dispatching actions.
 
-<audio src="C:\Users\10691\Downloads\Here, `Provider.mp3"></audio>
+<audio src="..\..\mp3\Here, `Provider.mp3"></audio>
