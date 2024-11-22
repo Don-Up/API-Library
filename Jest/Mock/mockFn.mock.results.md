@@ -22,6 +22,6 @@ test('tracks mock function results', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (12).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (12).mp3"></audio>
 
 `mockFn.mock.results` is useful for tracking the return values or errors from each invocation of a mock function.

@@ -18,6 +18,6 @@ test('check if a function is mocked', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (8).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (8).mp3"></audio>
 
 `jest.isMockFunction()` is useful for verifying whether a function is mocked, particularly in scenarios where the function might be dynamically mocked.

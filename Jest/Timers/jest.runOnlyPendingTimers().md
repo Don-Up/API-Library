@@ -2,11 +2,11 @@
 
 - **`jest.runOnlyPendingTimers()`**: Executes only the currently pending timers (e.g., `setTimeout`, `setInterval`) without advancing the clock, leaving future timers intact.
 
-- <audio src="../../../../Downloads/__`jest.runOnly.mp3"></audio>
+- <audio src="..\..\mp3/__`jest.runOnly.mp3"></audio>
 
 > **`jest.runOnlyPendingTimers()`**：仅执行当前待处理的计时器（如 `setTimeout` 和 `setInterval`），而不推进时间，未来的计时器保持不变。
 >
-> <audio src="../../../../Downloads/`jest.runOnlyPe.mp3"></audio>
+> <audio src="..\..\mp3/`jest.runOnlyPe.mp3"></audio>
 
 ```js
 test('run only pending timers', () => {
@@ -22,6 +22,6 @@ test('run only pending timers', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码演示了如何使用`jes.mp3"></audio>
+<audio src="..\..\mp3/这段代码演示了如何使用`jes.mp3"></audio>
 
 `jest.runOnlyPendingTimers()` is useful for running currently scheduled timers without affecting those set for future execution.

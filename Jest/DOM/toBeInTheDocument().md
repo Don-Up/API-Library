@@ -20,6 +20,6 @@ test('checks if element is in the document', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (4).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (4).mp3"></audio>
 
 `expect().toBeInTheDocument()` is useful for verifying that an element exists in the rendered DOM.

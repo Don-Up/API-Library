@@ -25,6 +25,6 @@ test('tracks calls to an object method', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (10).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (10).mp3"></audio>
 
 `jest.spyOn()` is useful for observing and controlling how an object's method is used during tests.

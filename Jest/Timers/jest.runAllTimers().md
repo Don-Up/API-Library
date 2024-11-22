@@ -2,11 +2,11 @@
 
 - **`jest.runAllTimers()`**: Executes all pending timers (e.g., `setTimeout`, `setInterval`) in the queue immediately, regardless of their delay.
 
-- <audio src="../../../../Downloads/__`jest.runAllT.mp3"></audio>
+- <audio src="..\..\mp3/__`jest.runAllT.mp3"></audio>
 
 > **`jest.runAllTimers()`**：立即执行所有等待中的计时器（如 `setTimeout` 和 `setInterval`），无论延迟时间。
 >
-> <audio src="../../../../Downloads/`jest.runAllTim.mp3"></audio>
+> <audio src="..\..\mp3/`jest.runAllTim.mp3"></audio>
 
 ```js
 test('run all timers immediately', () => {
@@ -21,7 +21,7 @@ test('run all timers immediately', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用`jes (1).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用`jes (1).mp3"></audio>
 
 `jest.runAllTimers()` is useful for fast-tracking the execution of all scheduled timers, making it easier to test time-based behavior without waiting.
 

@@ -23,6 +23,6 @@ test('uses the real fetchData after unmock', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何在 Jest (2).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何在 Jest (2).mp3"></audio>
 
 `jest.unmock()` is useful when you want to temporarily mock a module but later revert to its actual implementation within the same test file.

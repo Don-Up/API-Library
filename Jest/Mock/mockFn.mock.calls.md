@@ -21,6 +21,6 @@ test('tracks mock function calls and arguments', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (11).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (11).mp3"></audio>
 
 `mockFn.mock.calls` is useful for inspecting how many times and with what arguments a mock function was called.

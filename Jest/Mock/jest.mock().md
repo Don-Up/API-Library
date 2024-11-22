@@ -24,7 +24,7 @@ test('uses mocked fetchData', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (9).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (9).mp3"></audio>
 
 `jest.mock()` is ideal for mocking entire modules or specific functions to control dependencies and their behavior during tests.
 

@@ -2,11 +2,11 @@
 
 - **`jest.clearAllTimers()`**: Clears all active timers (e.g., `setTimeout`, `setInterval`) that have been scheduled, preventing them from executing.
 
-- <audio src="../../../../Downloads/`jest.clearAllT (1).mp3"></audio>
+- <audio src="..\..\mp3/`jest.clearAllT (1).mp3"></audio>
 
 > **`jest.clearAllTimers()`**：清除所有已调度的计时器（如 `setTimeout` 和 `setInterval`），防止它们执行。
 >
-> <audio src="../../../../Downloads/`jest.clearAllT.mp3"></audio>
+> <audio src="..\..\mp3/`jest.clearAllT.mp3"></audio>
 
 ```js
 test('clears all scheduled timers', () => {
@@ -22,6 +22,6 @@ test('clears all scheduled timers', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用`jes.mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用`jes.mp3"></audio>
 
 `jest.clearAllTimers()` is useful for canceling all pending timers, ensuring they won't execute during the test.

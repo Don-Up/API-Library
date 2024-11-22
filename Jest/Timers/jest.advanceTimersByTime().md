@@ -2,11 +2,11 @@
 
 - **`jest.advanceTimersByTime()`**: Moves the fake timers forward by a specified amount of time, triggering any timers that would have been called during that period.
 
-- <audio src="../../../../Downloads/__`jest.advance.mp3"></audio>
+- <audio src="..\..\mp3/__`jest.advance.mp3"></audio>
 
 > **`jest.advanceTimersByTime()`**：将模拟计时器前进指定时间，触发在该时间段内应调用的所有计时器。
 >
-> <audio src="../../../../Downloads/`jest.advanceTi.mp3"></audio>
+> <audio src="..\..\mp3/`jest.advanceTi.mp3"></audio>
 
 ```js
 test('advance timers by a specific time', () => {
@@ -23,6 +23,6 @@ test('advance timers by a specific time', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (1).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (1).mp3"></audio>
 
 `jest.advanceTimersByTime()` is useful for testing code that depends on timers without waiting for real time to pass.

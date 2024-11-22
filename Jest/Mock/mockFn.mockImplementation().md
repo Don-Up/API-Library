@@ -17,7 +17,7 @@ test('mock function with custom implementation', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何为 Jest.mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何为 Jest.mp3"></audio>
 
 `mockFn.mockImplementation()` is useful for defining custom behavior in mock functions, especially when different logic is needed during testing.
 

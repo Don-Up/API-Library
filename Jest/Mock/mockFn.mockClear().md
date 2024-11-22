@@ -21,6 +21,6 @@ test('clear mock function call history', () => {
 });
 ```
 
-<audio src="../../../../Downloads/这段代码展示了如何使用 Jes (13).mp3"></audio>
+<audio src="..\..\mp3/这段代码展示了如何使用 Jes (13).mp3"></audio>
 
 `mockFn.mockClear()` is useful for resetting the call history of a mock function between tests without changing its implementation.
