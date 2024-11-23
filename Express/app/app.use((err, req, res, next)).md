@@ -2,7 +2,11 @@
 
 - **`app.use((err, req, res, next))`**: This is an error-handling middleware in Express. It captures any errors passed to `next(err)` or thrown during request processing. The error-handling middleware has four parameters: `err`, `req`, `res`, and `next`. Use this middleware to handle errors, send error responses, or log them. It must be defined after all other routes and middleware.
 
+- <audio src="C:\Users\10691\Downloads\__`app.use((err.mp3"></audio>
+
 > **`app.use((err, req, res, next))`**：这是 Express 中的错误处理中间件。它捕获通过 `next(err)` 传递的错误或请求处理过程中抛出的错误。该中间件有四个参数：`err`、`req`、`res` 和 `next`。你可以使用它来处理错误、发送错误响应或记录错误。它必须定义在所有其他路由和中间件之后。
+>
+> <audio src="C:\Users\10691\Downloads\`app.use((err, .mp3"></audio>
 
 | Parameter | Description                                 | Example Value        |
 | --------- | ------------------------------------------- | -------------------- |
@@ -12,6 +16,8 @@
 | `next`    | Function to pass control to next middleware | `next`               |
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\错误处理中间件是专门用来捕获和.mp3"></audio>
 
 ```js
 const express = require('express');

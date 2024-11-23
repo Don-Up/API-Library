@@ -7,6 +7,8 @@
 - **`findByAltText()`**: Asynchronously finds an element by its `alt` text. It waits for the element to appear in the DOM, which is helpful for testing images or elements that render asynchronously.
 
 > **`getByAltText()` / `queryByAltText()` / `findByAltText()`**：通过元素的 `alt` 属性查找元素（通常是 `<img>` 标签）。`getByAltText` 找到则返回元素，找不到或有多个匹配项时抛错；`queryByAltText` 找不到时返回 `null`；`findByAltText` 异步查找元素，等待它出现在 DOM 中。
+>
+> <audio src="C:\Users\10691\Downloads\`getByAltText().mp3"></audio>
 
 ```js
 import { render, getByAltText, queryByAltText, findByAltText } from '@testing-library/react';
@@ -28,5 +30,7 @@ test('finds elements by alt text', async () => {
   expect(asyncImage).toBeInTheDocument();
 });
 ```
+
+<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Rea (28).mp3"></audio>
 
 These functions are particularly useful for testing images and ensuring that the `alt` text is correctly associated with the element for accessibility purposes.

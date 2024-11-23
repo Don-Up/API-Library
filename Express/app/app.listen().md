@@ -2,9 +2,15 @@
 
 - **`app.listen()`**: This method is used to make the Express app listen for incoming connections on a specified port and optional hostname. It starts the HTTP server and can take a callback function that runs once the server begins listening. Commonly used to launch the server after defining routes and middleware.
 
+- <audio src="C:\Users\10691\Downloads\__`app.listen`_.mp3"></audio>
+
 > **`app.listen()`**：此方法用于让 Express 应用监听指定端口和可选的主机名上的传入连接。它启动 HTTP 服务器，并可以接受回调函数，在服务器开始监听时执行。通常用于在定义路由和中间件后启动服务器。
+>
+> <audio src="C:\Users\10691\Downloads\`app.listen()`：.mp3"></audio>
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 Exp.mp3"></audio>
 
 ```js
 const express = require('express');

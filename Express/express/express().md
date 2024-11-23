@@ -2,9 +2,15 @@
 
 - **`express()`**: This function initializes an Express application. It returns an instance of an Express app, which is used to set up middleware, define routes, and handle incoming HTTP requests and responses. The `express()` function is the starting point for building an Express server.
 
+- <audio src="C:\Users\10691\Downloads\__`express`___ .mp3"></audio>
+
 > **`express()`**：此函数用于初始化一个 Express 应用，并返回一个 Express 应用实例。你可以使用这个实例来配置中间件、定义路由以及处理 HTTP 请求和响应。`express()` 是构建 Express 服务器的起点。
+>
+> <audio src="C:\Users\10691\Downloads\`express()`：此函数.mp3"></audio>
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\这段代码的重点是 expres (1).mp3"></audio>
 
 ```js
 const express = require('express');

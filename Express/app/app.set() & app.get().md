@@ -4,9 +4,15 @@
 
 - **`app.get(name)`**: Retrieves the value of the setting set by `app.set()`.
 
+- <audio src="C:\Users\10691\Downloads\- __`app.set(na.mp3"></audio>
+
 > **`app.set(name, value)` 和 `app.get(name)`**：`app.set()` 用于设置应用级别的配置，如视图引擎、端口或自定义设置。通过 `app.get(name)` 可以获取之前设置的值。
+>
+> <audio src="C:\Users\10691\Downloads\`app.set(name, .mp3"></audio>
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\这段代码的重点是 Expres.mp3"></audio>
 
 ```js
 const express = require('express');

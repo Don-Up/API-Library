@@ -2,9 +2,15 @@
 
 - **`app.locals`**: An object available within the entire Express app to store variables or data that can be accessed in templates or throughout the app. These variables are application-scoped and persist throughout the app's lifecycle. Commonly used for global data like app settings or helper functions that can be used in views.
 
+- <audio src="C:\Users\10691\Downloads\__`app.locals`_.mp3"></audio>
+
 > **`app.locals`**：Express 应用中可用的对象，用于存储全局变量或数据，供模板或应用程序的各个部分访问。这些变量是应用范围的，并在应用程序的生命周期内保持不变。通常用于存储全局数据或帮助函数，供视图使用。
+>
+> <audio src="C:\Users\10691\Downloads\app.locals：Expr.mp3"></audio>
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\app.locals 是一个全.mp3"></audio>
 
 ```js
 const express = require('express');

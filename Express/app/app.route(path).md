@@ -2,9 +2,15 @@
 
 - **`app.route(path)`**: This method allows you to define multiple HTTP methods (like GET, POST, PUT, etc.) for a single path, using a chainable interface. It helps avoid repeating the path for different methods and keeps the route definitions clean and organized.
 
+- <audio src="C:\Users\10691\Downloads\__`app.route(pa.mp3"></audio>
+
 > **`app.route(path)`**：此方法允许你为单一路径定义多个 HTTP 方法（如 GET、POST、PUT 等），并提供链式接口。这可以避免为不同方法重复定义路径，使路由定义更简洁和组织良好。
+>
+> <audio src="C:\Users\10691\Downloads\app.route(path).mp3"></audio>
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\app.route 是一种简洁.mp3"></audio>
 
 ```js
 const express = require('express');
