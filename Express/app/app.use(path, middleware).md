@@ -2,15 +2,15 @@
 
 - **`app.use([path], middleware)`**: This method mounts middleware functions to the Express application. If a `path` is provided, the middleware is executed only for requests to that path. If no `path` is specified, the middleware applies to **all** requests. Middleware functions can modify the `req` and `res` objects or end the request-response cycle.
 
-- <audio src="C:\Users\10691\Downloads\__`app.use([pat.mp3"></audio>
+- <audio src="..\..\mp3\__`app.use([pat.mp3"></audio>
 
 > **`app.use([path], middleware)`**：此方法将中间件函数挂载到 Express 应用。如果提供了路径，只有该路径的请求才会执行中间件。如果未指定路径，中间件将应用于所有请求。中间件可以修改 `req` 和 `res` 对象或结束请求响应周期。
 >
-> <audio src="C:\Users\10691\Downloads\app.use([path],.mp3"></audio>
+> <audio src="..\..\mp3\app.use([path],.mp3"></audio>
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\app.use 是用来定义中间.mp3"></audio>
+<audio src="..\..\mp3\app.use 是用来定义中间.mp3"></audio>
 
 ```js
 const express = require('express');

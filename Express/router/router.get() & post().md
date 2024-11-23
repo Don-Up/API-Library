@@ -4,7 +4,11 @@
   
 - **`router.post(path, callback)`**: Defines a route handler for `POST` requests to a specific path. It responds when a client submits data via a `POST` request.
 
+- <audio src="../../../../Downloads/- __`router.get.mp3"></audio>
+
 > **`router.get(path, callback)` 和 `router.post(path, callback)`**：`router.get()` 用于处理客户端对指定路径的 `GET` 请求，`router.post()` 用于处理 `POST` 请求。`GET` 请求通常用于获取数据，而 `POST` 请求用于提交数据。
+>
+> <audio src="../../../../Downloads/`router.get(pat.mp3"></audio>
 
 | Parameter  | Description                             | Example Value        |
 | ---------- | --------------------------------------- | -------------------- |
@@ -12,6 +16,8 @@
 | `callback` | Function to handle the request/response | `function(req, res)` |
 
 #### Example:
+
+<audio src="../../../../Downloads/在这段代码中，`router..mp3"></audio>
 
 ```js
 const express = require('express');

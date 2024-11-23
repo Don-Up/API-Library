@@ -2,13 +2,19 @@
 
 - **`express.json([options])`**: This middleware parses incoming requests with JSON payloads and is based on `body-parser`. It parses the `application/json` content-type and populates `req.body` with the resulting JSON object. The `options` argument can configure features like limiting the size of the JSON body or handling errors.
 
+- <audio src="../../../../Downloads/__`express.json.mp3"></audio>
+
 > **`express.json([options])`**：此中间件用于解析带有 JSON 负载的传入请求，基于 `body-parser`。它解析 `application/json` 类型的内容，并将结果 JSON 对象填充到 `req.body` 中。`options` 参数可以配置功能，例如限制 JSON 体的大小或处理错误。
+>
+> <audio src="../../../../Downloads/`express.json([.mp3"></audio>
 
 | Parameter | Description                                 | Example Value      |
 | --------- | ------------------------------------------- | ------------------ |
 | `options` | (Optional) Middleware configuration options | `{ limit: '1mb' }` |
 
 #### Example:
+
+<audio src="../../../../Downloads/这段代码的重点是 `expre.mp3"></audio>
 
 ```js
 const express = require('express');

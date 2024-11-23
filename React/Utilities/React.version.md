@@ -2,7 +2,7 @@
 
 **`React.version`**: This is a property of the React library that returns the current version of React being used in your application as a **string** (e.g., `"18.2.0"`). It is useful for debugging or logging purposes, especially when working with teams or libraries that depend on specific React versions.
 
-<audio src="C:\Users\10691\Downloads\__`React.versio.mp3"></audio>
+<audio src="..\..\mp3\__`React.versio.mp3"></audio>
 
 #### Key Points:
 - Returns the React version as a **string**.
@@ -10,7 +10,7 @@
 
 > **`React.version`**：这是 React 库的一个属性，返回当前使用的 React 版本号（字符串形式，如 `"18.2.0"`）。它通常用于调试或记录，特别是在团队协作或依赖特定 React 版本的库时。
 >
-> <audio src="C:\Users\10691\Downloads\React.version：这.mp3"></audio>
+> <audio src="..\..\mp3\React.version：这.mp3"></audio>
 
 #### Example with Comments:
 
