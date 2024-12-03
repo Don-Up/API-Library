@@ -26,6 +26,8 @@
 
 #### Example:
 
+<audio src="C:\Users\10691\Downloads\这里展示了`bg-gradie.mp3"></audio>
+
 ```html
 <div class="space-y-4 p-4">
   <div class="bg-gradient-to-r from-blue-500 to-green-500 text-white p-4">

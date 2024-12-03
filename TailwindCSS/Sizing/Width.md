@@ -18,6 +18,8 @@
 
 #### Example:
 
+<audio src="C:\Users\10691\Downloads\这里展示了`w-`（宽度）相关.mp3"></audio>
+
 ```html
 <div class="w-1/2 bg-gray-200 p-4">
   <div class="w-full bg-blue-500 text-white p-4">Full Width Inside Half Width</div>

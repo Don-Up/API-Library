@@ -20,6 +20,8 @@
 
 ![image-20241119091925686](C:\Users\10691\AppData\Roaming\Typora\typora-user-images\image-20241119091925686.png)
 
+<audio src="C:\Users\10691\Downloads\这里展示了`flex`布局的`.mp3"></audio>
+
 ```html
 <div class="flex flex-wrap content-between h-64 bg-gray-200">
   <div class="p-4 bg-blue-500 w-1/3">Item 1</div>

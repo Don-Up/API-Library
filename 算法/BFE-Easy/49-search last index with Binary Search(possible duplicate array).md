@@ -1,0 +1,1 @@
+## [49. search last index with Binary Search(possible duplicate array) | BFE.dev - prepare for Front-End job interviews.](https://bigfrontend.dev/problem/search-last-index-with-Binary-Search-possible-duplicate-array)

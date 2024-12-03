@@ -1,0 +1,69 @@
+### Hoisting Differences: `var`, `let`, and `const`
+
+<audio src="C:\Users\10691\Downloads\Hoisting refers.mp3"></audio>
+
+**Hoisting** refers to how JavaScript moves declarations to the top of their scope during the compilation phase.  
+
+1. **`var`**:
+   - Hoisted to the top but initialized as `undefined`.
+   - Can be accessed before declaration (but will be `undefined`).
+
+2. **`let` and `const`**:
+   - Hoisted to the top but remain in the **Temporal Dead Zone (TDZ)** until their declaration.
+   - Accessing them before declaration results in a `ReferenceError`.
+
+> **`var`、`let` 和 `const` 的提升差异**  
+>
+> <audio src="C:\Users\10691\Downloads\提升 指 JavaScript.mp3"></audio>
+>
+> **提升** 指 JavaScript 在编译阶段将变量声明移到其作用域顶部的过程。  
+>
+> 1. **`var`**：  
+>    - 声明会被提升到顶部，但初始化为 `undefined`。  
+>    - 在声明前访问不会报错，但值是 `undefined`。  
+> 2. **`let` 和 `const`**：  
+>    - 声明会被提升到顶部，但会处于 **暂时性死区（TDZ）**。  
+>    - 在声明前访问会抛出 `ReferenceError`。
+
+---
+
+### Code Examples:
+
+<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (1).mp3"></audio>
+
+#### **`var` Hoisting**
+```javascript
+console.log(myVar); // Logs: undefined (hoisted but not initialized)
+var myVar = 10;
+console.log(myVar); // Logs: 10
+```
+
+#### **`let` and `const` Hoisting**
+```javascript
+// console.log(myLet); // ReferenceError: Cannot access 'myLet' before initialization
+let myLet = 20;
+console.log(myLet); // Logs: 20
+
+// console.log(myConst); // ReferenceError: Cannot access 'myConst' before initialization
+const myConst = 30;
+console.log(myConst); // Logs: 30
+```
+
+#### **Temporal Dead Zone (TDZ)**
+```javascript
+{
+  // Accessing `x` before its declaration
+  // console.log(x); // ReferenceError
+  let x = 5;
+}
+```
+
+---
+
+### Key Notes:
+
+<audio src="C:\Users\10691\Downloads\1.  __`var`__ v.mp3"></audio>
+
+1. **`var`** variables are hoisted and initialized as `undefined`.  
+2. **`let` and `const`** are hoisted but stay in the **TDZ** until their declaration.  
+3. Always declare variables before using them to avoid confusion and errors.

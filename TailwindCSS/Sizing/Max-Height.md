@@ -18,6 +18,8 @@
 
 #### Example:
 
+<audio src="C:\Users\10691\Downloads\这里展示了一个具有滚动功能的容.mp3"></audio>
+
 ```html
 <div class="max-h-32 overflow-y-auto bg-gray-200 p-4">
   <div class="bg-blue-500 text-white p-4">

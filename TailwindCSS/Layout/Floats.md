@@ -14,6 +14,8 @@
 
 #### Example:
 
+<audio src="C:\Users\10691\Downloads\float-left`将元素设.mp3"></audio>
+
 ```html
 <div class="float-left w-1/3 bg-blue-200">Left Float</div>
 <div class="float-right w-1/3 bg-green-200">Right Float</div>

@@ -1,0 +1,50 @@
+### Shallow vs. Deep Copying Arrays
+
+1. **Shallow Copy**:
+   - Creates a new array with references to the same objects in memory.
+   - Changes in nested objects affect both copies.
+   - Examples: `Array.slice()`, `[...array]`.
+
+2. **Deep Copy**:
+   - Creates a completely independent copy of the array and its nested objects.
+   - Changes in one do not affect the other.
+   - Example methods: `JSON.parse(JSON.stringify(array))`, recursion, or libraries like Lodash.
+
+> **浅拷贝与深拷贝数组**  
+> 1. **浅拷贝**：  
+>    - 创建一个新数组，但引用相同的嵌套对象。  
+>    - 修改嵌套对象会影响两者。  
+>    - 示例：`Array.slice()`、`[...array]`。  
+> 2. **深拷贝**：  
+>    - 创建数组及其嵌套对象的完全独立副本。  
+>    - 修改一个不会影响另一个。  
+>    - 示例方法：`JSON.parse(JSON.stringify(array))`、递归、或使用 Lodash。
+
+---
+
+### Code Examples:
+
+#### **Shallow Copy**
+```javascript
+const arr = [[1, 2], 3];
+const shallowCopy = [...arr];
+shallowCopy[0][0] = 99; // Modifies nested reference
+console.log(arr); // [[99, 2], 3]
+console.log(shallowCopy); // [[99, 2], 3]
+```
+
+#### **Deep Copy**
+```javascript
+const arr = [[1, 2], 3];
+const deepCopy = JSON.parse(JSON.stringify(arr));
+deepCopy[0][0] = 99; // Does not affect the original
+console.log(arr); // [[1, 2], 3]
+console.log(deepCopy); // [[99, 2], 3]
+```
+
+---
+
+### Key Notes:
+1. Use **shallow copy** for flat arrays or when nested objects won't change.  
+2. Use **deep copy** for nested objects to avoid shared references.  
+3. Libraries like **Lodash** provide more robust deep copy utilities.

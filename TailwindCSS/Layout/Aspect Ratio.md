@@ -1,16 +1,23 @@
 ### Aspect Ratio in TailwindCSS
 
-- **Aspect Ratio**: TailwindCSS provides utilities for controlling the aspect ratio of an element. This ensures that the width and height of an element maintain a specific proportion, useful for images, videos, or any container. Common utilities include:
+- **Aspect Ratio**: utilities for controlling the aspect ratio of an element. This ensures that the width and height of an element maintain a specific proportion, useful for images, videos, or any container. Common utilities include:
   - **`aspect-auto`**: Automatically adjusts the aspect ratio.
   - **`aspect-square`**: Maintains a 1:1 aspect ratio (square).
   - **`aspect-video`**: Maintains a 16:9 aspect ratio (video).
 
-> **Aspect Ratio**：TailwindCSS 提供了控制元素宽高比的工具类。这确保元素的宽度和高度保持特定比例，适用于图像、视频或任何容器。常用的工具类包括：
+> **Aspect Ratio**：
+>
+> <audio src="C:\Users\10691\Downloads\Aspect Ratio：控制.mp3"></audio>
+>
+> 控制元素宽高比的工具类。这确保元素的宽度和高度保持特定比例，适用于图像、视频或任何容器。常用的工具类包括：
+>
 > - **`aspect-auto`**：自动调整宽高比。
 > - **`aspect-square`**：保持 1:1 的宽高比（正方形）。
 > - **`aspect-video`**：保持 16:9 的宽高比（视频）。
 
 #### Example:
+
+<audio src="C:\Users\10691\Downloads\这段代码展示了一个视频缩略图的.mp3"></audio>
 
 ```html
 <div class="aspect-video bg-gray-300">
