@@ -16,7 +16,7 @@
 
 ![image-20241119094144845](C:\Users\10691\AppData\Roaming\Typora\typora-user-images\image-20241119094144845.png)
 
-<audio src="C:\Users\10691\Downloads\外层容器使用了 `p4`，为所.mp3"></audio>
+<audio src="..\..\mp3\外层容器使用了 `p4`，为所.mp3"></audio>
 
 ```html
 <div class="p-4 bg-gray-200">

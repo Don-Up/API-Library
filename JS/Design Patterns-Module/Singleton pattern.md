@@ -1,6 +1,6 @@
 ### Singleton Pattern in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Definition_  A  (3).mp3"></audio>
+<audio src="..\..\mp3\Definition_  A  (3).mp3"></audio>
 
 1. **Definition**:  
    - A design pattern ensuring only **one instance** of a class or object exists throughout the application.  
@@ -15,7 +15,7 @@
 
 > **单例模式**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  一种设计模式，确保整.mp3"></audio>
+> <audio src="..\..\mp3\定义：  一种设计模式，确保整.mp3"></audio>
 >
 > 1. **定义**：  
 >    - 一种设计模式，确保整个应用程序中只有**一个实例**。  
@@ -32,7 +32,7 @@
 
 #### **Singleton with Closure**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了单例模式的实现，.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了单例模式的实现，.mp3"></audio>
 
 ```javascript
 const Singleton = (function () {
@@ -59,7 +59,7 @@ console.log(instance1 === instance2); // true (same instance)
 
 #### **Singleton with Class**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了通过ES6类实现.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了通过ES6类实现.mp3"></audio>
 
 ```javascript
 class Singleton {
@@ -81,7 +81,7 @@ console.log(instance1 === instance2); // true (same instance)
 
 #### **ES6 Module Singleton**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用ES模块实现.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用ES模块实现.mp3"></audio>
 
 ```javascript
 // singleton.js
@@ -98,7 +98,7 @@ console.log(instance1 === instance2); // true (module ensures single instance)
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Singleton_.mp3"></audio>
+<audio src="..\..\mp3\1. __Singleton_.mp3"></audio>
 
 1. **Singleton** ensures a single instance across the app.  
 2. Use **closures** or **class static properties** in older environments.  

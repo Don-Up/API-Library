@@ -1,6 +1,6 @@
 ### Deep Cloning Objects in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Deep Cloning_ (1).mp3"></audio>
+<audio src="..\..\mp3\__Deep Cloning_ (1).mp3"></audio>
 
 1. **Deep Cloning**:
    - Creates a new object with completely independent copies of all nested properties.
@@ -16,7 +16,7 @@
 
 > **深拷贝对象**  
 >
-> <audio src="C:\Users\10691\Downloads\深拷贝：  创建一个新对象，所.mp3"></audio>
+> <audio src="..\..\mp3\深拷贝：  创建一个新对象，所.mp3"></audio>
 >
 > 1. **深拷贝**：  
 >    - 创建一个新对象，所有嵌套属性独立复制，与原对象无关联。  
@@ -30,7 +30,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\第一种方法使用`JASON.p.mp3"></audio>
+<audio src="..\..\mp3\第一种方法使用`JASON.p.mp3"></audio>
 
 #### **Using `JSON.parse(JSON.stringify())`**
 ```javascript
@@ -70,7 +70,7 @@ console.log(obj.nested.age); // 25
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`JASON` me.mp3"></audio>
+<audio src="..\..\mp3\1. __`JASON` me.mp3"></audio>
 
 1. **`JSON` method** is simple but limited.  
 2. **Recursive functions** provide flexibility but require effort.  

@@ -27,13 +27,13 @@ The **Document Object Model (DOM)** represents the structure of a web page as a 
 
 > **DOM 结构与方法**：
 >
-> <audio src="C:\Users\10691\Downloads\文档对象模型（DOM） 将网页.mp3"></audio>
+> <audio src="..\..\mp3\文档对象模型（DOM） 将网页.mp3"></audio>
 >
 > **文档对象模型（DOM）** 将网页结构表示为节点树。每个 HTML 元素都是树中的一个节点，JavaScript 可以动态访问、修改和操作内容、属性和样式。  
 >
 > #### **DOM 结构**：
 >
-> <audio src="C:\Users\10691\Downloads\DOM 结构：1. DOM 树.mp3"></audio>
+> <audio src="..\..\mp3\DOM 结构：1. DOM 树.mp3"></audio>
 >
 > 1. DOM 树的根节点是 `document` 对象。  
 > 2. 节点分类：
@@ -50,7 +50,7 @@ The **Document Object Model (DOM)** represents the structure of a web page as a 
 >    
 >    - `querySelectorAll(selector)`：选择所有匹配 CSS 选择器的元素。
 >    
->    - <audio src="C:\Users\10691\Downloads\元素选择：- `getElem.mp3"></audio>
+>    - <audio src="..\..\mp3\元素选择：- `getElem.mp3"></audio>
 >    
 > 2. **节点操作**：
 >    
@@ -60,7 +60,7 @@ The **Document Object Model (DOM)** represents the structure of a web page as a 
 >    
 >    - `removeChild(node)`：移除子节点。
 >    
->    - <audio src="C:\Users\10691\Downloads\节点操作：- `createE.mp3"></audio>
+>    - <audio src="..\..\mp3\节点操作：- `createE.mp3"></audio>
 >    
 > 3. **内容与属性**：
 >    
@@ -72,7 +72,7 @@ The **Document Object Model (DOM)** represents the structure of a web page as a 
 >    
 >    - `getAttribute(attr)`：获取属性。
 >    
->    - <audio src="C:\Users\10691\Downloads\内容与属性：- `innerH.mp3"></audio>
+>    - <audio src="..\..\mp3\内容与属性：- `innerH.mp3"></audio>
 
 ---
 
@@ -80,7 +80,7 @@ The **Document Object Model (DOM)** represents the structure of a web page as a 
 
 #### **Creating and Appending Elements**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用Java.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用Java.mp3"></audio>
 
 ```javascript
 const div = document.createElement("div"); // Create a <div> element
@@ -91,7 +91,7 @@ document.body.appendChild(div); // Append to the body
 
 #### **Selecting and Manipulating Elements**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用Java (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用Java (1).mp3"></audio>
 
 ```javascript
 const heading = document.getElementById("main-heading"); // Select by ID
@@ -103,7 +103,7 @@ paragraphs.forEach((p) => (p.style.color = "blue")); // Change text color
 
 #### **Removing an Element**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何通过Java.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何通过Java.mp3"></audio>
 
 ```javascript
 const element = document.querySelector(".to-remove"); // Select an element

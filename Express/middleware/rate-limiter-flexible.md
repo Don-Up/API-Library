@@ -15,7 +15,7 @@
 
 > **rate-limiter-flexible 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`rate-limiter-f.mp3"></audio>
+> <audio src="..\..\mp3\`rate-limiter-f.mp3"></audio>
 >
 > **`rate-limiter-flexible`** 是一个功能强大且灵活的 Node.js 库，用于限制传入请求的速率，以防止滥用或暴力攻击。它支持多个后端存储（如 Redis、MongoDB 或内存存储），并允许定义速率限制配置，例如每秒请求数或基于 IP 的限制。  
 >
@@ -41,7 +41,7 @@ npm install rate-limiter-flexible
 
 #### **Basic Usage (Memory-Based Rate Limiting)**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `ra.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `ra.mp3"></audio>
 
 ```javascript
 const express = require('express');
@@ -76,7 +76,7 @@ app.listen(3000, () => console.log('Server running on http://localhost:3000'));
 
 #### **Using Redis for Distributed Rate Limiting**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `ra (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `ra (1).mp3"></audio>
 
 ```bash
 npm install redis
@@ -114,7 +114,7 @@ app.use(async (req, res, next) => {
 
 #### **Apply Rate Limiting Per Route**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `ra (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `ra (2).mp3"></audio>
 
 ```javascript
 const loginLimiter = new RateLimiterMemory({

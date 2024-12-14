@@ -1,6 +1,6 @@
 ### `Array.isArray()`, `isNaN()`, and `Number.isNaN()`
 
-<audio src="C:\Users\10691\Downloads\1. __`Array.isA.mp3"></audio>
+<audio src="..\..\mp3\1. __`Array.isA.mp3"></audio>
 
 1. **`Array.isArray()`**:
    - Checks if a value is an **array**.
@@ -16,7 +16,7 @@
 
 > **`Array.isArray()`、`isNaN()` 和 `Number.isNaN()`** 
 >
->  <audio src="C:\Users\10691\Downloads\1. `Array.isArr.mp3"></audio>
+>  <audio src="..\..\mp3\1. `Array.isArr.mp3"></audio>
 >
 > 1. **`Array.isArray()`**：检查值是否为数组。若是数组返回 `true`，否则返回 `false`。  
 > 2. **`isNaN()`**：检查值是否为 **NaN** 或能被强制转换为 NaN。可能因类型强制导致误判。  

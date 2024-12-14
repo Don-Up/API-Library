@@ -7,7 +7,7 @@
 
 > **Aspect Ratio**：
 >
-> <audio src="C:\Users\10691\Downloads\Aspect Ratio：控制.mp3"></audio>
+> <audio src="..\..\mp3\Aspect Ratio：控制.mp3"></audio>
 >
 > 控制元素宽高比的工具类。这确保元素的宽度和高度保持特定比例，适用于图像、视频或任何容器。常用的工具类包括：
 >
@@ -17,7 +17,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个视频缩略图的.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个视频缩略图的.mp3"></audio>
 
 ```html
 <div class="aspect-video bg-gray-300">

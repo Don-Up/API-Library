@@ -1,6 +1,6 @@
 ### `Object.assign()` and Shallow Copying in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__`Object.assig.mp3"></audio>
+<audio src="..\..\mp3\__`Object.assig.mp3"></audio>
 
 **`Object.assign()`** is used to copy properties from one or more objects into a target object. It performs a **shallow copy**, meaning it copies only the first level of data. Nested objects or arrays are copied as references, not duplicates.
 
@@ -8,7 +8,7 @@
 
 > **`Object.assign()` 和浅拷贝**：
 >
-> <audio src="C:\Users\10691\Downloads\`Object.assign(.mp3"></audio>
+> <audio src="..\..\mp3\`Object.assign(.mp3"></audio>
 >
 > **`Object.assign()`** 用于将一个或多个对象的属性复制到目标对象中。它执行**浅拷贝**，即只复制第一层数据。  
 > 对于嵌套对象或数组，复制的是引用而非独立副本。  
@@ -18,7 +18,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 Object .mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 Object .mp3"></audio>
 
 #### **Basic Usage of `Object.assign()`**
 ```javascript

@@ -2,7 +2,7 @@
 
 这道题要求找到一个字符串中最长的无重复字符的子串。如果存在多个最长子串，返回任意一个即可。输入为一个字符串 `str`，输出为一个字符串，表示最长的无重复字符子串。
 
-<audio src="C:\Users\10691\Downloads\这道题要求找到一个字符串中最长.mp3"></audio>
+<audio src="..\..\mp3\这道题要求找到一个字符串中最长.mp3"></audio>
 
 ```js
 /**
@@ -37,4 +37,4 @@ function longestUniqueSubstr(string) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解决方案使用滑动窗口和哈希表的.mp3"></audio>
+<audio src="..\..\mp3\解决方案使用滑动窗口和哈希表的.mp3"></audio>

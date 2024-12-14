@@ -1,6 +1,6 @@
 ### Common Causes of Memory Leaks
 
-<audio src="C:\Users\10691\Downloads\1. Global Varia.mp3"></audio>
+<audio src="..\..\mp3\1. Global Varia.mp3"></audio>
 
 1. **Global Variables**:
    - Variables declared globally persist throughout the program's lifetime.
@@ -19,7 +19,7 @@
 
 > **内存泄漏的常见原因**  
 >
-> <audio src="C:\Users\10691\Downloads\全局变量：  声明的全局变量在.mp3"></audio>
+> <audio src="..\..\mp3\全局变量：  声明的全局变量在.mp3"></audio>
 >
 > 1. **全局变量**：  
 >    - 声明的全局变量在程序运行期间一直存在内存中。  
@@ -36,7 +36,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\第一个示例中，直接赋值`lea.mp3"></audio>
+<audio src="..\..\mp3\第一个示例中，直接赋值`lea.mp3"></audio>
 
 #### **Global Variables**
 ```javascript
@@ -73,7 +73,7 @@ closure = null; // Solution: Remove reference
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Careful mana.mp3"></audio>
+<audio src="..\..\mp3\1. Careful mana.mp3"></audio>
 
 1. Careful management of references prevents memory leaks.  
 2. Always remove event listeners and clear timers when they’re no longer needed.  

@@ -13,7 +13,7 @@
 
 > **CORS 在 Express.js 中**  
 >
-> <audio src="C:\Users\10691\Downloads\CORS（跨域资源共享） 是由.mp3"></audio>
+> <audio src="..\..\mp3\CORS（跨域资源共享） 是由.mp3"></audio>
 >
 > **CORS（跨域资源共享）** 是由浏览器强制执行的安全功能，用于限制来自不同源（域、协议或端口）的资源访问。在 **Express.js** 中，可以使用 `cors` 中间件配置 CORS 策略来允许或限制跨域请求。  
 >
@@ -54,7 +54,7 @@ app.listen(3000, () => {
 
 #### **Custom CORS Configuration**
 
-<audio src="C:\Users\10691\Downloads\这段代码通过设置 `corsO.mp3"></audio>
+<audio src="..\..\mp3\这段代码通过设置 `corsO.mp3"></audio>
 
 ```javascript
 const corsOptions = {
@@ -72,7 +72,7 @@ app.get('/api', (req, res) => {
 
 ---
 
-<audio src="C:\Users\10691\Downloads\这段代码通过动态的 `cors.mp3"></audio>
+<audio src="..\..\mp3\这段代码通过动态的 `cors.mp3"></audio>
 
 ```js
 const allowedOrigins = [

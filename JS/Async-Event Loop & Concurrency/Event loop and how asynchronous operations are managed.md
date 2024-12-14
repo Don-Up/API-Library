@@ -1,6 +1,6 @@
 ### Event Loop and How Asynchronous Operations Are Managed in JavaScript
 
-<audio src="C:\Users\10691\Downloads\JavaScript uses.mp3"></audio>
+<audio src="..\..\mp3\JavaScript uses.mp3"></audio>
 
 JavaScript uses the **event loop** to handle asynchronous operations while remaining single-threaded. It allows non-blocking execution by delegating asynchronous tasks (e.g., `setTimeout`, `fetch`) to the browser or Node.js runtime.
 
@@ -14,7 +14,7 @@ This process ensures smooth execution of asynchronous code without blocking the 
 
 > **事件循环和异步操作管理**：
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 使用 事.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 使用 事.mp3"></audio>
 >
 > JavaScript 使用 **事件循环** 来管理异步操作，同时保持单线程。它通过将异步任务（如 `setTimeout`、`fetch`）委托给浏览器或 Node.js 运行时，支持非阻塞执行。  
 >
@@ -30,7 +30,7 @@ This process ensures smooth execution of asynchronous code without blocking the 
 
 #### **Event Loop in Action**
 
-<audio src="C:\Users\10691\Downloads\在这个示例中，JavaScri.mp3"></audio>
+<audio src="..\..\mp3\在这个示例中，JavaScri.mp3"></audio>
 
 ```javascript
 console.log("Start");
@@ -54,7 +54,7 @@ console.log("End");
 
 #### **Order of Execution with Multiple Queues**
 
-<audio src="C:\Users\10691\Downloads\在这个示例中，JavaScri (1).mp3"></audio>
+<audio src="..\..\mp3\在这个示例中，JavaScri (1).mp3"></audio>
 
 ```javascript
 console.log("Start");

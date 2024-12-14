@@ -1,6 +1,6 @@
 ### `instanceof` vs. `typeof` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\`type of`_    -.mp3"></audio>
+<audio src="..\..\mp3\`type of`_    -.mp3"></audio>
 
 1. **`typeof`**:
    - Returns a string indicating the **primitive type** (e.g., `"string"`, `"number"`, `"boolean"`, etc.) or `"object"` for non-primitives.
@@ -16,7 +16,7 @@
 
 > **`instanceof` 和 `typeof`**  
 >
-> <audio src="C:\Users\10691\Downloads\`type of`：     .mp3"></audio>
+> <audio src="..\..\mp3\`type of`：     .mp3"></audio>
 >
 > 1. **`typeof`**：  
 >    - 返回值的**基本类型**字符串（如 `"string"`、`"number"`、`"boolean"` 等）或 `"object"` 表示引用类型。  

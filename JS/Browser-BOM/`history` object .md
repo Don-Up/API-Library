@@ -1,6 +1,6 @@
 ### The `history` Object in BOM
 
-<audio src="C:\Users\10691\Downloads\The __`history`.mp3"></audio>
+<audio src="..\..\mp3\The __`history`.mp3"></audio>
 
 The **`history` object** is part of the Browser Object Model (BOM) and allows interaction with the browser's session history (pages visited in the current tab). It provides methods to navigate and manipulate the history stack.
 
@@ -13,7 +13,7 @@ The **`history` object** is part of the Browser Object Model (BOM) and allows in
 
 > **BOM 中的 `history` 对象**  
 >
-> <audio src="C:\Users\10691\Downloads\`history` 对象 是浏.mp3"></audio>
+> <audio src="..\..\mp3\`history` 对象 是浏.mp3"></audio>
 >
 > **`history` 对象** 是浏览器对象模型的一部分，用于操作浏览器的会话历史（当前标签页访问的页面）。  
 >
@@ -43,7 +43,7 @@ history.go(1);  // Go forward one page
 
 #### **Using `pushState` and `replaceState`**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用hist.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用hist.mp3"></audio>
 
 ```javascript
 // Add a new entry to the history stack
@@ -59,7 +59,7 @@ console.log(history.state); // { page: 2 }
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`pushState.mp3"></audio>
+<audio src="..\..\mp3\1. __`pushState.mp3"></audio>
 
 1. **`pushState`** and **`replaceState`** do not reload the page but update the URL and history entry.  
 2. Use **`state`** for storing additional data in history entries.  

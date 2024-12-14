@@ -4,7 +4,7 @@
 
 ![img](https://cdn.bfe.dev/bfe/img/I8ncH1ncdGaBXV3nwPH061w1MmdqNR9p_1169x546_1597852405395.png)
 
-<audio src="C:\Users\10691\Downloads\这道题要求在一个DOM树中找到.mp3"></audio>
+<audio src="..\..\mp3\这道题要求在一个DOM树中找到.mp3"></audio>
 
 ```js
 
@@ -32,5 +32,5 @@ function nextRightSibling(root, target) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案使用广度优先搜索（BF.mp3"></audio>
+<audio src="..\..\mp3\解题方案使用广度优先搜索（BF.mp3"></audio>
 

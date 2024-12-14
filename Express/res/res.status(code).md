@@ -2,15 +2,15 @@
 
 - **`res.status(code)`**: This method sets the HTTP status code for the response. It is used to specify the result of an HTTP request, such as `200` for success, `404` for not found, or `500` for a server error. It can be chained with other response methods like `res.send()` or `res.json()` to send the status along with the response body.
 
-- <audio src="../../../../Downloads/__`res.status(c.mp3"></audio>
+- <audio src="..\..\mp3\__`res.status(c.mp3"></audio>
 
 > **`res.status(code)`**：此方法用于设置 HTTP 响应的状态码。可以指定 HTTP 请求的结果，比如 `200` 表示成功，`404` 表示未找到，`500` 表示服务器错误。可以与 `res.send()` 或 `res.json()` 等方法链式调用，一起发送状态码和响应数据。
 >
-> <audio src="../../../../Downloads/`res.status(cod.mp3"></audio>
+> <audio src="..\..\mp3\`res.status(cod.mp3"></audio>
 
 #### Example:
 
-<audio src="../../../../Downloads/在这段代码中，`res.sta.mp3"></audio>
+<audio src="..\..\mp3\在这段代码中，`res.sta.mp3"></audio>
 
 ```js
 const express = require('express');

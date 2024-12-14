@@ -1,6 +1,6 @@
 ### Truthy and Falsy Values in JavaScript
 
-<audio src="C:\Users\10691\Downloads\In JavaScript, .mp3"></audio>
+<audio src="..\..\mp3\In JavaScript, .mp3"></audio>
 
 In JavaScript, values are classified as **truthy** or **falsy** when evaluated in a boolean context (e.g., `if` conditions).  
 
@@ -14,7 +14,7 @@ These concepts are critical for conditional logic and implicit type coercion.
 
 > **JavaScript 的真值和假值**：  
 >
-> <audio src="C:\Users\10691\Downloads\在布尔上下文中（如 if 条件.mp3"></audio>
+> <audio src="..\..\mp3\在布尔上下文中（如 if 条件.mp3"></audio>
 >
 > 在布尔上下文中（如 `if` 条件），值会被分类为**真值**或**假值**。
 >
@@ -27,7 +27,7 @@ These concepts are critical for conditional logic and implicit type coercion.
 
 #### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (1).mp3"></audio>
 
 ```javascript
 // Falsy Examples

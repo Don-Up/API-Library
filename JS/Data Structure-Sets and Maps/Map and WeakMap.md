@@ -1,6 +1,6 @@
 ### Map and WeakMap in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1. `Map`_    - .mp3"></audio>
+<audio src="..\..\mp3\1. `Map`_    - .mp3"></audio>
 
 1. **`Map`**:
    - A collection of **key-value pairs** where keys can be any type (objects or primitives).
@@ -15,7 +15,7 @@
 
 > **`Map` 和 `WeakMap`**  
 >
-> <audio src="C:\Users\10691\Downloads\Outline`Map`：  .mp3"></audio>
+> <audio src="..\..\mp3\Outline`Map`：  .mp3"></audio>
 >
 > 1. **`Map`**：  
 >    - 存储**键值对**，键可以是任意类型（对象或原始值）。  
@@ -31,7 +31,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了`Map`和`W.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了`Map`和`W.mp3"></audio>
 
 #### **Using `Map`**
 ```javascript
@@ -60,7 +60,7 @@ console.log(myWeakMap.has(obj)); // false
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`Map`__ is.mp3"></audio>
+<audio src="..\..\mp3\1. __`Map`__ is.mp3"></audio>
 
 1. **`Map`** is iterable, while **`WeakMap`** is not.  
 2. Use **`WeakMap`** for temporary storage tied to object lifetimes.  

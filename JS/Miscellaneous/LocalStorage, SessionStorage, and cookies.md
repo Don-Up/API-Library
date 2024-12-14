@@ -1,6 +1,6 @@
 ### LocalStorage, SessionStorage, and Cookies
 
-<audio src="C:\Users\10691\Downloads\LocalStorage_  .mp3"></audio>
+<audio src="..\..\mp3\LocalStorage_  .mp3"></audio>
 
 1. **LocalStorage**:  
    - Stores data persistently with no expiration.  
@@ -21,7 +21,7 @@
 
 > **LocalStorage、SessionStorage 和 Cookies** 
 >
->  <audio src="C:\Users\10691\Downloads\LocalStorage：  .mp3"></audio>
+>  <audio src="..\..\mp3\LocalStorage：  .mp3"></audio>
 >
 > 1. **LocalStorage**：  
 >    - 持久存储数据，无过期时间。  
@@ -41,7 +41,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\`localStorage`用.mp3"></audio>
+<audio src="..\..\mp3\`localStorage`用.mp3"></audio>
 
 #### **LocalStorage**
 ```javascript
@@ -81,7 +81,7 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __LocalStora.mp3"></audio>
+<audio src="..\..\mp3\1. __LocalStora.mp3"></audio>
 
 1. **LocalStorage** and **SessionStorage** are easier for client-side storage but not sent to the server.  
 2. **Cookies** are used when data needs to be shared between client and server.  

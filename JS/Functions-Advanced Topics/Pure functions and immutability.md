@@ -1,6 +1,6 @@
 ### Pure Functions and Immutability in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A __pure functi.mp3"></audio>
+<audio src="..\..\mp3\A __pure functi.mp3"></audio>
 
 A **pure function** is a function that:  
 1. **Has no side effects**: It doesn’t modify variables outside its scope.  
@@ -10,7 +10,7 @@ A **pure function** is a function that:
 
 > **纯函数和不可变性**：
 >
-> <audio src="C:\Users\10691\Downloads\纯函数：  1, 无副作用：不.mp3"></audio>
+> <audio src="..\..\mp3\纯函数：  1, 无副作用：不.mp3"></audio>
 >
 > **纯函数**：  
 >
@@ -22,7 +22,7 @@ A **pure function** is a function that:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了纯函数、非纯函数.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了纯函数、非纯函数.mp3"></audio>
 
 #### **Pure Function Example**
 ```javascript

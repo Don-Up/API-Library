@@ -1,6 +1,6 @@
 ### IIFE (Immediately Invoked Function Expression)
 
-<audio src="C:\Users\10691\Downloads\An __IIFE__ is .mp3"></audio>
+<audio src="..\..\mp3\An __IIFE__ is .mp3"></audio>
 
 An **IIFE** is a JavaScript function that is **executed immediately after it is defined**. It is written as a function expression enclosed in parentheses, followed by `()` to invoke it.  
 
@@ -12,7 +12,7 @@ Syntax: `(function() { /* code */ })();`
 
 > **IIFE（立即执行函数表达式）**：
 >
-> <audio src="C:\Users\10691\Downloads\IIFE 是在定义后立即执行的.mp3"></audio>
+> <audio src="..\..\mp3\IIFE 是在定义后立即执行的.mp3"></audio>
 >
 > **IIFE** 是在定义后立即执行的 JavaScript 函数。它以括号包裹的函数表达式形式书写，后面紧跟 `()` 调用它。  
 > **用途**：  
@@ -24,7 +24,7 @@ Syntax: `(function() { /* code */ })();`
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了立即执行函数表达.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了立即执行函数表达.mp3"></audio>
 
 #### **Basic IIFE**
 ```javascript

@@ -1,6 +1,6 @@
 ### Garbage Collection and Memory Leaks in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Garbage Colle.mp3"></audio>
+<audio src="..\..\mp3\__Garbage Colle.mp3"></audio>
 
 **Garbage Collection (GC)** is the process of automatically reclaiming memory by removing unused objects. JavaScript uses algorithms like **mark-and-sweep**, where reachable objects (via variables, functions, closures, etc.) are "marked" and retained, while unreachable ones are cleared.
 
@@ -20,7 +20,7 @@
 
 > **垃圾回收和内存泄漏**  
 >
-> <audio src="C:\Users\10691\Downloads\垃圾回收 (Garbage C.mp3"></audio>
+> <audio src="..\..\mp3\垃圾回收 (Garbage C.mp3"></audio>
 >
 > **垃圾回收 (Garbage Collection, GC)** 是通过自动移除未使用的对象来回收内存的过程。JavaScript 使用 **标记清除 (mark-and-sweep)** 算法，将可达对象（通过变量、函数、闭包等）“标记”并保留，而移除无法访问的对象。  
 > **内存泄漏** 指不再需要的对象仍然可达，阻止其被垃圾回收。常见原因包括：  
@@ -36,7 +36,7 @@
 
 #### **Memory Leak: Uncleared Timer**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了`setInte.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了`setInte.mp3"></audio>
 
 ```javascript
 let leak = {};
@@ -55,7 +55,7 @@ clearInterval(intervalId); // Prevents memory leak
 
 #### **Memory Leak: Detached DOM Nodes**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了因DOM节点被移.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了因DOM节点被移.mp3"></audio>
 
 ```javascript
 const div = document.createElement("div");
@@ -73,7 +73,7 @@ detachedNode = null; // Allows garbage collection
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Garbage coll.mp3"></audio>
+<audio src="..\..\mp3\1. Garbage coll.mp3"></audio>
 
 1. Garbage collection frees memory by cleaning unreachable objects.  
 2. Memory leaks degrade performance and can cause crashes in long-running applications.  

@@ -2,7 +2,7 @@
 
 这道题要求判断两个字符串 s 和 t 是否是同构的。如果可以通过将字符串 s 中的字符按照一对一的映射关系替换为字符串 t 的字符，并且这种映射是唯一的且有序的, 那么这两个字符串就是同构的。例如，"egg" 和 "add" 是同构的，而 "foo" 和 "bar" 不是。
 
-<audio src="C:\Users\10691\Downloads\这道题要求判断两个字符串 s .mp3"></audio>
+<audio src="..\..\mp3\这道题要求判断两个字符串 s .mp3"></audio>
 
 ```js
 /**
@@ -31,4 +31,4 @@ var isIsomorphic = function(s, t) {
 };
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案通过使用哈希表和一个数.mp3"></audio>
+<audio src="..\..\mp3\解题方案通过使用哈希表和一个数.mp3"></audio>

@@ -48,7 +48,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\`map`用于对数组的每个元素 (1).mp3"></audio>
+<audio src="..\..\mp3\`map`用于对数组的每个元素 (1).mp3"></audio>
 
 #### **Using `map`**
 ```javascript
@@ -97,7 +97,7 @@ console.log(arr); // [1, 'new', 3]
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`map`__, _.mp3"></audio>
+<audio src="..\..\mp3\1. __`map`__, _.mp3"></audio>
 
 1. **`map`**, **`filter`**, and **`reduce`** return new arrays/values, while **`forEach`** does not.  
 2. **`sort`** modifies the original array, so use caution.  

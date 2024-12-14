@@ -1,6 +1,6 @@
 ### The `window` Object in BOM
 
-<audio src="C:\Users\10691\Downloads\The `window` ob.mp3"></audio>
+<audio src="..\..\mp3\The `window` ob.mp3"></audio>
 
 The **`window` object** is the global object in the Browser Object Model (BOM). It represents the browser window/tab and provides methods, properties, and events to interact with it.
 
@@ -14,7 +14,7 @@ The **`window` object** is the global object in the Browser Object Model (BOM). 
 
 > **BOM 中的 `window` 对象**  
 >
-> <audio src="C:\Users\10691\Downloads\`window` 对象 是浏览.mp3"></audio>
+> <audio src="..\..\mp3\`window` 对象 是浏览.mp3"></audio>
 >
 > **`window` 对象** 是浏览器对象模型中的全局对象，表示浏览器窗口或选项卡，并提供方法、属性和事件以与之交互。  
 >
@@ -63,7 +63,7 @@ window.open("https://example.com", "_blank"); // Opens a new tab
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. The __`windo.mp3"></audio>
+<audio src="..\..\mp3\1. The __`windo.mp3"></audio>
 
 1. The **`window` object** is implicit; you can omit `window.` (e.g., use `alert()` directly).  
 2. Be cautious with **`alert`**, **`confirm`**, and **`prompt`**, as they block execution.  

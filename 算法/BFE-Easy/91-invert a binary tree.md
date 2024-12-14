@@ -4,7 +4,7 @@
 
 ![img](https://cdn.bfe.dev/bfe/img/12BVC9SRg5VfcADGpAjNN6ONgh8BlrDC_1068x546_1597951636139.png)
 
-<audio src="C:\Users\10691\Downloads\这道题要求对一个二叉树进行翻转.mp3"></audio>
+<audio src="..\..\mp3\这道题要求对一个二叉树进行翻转.mp3"></audio>
 
 ```js
 // This is the type for the node
@@ -24,4 +24,4 @@ function invert(node) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案使用递归的方式来实现翻.mp3"></audio>
+<audio src="..\..\mp3\解题方案使用递归的方式来实现翻.mp3"></audio>

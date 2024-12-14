@@ -1,6 +1,6 @@
 ### Object Properties and Methods in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Object Proper.mp3"></audio>
+<audio src="..\..\mp3\__Object Proper.mp3"></audio>
 
 **Object Properties**: Key-value pairs representing data stored in an object. Keys can be strings or symbols, while values can be any type (e.g., numbers, strings, functions). Access properties using **dot notation** (`obj.key`) or **bracket notation** (`obj['key']`).  
 
@@ -8,7 +8,7 @@
 
 > **对象属性与方法**：
 >
-> <audio src="C:\Users\10691\Downloads\对象属性：对象中的键值对，用于.mp3"></audio>
+> <audio src="..\..\mp3\对象属性：对象中的键值对，用于.mp3"></audio>
 >
 > **对象属性**：对象中的键值对，用于存储数据。键可以是字符串或符号，值可以是任意类型。属性访问方式：**点语法**（`obj.key`）或**括号语法**（`obj['key']`）。  
 > **对象方法**：作为对象属性的函数，用于定义对象的行为。方法中可以使用 `this` 指代当前对象。
@@ -17,7 +17,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (10).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (10).mp3"></audio>
 
 #### **Object Properties**
 ```javascript

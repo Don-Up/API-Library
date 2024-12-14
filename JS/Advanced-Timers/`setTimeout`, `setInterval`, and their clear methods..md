@@ -1,6 +1,6 @@
 ### `setTimeout`, `setInterval`, and Their Clear Methods
 
-<audio src="C:\Users\10691\Downloads\1.  __`setTimeo.mp3"></audio>
+<audio src="..\..\mp3\1.  __`setTimeo.mp3"></audio>
 
 1. **`setTimeout`**:
    - Executes a function after a specified delay (in milliseconds).
@@ -14,7 +14,7 @@ Both methods return an identifier (`timeoutId` or `intervalId`) used to clear th
 
 > **`setTimeout`、`setInterval` 及其清除方法**  
 >
-> <audio src="C:\Users\10691\Downloads\`setTimeout`：  .mp3"></audio>
+> <audio src="..\..\mp3\`setTimeout`：  .mp3"></audio>
 >
 > 1. **`setTimeout`**：  
 >    - 在指定延迟（毫秒）后执行一次函数。  
@@ -57,7 +57,7 @@ setTimeout(() => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  Use __`setT.mp3"></audio>
+<audio src="..\..\mp3\1.  Use __`setT.mp3"></audio>
 
 1. Use **`setTimeout`** for one-time delays and **`setInterval`** for repeated tasks.  
 2. Always store the returned ID to clear timers when needed.  

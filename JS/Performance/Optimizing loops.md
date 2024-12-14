@@ -1,6 +1,6 @@
 ### Optimizing Loops in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1.  Definition. (4).mp3"></audio>
+<audio src="..\..\mp3\1.  Definition. (4).mp3"></audio>
 
 1. **Definition**:  
    - Loop optimization reduces unnecessary operations to enhance performance.  
@@ -18,7 +18,7 @@
 
 > **优化循环**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  循环优化减少不必要的.mp3"></audio>
+> <audio src="..\..\mp3\定义：  循环优化减少不必要的.mp3"></audio>
 >
 > 1. **定义**：  
 >    - 循环优化减少不必要的操作以提升性能。  

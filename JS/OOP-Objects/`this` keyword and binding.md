@@ -1,6 +1,6 @@
 ### `this` Keyword and Binding in JavaScript
 
-<audio src="C:\Users\10691\Downloads\The __`this`__ .mp3"></audio>
+<audio src="..\..\mp3\The __`this`__ .mp3"></audio>
 
 The **`this`** keyword refers to the object that is executing the current function. Its value depends on **how the function is called**:  
 
@@ -11,7 +11,7 @@ The **`this`** keyword refers to the object that is executing the current functi
 
 > **`this` 关键字与绑定**：
 >
-> <audio src="C:\Users\10691\Downloads\`this` 关键字指向当前执.mp3"></audio>
+> <audio src="..\..\mp3\`this` 关键字指向当前执.mp3"></audio>
 >
 > **`this`** 关键字指向当前执行函数的对象，其值取决于**函数的调用方式**：
 >
@@ -24,7 +24,7 @@ The **`this`** keyword refers to the object that is executing the current functi
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (9).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (9).mp3"></audio>
 
 #### **Global Context**
 ```javascript

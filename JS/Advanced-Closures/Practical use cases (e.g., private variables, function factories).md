@@ -1,6 +1,6 @@
 ### Practical Use Cases of Closures
 
-<audio src="C:\Users\10691\Downloads\Closures are wi.mp3"></audio>
+<audio src="..\..\mp3\Closures are wi.mp3"></audio>
 
 Closures are widely used in JavaScript for powerful and flexible coding patterns.
 
@@ -18,7 +18,7 @@ Store and reuse previously computed results for performance optimization.
 
 > **闭包的实际应用**  
 >
-> <audio src="C:\Users\10691\Downloads\闭包在 JavaScript .mp3"></audio>
+> <audio src="..\..\mp3\闭包在 JavaScript .mp3"></audio>
 >
 > 闭包在 JavaScript 中广泛使用，提供强大且灵活的编码模式：  
 >

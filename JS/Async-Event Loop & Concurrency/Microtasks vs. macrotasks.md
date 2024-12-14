@@ -1,6 +1,6 @@
 ### Microtasks vs. Macrotasks in JavaScript
 
-<audio src="C:\Users\10691\Downloads\In JavaScript,  (1).mp3"></audio>
+<audio src="..\..\mp3\In JavaScript,  (1).mp3"></audio>
 
 In JavaScript, **microtasks** and **macrotasks** are two types of tasks in the event loop that manage asynchronous operations. They differ in execution priority and timing:
 
@@ -21,7 +21,7 @@ The event loop processes tasks in this order:
 
 > **微任务和宏任务**：
 >
-> <audio src="C:\Users\10691\Downloads\在 JavaScript 中，.mp3"></audio>
+> <audio src="..\..\mp3\在 JavaScript 中，.mp3"></audio>
 >
 > 在 JavaScript 中，**微任务**和**宏任务**是事件循环中管理异步操作的两类任务，它们的区别在于执行优先级和时机：  
 >

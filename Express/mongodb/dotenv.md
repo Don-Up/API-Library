@@ -11,7 +11,7 @@ The `dotenv` library loads environment variables from a `.env` file into `proces
 
 > **dotenv 和 dotenv.config()** 
 >
-> <audio src="C:\Users\10691\Downloads\`dot env` 是一个库，.mp3"></audio>
+> <audio src="..\..\mp3\`dot env` 是一个库，.mp3"></audio>
 >
 > `dotenv` 是一个库，用于从 `.env` 文件加载环境变量到 `process.env` 中。调用 `dotenv.config()` 初始化加载过程，使环境变量在整个应用中可用。这对于管理敏感数据（如 API 密钥、数据库凭证）而不将其硬编码在代码中非常有用。  
 >
@@ -25,7 +25,7 @@ The `dotenv` library loads environment variables from a `.env` file into `proces
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\`点env` 文件用于存储应用.mp3"></audio>
+<audio src="..\..\mp3\`点env` 文件用于存储应用.mp3"></audio>
 
 **`.env` file**:
 ```env

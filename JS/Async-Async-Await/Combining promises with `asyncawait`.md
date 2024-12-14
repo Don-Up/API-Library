@@ -1,6 +1,6 @@
 ### Combining Promises with `async/await`
 
-<audio src="C:\Users\10691\Downloads\You can combine.mp3"></audio>
+<audio src="..\..\mp3\You can combine.mp3"></audio>
 
 You can combine multiple promises with **`async/await`** to handle concurrent or sequential asynchronous tasks in a more readable way:
 
@@ -12,7 +12,7 @@ Combining promises with `async/await` provides flexibility and readability, maki
 
 > **结合 `async/await` 和 Promise**：
 >
-> <audio src="C:\Users\10691\Downloads\可以通过 `async_awa.mp3"></audio>
+> <audio src="..\..\mp3\可以通过 `async_awa.mp3"></audio>
 >
 > 可以通过 **`async/await`** 结合多个 Promise，处理并发或顺序的异步任务：  
 >
@@ -25,7 +25,7 @@ Combining promises with `async/await` provides flexibility and readability, maki
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了在 JavaSc (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了在 JavaSc (1).mp3"></audio>
 
 #### **Sequential Execution**
 ```javascript

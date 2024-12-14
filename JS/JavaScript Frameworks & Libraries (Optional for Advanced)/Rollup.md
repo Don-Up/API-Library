@@ -1,6 +1,6 @@
 ### Rollup
 
-<audio src="C:\Users\10691\Downloads\__Rollup__ is a.mp3"></audio>
+<audio src="..\..\mp3\__Rollup__ is a.mp3"></audio>
 
 **Rollup** is a modern JavaScript **module bundler** optimized for building libraries and applications. It uses **ES modules (ESM)** by default, enabling efficient tree-shaking (removing unused code) to create smaller, optimized bundles. Rollup is particularly suited for building reusable libraries, thanks to its ability to output multiple formats (e.g., ESM, CommonJS, UMD).  
 
@@ -13,7 +13,7 @@
 
 > **Rollup**  
 >
-> <audio src="C:\Users\10691\Downloads\Rollup 是一个现代化的 .mp3"></audio>
+> <audio src="..\..\mp3\Rollup 是一个现代化的 .mp3"></audio>
 >
 > **Rollup** 是一个现代化的 JavaScript **模块打包工具**，专注于构建库和应用。它默认使用 **ES 模块 (ESM)**，支持高效的 **Tree-shaking**（移除未使用的代码），从而生成更小、更优的打包文件。Rollup 特别适合构建可复用的库，支持输出多种模块格式（如 ESM、CommonJS、UMD）。  
 > **主要特点**：  
@@ -27,7 +27,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何配置和使用R.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何配置和使用R.mp3"></audio>
 
 #### **Basic Rollup Configuration**
 
@@ -72,7 +72,7 @@ After building, Rollup generates optimized bundles in the specified formats.
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Rollup__ e.mp3"></audio>
+<audio src="..\..\mp3\1. __Rollup__ e.mp3"></audio>
 
 1. **Rollup** excels at producing optimized, small library bundles.  
 2. It supports **tree-shaking** natively, reducing unused code significantly.  

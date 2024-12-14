@@ -14,7 +14,7 @@
 
 > **express-session 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`express-sessio.mp3"></audio>
+> <audio src="..\..\mp3\`express-sessio.mp3"></audio>
 >
 > **`express-session`** 是 Express.js 的一个会话管理中间件。它在服务器上存储会话数据，并通过 cookie 向客户端提供唯一的会话 ID。会话数据可以通过 `req.session` 访问。它通常用于用户认证、存储临时数据以及跨请求管理用户会话。  
 >
@@ -37,7 +37,7 @@ npm install express-session
 
 #### **Basic Usage**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `ex.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `ex.mp3"></audio>
 
 ```javascript
 const express = require('express');

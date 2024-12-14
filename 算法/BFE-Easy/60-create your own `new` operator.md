@@ -2,7 +2,7 @@
 
 这道题要求实现一个 `myNew` 函数，它的功能与 JavaScript 中的 `new` 操作符相同，用于创建一个新的对象实例，但不能直接使用 `new` 操作符。`myNew` 接收一个构造函数 `constructor` 和参数数组 `args`，返回一个基于该构造函数的新对象实例。需要注意的是，构造函数可以显式返回一个对象作为结果，如果没有显式返回对象，则默认返回新创建的实例。
 
-<audio src="C:\Users\10691\Downloads\这道题要求实现一个myNew函.mp3"></audio>
+<audio src="..\..\mp3\这道题要求实现一个myNew函.mp3"></audio>
 
 ```js
 /**
@@ -31,4 +31,4 @@ const myNew = (constructor, ...args) => {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案分为三个步骤模拟new.mp3"></audio>
+<audio src="..\..\mp3\解题方案分为三个步骤模拟new.mp3"></audio>

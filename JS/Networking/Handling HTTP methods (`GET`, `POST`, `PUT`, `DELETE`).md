@@ -1,6 +1,6 @@
 ### Handling HTTP Methods (`GET`, `POST`, `PUT`, `DELETE`, `PATCH`)
 
-<audio src="C:\Users\10691\Downloads\HTTP methods de.mp3"></audio>
+<audio src="..\..\mp3\HTTP methods de.mp3"></audio>
 
 HTTP methods define the type of operation performed on a resource:
 
@@ -14,7 +14,7 @@ These methods are widely used in **RESTful APIs** for CRUD operations. Servers h
 
 > **处理 HTTP 方法 (`GET`, `POST`, `PUT`, `DELETE`, `PATCH`)**  
 >
-> <audio src="C:\Users\10691\Downloads\HTTP 方法定义对资源的操作.mp3"></audio>
+> <audio src="..\..\mp3\HTTP 方法定义对资源的操作.mp3"></audio>
 >
 > HTTP 方法定义对资源的操作类型：  
 >
@@ -32,7 +32,7 @@ These methods are widely used in **RESTful APIs** for CRUD operations. Servers h
 
 #### **Node.js (Express) Handling HTTP Methods**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个基于`Exp.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个基于`Exp.mp3"></audio>
 
 ```javascript
 const express = require("express");
@@ -72,7 +72,7 @@ app.listen(3000, () => console.log("Server running on port 3000"));
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  Use __`GET`.mp3"></audio>
+<audio src="..\..\mp3\1.  Use __`GET`.mp3"></audio>
 
 1. Use **`GET`** for safe, read-only operations.  
 2. **`POST`** and **`PUT`** should include a request body for creating/updating resources.  

@@ -1,6 +1,6 @@
 ### `var`, `let`, and `const` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1. __`var`___ F.mp3"></audio>
+<audio src="..\..\mp3\1. __`var`___ F.mp3"></audio>
 
 1. **`var`**: Function-scoped, hoisted but initialized as `undefined`. Accessible before declaration. Can be redeclared.
 2. **`let`**: Block-scoped, hoisted but not initialized (in **Temporal Dead Zone**). Cannot be accessed before declaration. No redeclaration within the same scope.
@@ -8,14 +8,14 @@
 
 #### **Key Points**
 
-<audio src="C:\Users\10691\Downloads\- __Hoisting___.mp3"></audio>
+<audio src="..\..\mp3\- __Hoisting___.mp3"></audio>
 
 - **Hoisting**: Variables are moved to the top of their scope during compilation.
 - **Temporal Dead Zone (TDZ)**: Time between variable hoisting and initialization where accessing `let`/`const` throws an error.
 
 > **`var`、`let` 和 `const`**：
 >
-> <audio src="C:\Users\10691\Downloads\`var`：函数作用域，提升后.mp3"></audio>
+> <audio src="..\..\mp3\`var`：函数作用域，提升后.mp3"></audio>
 >
 > 1. **`var`**：函数作用域，提升后初始化为 `undefined`，声明前可访问，可重复声明。
 > 2. **`let`**：块作用域，提升但未初始化（**暂时性死区**），声明前不可访问，同作用域内不可重复声明。
@@ -25,7 +25,7 @@
 
 #### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\在这段代码中，展示了 Java.mp3"></audio>
+<audio src="..\..\mp3\在这段代码中，展示了 Java.mp3"></audio>
 
 ```javascript
 // Example of var

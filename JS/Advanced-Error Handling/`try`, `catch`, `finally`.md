@@ -1,6 +1,6 @@
 ### `try`, `catch`, `finally` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\The `try catch .mp3"></audio>
+<audio src="..\..\mp3\The `try catch .mp3"></audio>
 
 The **`try...catch...finally`** statement is used for error handling in JavaScript:
 
@@ -19,7 +19,7 @@ The **`try...catch...finally`** statement is used for error handling in JavaScri
 > **`try`、`catch`、`finally`**  
 > **`try...catch...finally`** 用于 JavaScript 的错误处理：  
 >
-> <audio src="C:\Users\10691\Downloads\`try`：  包含需要执行的.mp3"></audio>
+> <audio src="..\..\mp3\`try`：  包含需要执行的.mp3"></audio>
 >
 > 1. **`try`**：  
 >    - 包含需要执行的代码。  

@@ -29,7 +29,7 @@ To register a Service Worker in a React app:
 1. Open the `src/index.js` file.
 2. Replace `serviceWorker.unregister()` with `serviceWorker.register()`.
 
-<audio src="C:\Users\10691\Downloads\serviceWorker通过.mp3"></audio>
+<audio src="..\..\mp3\serviceWorker通过.mp3"></audio>
 
 ```javascript
 import React from "react";
@@ -59,7 +59,7 @@ If you want more control over caching behavior, you need to define your own Serv
 
 #### Example: Caching App Shell and News API Responses
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个Servic.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个Servic.mp3"></audio>
 
 ```javascript
 const CACHE_NAME = "news-app-cache-v1";
@@ -138,7 +138,7 @@ For example:
 
 - `public/offline.html`:
 
-<audio src="C:\Users\10691\Downloads\这段代码定义了一个简单的静态H.mp3"></audio>
+<audio src="..\..\mp3\这段代码定义了一个简单的静态H.mp3"></audio>
 
 ```html
 <!DOCTYPE html>
@@ -170,7 +170,7 @@ To cache API responses (e.g., news articles):
 
 1. Modify the `fetch` event in the Service Worker.
 
-<audio src="C:\Users\10691\Downloads\这段代码未Service Wo.mp3"></audio>
+<audio src="..\..\mp3\这段代码未Service Wo.mp3"></audio>
 
 ```javascript
 self.addEventListener("fetch", (event) => {

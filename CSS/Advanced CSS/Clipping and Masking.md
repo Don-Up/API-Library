@@ -30,7 +30,7 @@
 
 <img src="C:\Users\10691\Desktop\Documentation\CSS\Advanced CSS\assets\image-20241125133147089.png" alt="image-20241125133147089" style="zoom:33%;" />
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用CSS的.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用CSS的.mp3"></audio>
 
 ```css
 .circle {
@@ -51,7 +51,7 @@
 
 <img src="C:\Users\10691\Desktop\Documentation\CSS\Advanced CSS\assets\image-20241125133255153.png" alt="image-20241125133255153" style="zoom:33%;" />
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用CSS的 (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用CSS的 (1).mp3"></audio>
 
 ```css
 .masked {

@@ -1,6 +1,6 @@
 ### Deep Cloning Techniques in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Deep cloning_.mp3"></audio>
+<audio src="..\..\mp3\__Deep cloning_.mp3"></audio>
 
 **Deep cloning** creates a full copy of an object, including all nested objects and arrays, ensuring the original object is unaffected by changes to the clone. Common techniques include:  
 
@@ -11,7 +11,7 @@
 
 > **深拷贝技术**：
 >
-> <audio src="C:\Users\10691\Downloads\深拷贝会完整复制对象，包括所有.mp3"></audio>
+> <audio src="..\..\mp3\深拷贝会完整复制对象，包括所有.mp3"></audio>
 >
 > **深拷贝**会完整复制对象，包括所有嵌套对象和数组，确保原对象与副本互不影响。常见方法有：  
 >
@@ -24,7 +24,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了深拷贝对象的不同.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了深拷贝对象的不同.mp3"></audio>
 
 #### **Using `structuredClone` (Best for Modern Use)**
 ```javascript

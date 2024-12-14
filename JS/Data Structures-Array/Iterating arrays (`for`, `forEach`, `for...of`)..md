@@ -1,6 +1,6 @@
 ### Iterating Arrays in JavaScript
 
-<audio src="C:\Users\10691\Downloads\`for` Loop_ A t.mp3"></audio>
+<audio src="..\..\mp3\`for` Loop_ A t.mp3"></audio>
 
 1. **`for` Loop**:
    - A traditional loop with full control over iteration (index-based).
@@ -16,7 +16,7 @@
 
 > **遍历数组 (`for`, `forEach`, `for...of`)**  
 >
-> <audio src="C:\Users\10691\Downloads\`for` 循环：  传统循环.mp3"></audio>
+> <audio src="..\..\mp3\`for` 循环：  传统循环.mp3"></audio>
 >
 > 1. **`for` 循环**：  
 >    - 传统循环，提供对索引的完全控制。  
@@ -32,7 +32,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\在`for`循环中，可以通过显.mp3"></audio>
+<audio src="..\..\mp3\在`for`循环中，可以通过显.mp3"></audio>
 
 #### **`for` Loop**
 ```javascript
@@ -63,7 +63,7 @@ for (const value of arr) {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __`for`_.mp3"></audio>
+<audio src="..\..\mp3\1. Use __`for`_.mp3"></audio>
 
 1. Use **`for`** for index-based operations.  
 2. Use **`forEach`** for simple iteration (no early exit).  

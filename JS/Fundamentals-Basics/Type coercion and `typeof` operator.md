@@ -1,6 +1,6 @@
 ### Type Coercion and `typeof` Operator in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Type coercion_ .mp3"></audio>
+<audio src="..\..\mp3\Type coercion_ .mp3"></audio>
 
 **Type coercion**: JavaScript converts data types automatically during operations.  
 
@@ -13,7 +13,7 @@
 
 > **类型强制转换和 `typeof` 运算符**：
 >
-> <audio src="C:\Users\10691\Downloads\类型强制转换是 JavaScr.mp3"></audio>
+> <audio src="..\..\mp3\类型强制转换是 JavaScr.mp3"></audio>
 >
 > **类型强制转换**是 JavaScript 在操作中自动或手动转换数据类型：
 >
@@ -27,7 +27,7 @@
 
 #### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr.mp3"></audio>
 
 ```javascript
 // Type Coercion

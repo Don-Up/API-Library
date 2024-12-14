@@ -1,6 +1,6 @@
 ### Call Stack and Task Queue in JavaScript
 
-<audio src="C:\Users\10691\Downloads\JavaScript is s.mp3"></audio>
+<audio src="..\..\mp3\JavaScript is s.mp3"></audio>
 
 JavaScript is single-threaded, meaning it can execute only one task at a time. The **call stack** and **task queue** are essential components of JavaScript's concurrency model:
 
@@ -12,7 +12,7 @@ JavaScript is single-threaded, meaning it can execute only one task at a time. T
 
 > **调用栈和任务队列**：
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 是单线程.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 是单线程.mp3"></audio>
 >
 > JavaScript 是单线程的，只能一次执行一个任务。**调用栈**和**任务队列**是其并发模型的核心：  
 >
@@ -24,7 +24,7 @@ JavaScript is single-threaded, meaning it can execute only one task at a time. T
 
 ### Code Example:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (19).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (19).mp3"></audio>
 
 #### **Call Stack and Task Queue**
 ```javascript

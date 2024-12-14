@@ -1,6 +1,6 @@
 ### `fetch` API vs `XMLHttpRequest`
 
-<audio src="C:\Users\10691\Downloads\1.  `fetch` API.mp3"></audio>
+<audio src="..\..\mp3\1.  `fetch` API.mp3"></audio>
 
 1. **`fetch` API**:  
    - A modern, promise-based API for making HTTP requests.  
@@ -16,7 +16,7 @@
 
 > **`fetch` API 和 `XMLHttpRequest`**  
 >
-> <audio src="C:\Users\10691\Downloads\`fetch` API：  一.mp3"></audio>
+> <audio src="..\..\mp3\`fetch` API：  一.mp3"></audio>
 >
 > 1. **`fetch` API**：  
 >    - 一个现代的基于 Promise 的 HTTP 请求 API。  
@@ -32,7 +32,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了两种向服务器发送.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了两种向服务器发送.mp3"></audio>
 
 #### **Using `fetch` API**
 ```javascript
@@ -71,7 +71,7 @@ xhr.send();
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __`fetch`__.mp3"></audio>
+<audio src="..\..\mp3\1.  __`fetch`__.mp3"></audio>
 
 1. **`fetch`** is recommended for modern applications due to its simplicity and promise-based syntax.  
 2. Use **XHR** for legacy systems or when requiring progress events (like file uploads).  

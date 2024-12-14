@@ -27,7 +27,7 @@
 
 > **字符串方法：`split`、`replace`、`substring`、`indexOf`、`includes`、`trim`**  
 >
-> <audio src="C:\Users\10691\Downloads\1, `split(separ.mp3"></audio>
+> <audio src="..\..\mp3\1, `split(separ.mp3"></audio>
 >
 > 1. **`split(separator, limit)`**：根据分隔符将字符串拆分为数组。  
 >    **例**：`"a,b,c".split(",")` → `["a", "b", "c"]`。  
@@ -46,7 +46,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\`split`方法用于将字符串.mp3"></audio>
+<audio src="..\..\mp3\`split`方法用于将字符串.mp3"></audio>
 
 #### **Using `split`**
 ```javascript
@@ -93,7 +93,7 @@ console.log(str.trim()); // "hello world"
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __`split.mp3"></audio>
+<audio src="..\..\mp3\1. Use __`split.mp3"></audio>
 
 1. Use **`split`** for converting strings to arrays.  
 2. Use **`replace`** with regex for global replacements.  

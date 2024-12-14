@@ -1,6 +1,6 @@
 ### Axios
 
-<audio src="C:\Users\10691\Downloads\Axios is a popu.mp3"></audio>
+<audio src="..\..\mp3\Axios is a popu.mp3"></audio>
 
 **Axios** is a popular promise-based HTTP client for making HTTP requests in **Node.js** and browsers. It simplifies asynchronous requests with a clean API and supports features like request/response interception, automatic JSON conversion, and timeout handling. Axios is preferred over `fetch` for complex applications due to its ease of configuration, support for query parameters, and better error handling.
 
@@ -12,7 +12,7 @@
 
 > **Axios**  
 >
-> <audio src="C:\Users\10691\Downloads\Axios 是一个流行的基于 .mp3"></audio>
+> <audio src="..\..\mp3\Axios 是一个流行的基于 .mp3"></audio>
 >
 > **Axios** 是一个流行的基于 Promise 的 HTTP 客户端，用于在 **Node.js** 和浏览器中发送 HTTP 请求。它通过简洁的 API 简化异步请求，支持请求/响应拦截、自动 JSON 转换和超时处理。相比 `fetch`，Axios 在复杂应用中更受欢迎，因为它更易配置，支持查询参数且错误处理更优。  
 > **主要功能**：  
@@ -25,7 +25,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`axi.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`axi.mp3"></audio>
 
 #### **Basic GET Request**
 ```javascript
@@ -78,7 +78,7 @@ axios
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __Axios__ a.mp3"></audio>
+<audio src="..\..\mp3\1.  __Axios__ a.mp3"></audio>
 
 1. **Axios** automatically parses JSON responses and handles errors better than `fetch`.  
 2. It supports advanced features like **interceptors**, **timeouts**, and **request cancellation**.  

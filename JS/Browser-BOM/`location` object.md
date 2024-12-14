@@ -1,6 +1,6 @@
 ### The `location` Object in BOM
 
-<audio src="C:\Users\10691\Downloads\The __`location.mp3"></audio>
+<audio src="..\..\mp3\The __`location.mp3"></audio>
 
 The **`location` object** in the Browser Object Model (BOM) represents the current URL and provides methods to navigate or manipulate it. It is accessible via `window.location`.
 
@@ -19,7 +19,7 @@ The **`location` object** in the Browser Object Model (BOM) represents the curre
 
 > **BOM 中的 `location` 对象**  
 >
-> <audio src="C:\Users\10691\Downloads\`location` 对象 表.mp3"></audio>
+> <audio src="..\..\mp3\`location` 对象 表.mp3"></audio>
 >
 > **`location` 对象** 表示当前页面的 URL，并提供方法导航或操作 URL。通过 `window.location` 访问。  
 >
@@ -51,7 +51,7 @@ console.log(location.hash);       // Fragment identifier (e.g., "#section")
 
 #### **Navigating with `location`**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用loca.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用loca.mp3"></audio>
 
 ```javascript
 // Navigate to a new page
@@ -68,7 +68,7 @@ location.reload();
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`location .mp3"></audio>
+<audio src="..\..\mp3\1. __`location .mp3"></audio>
 
 1. **`location.href`** is both readable (get URL) and writable (navigate to a new URL).  
 2. Use **`assign`** to navigate and preserve history; use **`replace`** to avoid adding to history.  

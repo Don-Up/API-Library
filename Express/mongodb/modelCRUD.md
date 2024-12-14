@@ -7,7 +7,7 @@ The `User` model, created from the `userSchema`, provides methods for performing
 #### **1. Create**
 Use the `.create()` or `.save()` method to add new documents to the collection.
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了两种在 Mong.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了两种在 Mong.mp3"></audio>
 
 ```javascript
 const newUser = new User({ name: 'Alice', email: 'alice@example.com', age: 25 });
@@ -23,7 +23,7 @@ console.log(createdUser); // Logs the newly created user
 #### **2. Read**
 Retrieve documents using `.find()`, `.findOne()`, or `.findById()`.
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用 `mong.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用 `mong.mp3"></audio>
 
 ```javascript
 // Find all users
@@ -41,7 +41,7 @@ const userById = await User.findById('63a1d1234abc567def890123');
 #### **3. Update**
 Update documents using `.updateOne()`, `.updateMany()`, or `.findByIdAndUpdate()`.
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用 `mong (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用 `mong (1).mp3"></audio>
 
 ```javascript
 // Update a user by email
@@ -61,7 +61,7 @@ console.log(updatedUser);
 #### **4. Delete**
 Remove documents using `.deleteOne()`, `.deleteMany()`, or `.findByIdAndDelete()`.
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用 `mong (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用 `mong (2).mp3"></audio>
 
 ```javascript
 // Delete a user by ID

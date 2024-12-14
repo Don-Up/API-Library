@@ -1,6 +1,6 @@
 ### Koa
 
-<audio src="C:\Users\10691\Downloads\__Koa__ is a mo.mp3"></audio>
+<audio src="..\..\mp3\__Koa__ is a mo.mp3"></audio>
 
 **Koa** is a modern web framework for **Node.js**, created by the developers of **Express**. It is lightweight and uses async functions (based on Promises) to simplify middleware and eliminate callback hell. Koa does not include built-in routing or middleware, making it highly customizable.
 
@@ -14,7 +14,7 @@
 
 > **Koa**  
 >
-> <audio src="C:\Users\10691\Downloads\Koa 是一个现代化的 Nod.mp3"></audio>
+> <audio src="..\..\mp3\Koa 是一个现代化的 Nod.mp3"></audio>
 >
 > **Koa** 是一个现代化的 **Node.js** Web 框架，由 **Express** 的开发者创建。它轻量化，基于异步函数（Promises）简化中间件，避免了回调地狱。Koa 不包含内置路由或中间件，非常灵活可定制。  
 > **主要特点**：  
@@ -28,7 +28,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用Koa框.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用Koa框.mp3"></audio>
 
 #### **Basic Koa Server**
 ```javascript
@@ -77,7 +77,7 @@ app.use(async (ctx, next) => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Koa uses __a.mp3"></audio>
+<audio src="..\..\mp3\1. Koa uses __a.mp3"></audio>
 
 1. Koa uses **async/await**, making middleware chaining clean and readable.  
 2. It does not include built-in features like routing or body parsing—use libraries like **koa-router** or **koa-bodyparser**.  

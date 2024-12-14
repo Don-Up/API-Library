@@ -1,6 +1,6 @@
 ### Debugging and `console` Methods
 
-<audio src="C:\Users\10691\Downloads\JavaScript's `c.mp3"></audio>
+<audio src="..\..\mp3\JavaScript's `c.mp3"></audio>
 
 JavaScript's `console` object provides various methods for debugging:
 
@@ -17,7 +17,7 @@ These methods are essential for inspecting variables, tracking issues, and measu
 > **调试与 `console` 方法**  
 > JavaScript 的 `console` 对象提供多种调试方法：
 >
->   <audio src="C:\Users\10691\Downloads\Outline`console.mp3"></audio>
+>   <audio src="..\..\mp3\Outline`console.mp3"></audio>
 >
 > 1. **`console.log`**：输出一般信息。  
 > 2. **`console.error`**：以红色显示错误（用于调试问题）。  

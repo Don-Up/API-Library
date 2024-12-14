@@ -1,6 +1,6 @@
 ### Factory Pattern in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Definition___.mp3"></audio>
+<audio src="..\..\mp3\__Definition___.mp3"></audio>
 
 1. **Definition**:  
    - A design pattern that provides a way to create objects without specifying the exact class or constructor.  
@@ -16,7 +16,7 @@
 
 > **工厂模式**  
 >
-> <audio src="C:\Users\10691\Downloads\1, 定义：     - 一种.mp3"></audio>
+> <audio src="..\..\mp3\1, 定义：     - 一种.mp3"></audio>
 >
 > 1. **定义**：  
 >    - 一种设计模式，通过工厂方法创建对象，而无需指定确切的类或构造函数。  
@@ -34,7 +34,7 @@
 
 #### **Simple Factory Function**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个简单的工厂函.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个简单的工厂函.mp3"></audio>
 
 ```javascript
 function createUser(type) {
@@ -53,7 +53,7 @@ console.log(user); // { role: "user", permissions: ["read"] }
 
 #### **Factory with Class**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个使用`Car.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个使用`Car.mp3"></audio>
 
 ```javascript
 class CarFactory {
@@ -77,7 +77,7 @@ console.log(suv); // { type: "suv", doors: 5 }
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Factory fu.mp3"></audio>
+<audio src="..\..\mp3\1. __Factory fu.mp3"></audio>
 
 1. **Factory functions** encapsulate object creation logic.  
 2. Use **conditionals** or **dynamic inputs** to create flexible object types.  

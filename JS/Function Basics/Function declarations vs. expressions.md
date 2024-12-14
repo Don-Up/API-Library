@@ -1,6 +1,6 @@
 ### Function Declarations vs. Function Expressions in JavaScript
 
-<audio src="C:\Users\10691\Downloads\- __Function De.mp3"></audio>
+<audio src="..\..\mp3\- __Function De.mp3"></audio>
 
 - **Function Declarations**: A named function defined using the `function` keyword. It is **hoisted**, meaning it can be called before its definition in the code.
 
@@ -8,7 +8,7 @@
 
 > **函数声明与函数表达式**：
 >
-> <audio src="C:\Users\10691\Downloads\- 函数声明：使用 `func.mp3"></audio>
+> <audio src="..\..\mp3\- 函数声明：使用 `func.mp3"></audio>
 >
 > - **函数声明**：使用 `function` 关键字定义的命名函数。**会被提升**，因此可以在定义之前调用。
 > - **函数表达式**：将函数赋值给变量，函数可以是匿名或命名的。**不会被提升**，因此在定义之前无法调用。
@@ -17,7 +17,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了函数声明和函数表.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了函数声明和函数表.mp3"></audio>
 
 #### **Function Declaration**
 ```javascript

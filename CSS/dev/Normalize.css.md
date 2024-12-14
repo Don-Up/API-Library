@@ -13,7 +13,7 @@
 
 > **在 React 中使用 normalize.css**  
 >
-> <audio src="C:\Users\10691\Downloads\`normalize.css`.mp3"></audio>
+> <audio src="..\..\mp3\`normalize.css`.mp3"></audio>
 >
 > **`normalize.css`** 是一个小型 CSS 库，用于重置并标准化不同浏览器的默认样式，确保渲染的一致性。它移除了诸如标题、按钮和表单等元素的浏览器不一致样式，但不会完全清除所有样式（与传统 CSS 重置不同）。在 React 中，通常用于为样式提供一致的基准。  
 >

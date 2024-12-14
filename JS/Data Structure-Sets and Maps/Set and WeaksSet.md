@@ -1,6 +1,6 @@
 ### Set and WeakSet in JavaScript
 
-<audio src="C:\Users\10691\Downloads\`Set`_ A collec.mp3"></audio>
+<audio src="..\..\mp3\`Set`_ A collec.mp3"></audio>
 
 1. **`Set`**:
    - A collection of **unique values** (no duplicates).
@@ -15,7 +15,7 @@
 
 > **`Set` 和 `WeakSet`**  
 >
-> <audio src="C:\Users\10691\Downloads\`Set`：  存储唯一值的集.mp3"></audio>
+> <audio src="..\..\mp3\`Set`：  存储唯一值的集.mp3"></audio>
 >
 > 1. **`Set`**：  
 >    - 存储**唯一值**的集合（无重复）。  
@@ -31,7 +31,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了`Set`和`W.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了`Set`和`W.mp3"></audio>
 
 #### **Using `Set`**
 ```javascript
@@ -63,7 +63,7 @@ console.log(myWeakSet.has(obj1)); // false
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`Set`__ is.mp3"></audio>
+<audio src="..\..\mp3\1. __`Set`__ is.mp3"></audio>
 
 1. **`Set`** is iterable, while **`WeakSet`** is not.  
 2. **`WeakSet`** is memory-efficient for temporary object storage.  

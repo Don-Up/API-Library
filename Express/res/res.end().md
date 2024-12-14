@@ -2,11 +2,11 @@
 
 - **`res.end([data], [encoding])`**: This method ends the response process. It can optionally send `data` as the response body before closing the connection. Unlike `res.send()`, `res.end()` does not set any headers or status codes unless explicitly done beforehand. It is often used to terminate the response without sending a body or after streaming data.
 
-- <audio src="../../../../Downloads/__`res.end([dat.mp3"></audio>
+- <audio src="..\..\mp3\__`res.end([dat.mp3"></audio>
 
 > **`res.end([data], [encoding])`**：此方法用于结束响应流程。它可以在关闭连接前可选地发送 `data` 作为响应体。与 `res.send()` 不同，`res.end()` 不会自动设置任何头信息或状态码，除非在之前手动设置。该方法通常用于不发送主体时结束响应，或用于流式传输后结束响应。
 >
-> <audio src="../../../../Downloads/res.end([data],.mp3"></audio>
+> <audio src="..\..\mp3\res.end([data],.mp3"></audio>
 
 | Parameter  | Description                           | Example Argument |
 | ---------- | ------------------------------------- | ---------------- |
@@ -15,7 +15,7 @@
 
 #### Example:
 
-<audio src="../../../../Downloads/在这段代码中，`res.end.mp3"></audio>
+<audio src="..\..\mp3\在这段代码中，`res.end.mp3"></audio>
 
 ```js
 const express = require('express');

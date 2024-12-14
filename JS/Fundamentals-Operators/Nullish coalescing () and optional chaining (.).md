@@ -1,6 +1,6 @@
 ### Nullish Coalescing (`??`) and Optional Chaining (`?.`) in JavaScript
 
-<audio src="C:\Users\10691\Downloads\- Nullish Coale.mp3"></audio>
+<audio src="..\..\mp3\- Nullish Coale.mp3"></audio>
 
 - **Nullish Coalescing (`??`)**: Returns the **right-hand value** if the left-hand value is `null` or `undefined`; otherwise, it returns the left-hand value. It’s useful for providing default values.  
 
@@ -8,7 +8,7 @@
 
 > **空值合并 (`??`) 和可选链 (`?.`)**：
 >
-> <audio src="C:\Users\10691\Downloads\- 崆值合并：当左侧值是 `n.mp3"></audio>
+> <audio src="..\..\mp3\- 崆值合并：当左侧值是 `n.mp3"></audio>
 >
 > - **`??`**：当左侧值是 `null` 或 `undefined` 时，返回右侧值；否则返回左侧值。适合设置默认值。
 > - **`?.`**：安全访问嵌套对象属性或方法。如果 `?.` 前的值是 `null` 或 `undefined`，则返回 `undefined`，而不会抛出错误。
@@ -17,7 +17,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (3).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (3).mp3"></audio>
 
 #### **Nullish Coalescing (`??`)**
 ```javascript

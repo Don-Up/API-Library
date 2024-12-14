@@ -1,6 +1,6 @@
 ### Using `requestAnimationFrame` for Smoother Animations
 
-<audio src="C:\Users\10691\Downloads\1.  Definition. (5).mp3"></audio>
+<audio src="..\..\mp3\1.  Definition. (5).mp3"></audio>
 
 1. **Definition**:  
    - `requestAnimationFrame()` schedules a function to update animations before the next screen repaint (~60 times/second).  
@@ -16,7 +16,7 @@
 
 > **使用 `requestAnimationFrame` 实现平滑动画**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  `requestAn.mp3"></audio>
+> <audio src="..\..\mp3\定义：  `requestAn.mp3"></audio>
 >
 > 1. **定义**：  
 >    - `requestAnimationFrame()` 在下次屏幕重绘前调用指定的回调函数（约每秒60次）。  

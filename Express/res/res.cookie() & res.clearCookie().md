@@ -4,11 +4,11 @@
 
 - **`res.clearCookie(name, [options])`**: This method clears a cookie by setting its expiration date in the past.
 
-- <audio src="../../../../Downloads/- __`res.cookie.mp3"></audio>
+- <audio src="..\..\mp3\- __`res.cookie.mp3"></audio>
 
 > **`res.cookie(name, value, [options])` 和 `res.clearCookie(name, [options])`**：`res.cookie()` 用于在客户端设置 cookie，`name` 是 cookie 的键，`value` 是数据，`options` 可以定义 `maxAge`、`httpOnly`、`secure` 等属性。`res.clearCookie()` 通过将过期时间设置为过去的时间来清除 cookie。
 >
-> <audio src="../../../../Downloads/`res.cookie(nam.mp3"></audio>
+> <audio src="..\..\mp3\`res.cookie(nam.mp3"></audio>
 
 | Parameter | Description                              | Example Argument                    |
 | --------- | ---------------------------------------- | ----------------------------------- |
@@ -18,7 +18,7 @@
 
 #### Example:
 
-<audio src="../../../../Downloads/在这段代码中，`res.coo.mp3"></audio>
+<audio src="..\..\mp3\在这段代码中，`res.coo.mp3"></audio>
 
 ```js
 const express = require('express');

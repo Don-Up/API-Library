@@ -1,6 +1,6 @@
 ### Mocking and Spies in JavaScript Testing
 
-<audio src="C:\Users\10691\Downloads\1.  Definition..mp3"></audio>
+<audio src="..\..\mp3\1.  Definition..mp3"></audio>
 
 1. **Definition**:  
    - **Mocking**: Simulates external dependencies (e.g., API calls, functions) to control behavior in tests.  
@@ -16,7 +16,7 @@
 
 > **Mock 和 Spy 在 JavaScript 测试中的应用**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：     - Mock：.mp3"></audio>
+> <audio src="..\..\mp3\定义：     - Mock：.mp3"></audio>
 >
 > 1. **定义**：  
 >    - **Mock**：模拟外部依赖（如 API 调用、函数）以控制测试行为。  

@@ -1,6 +1,6 @@
 ### Avoiding Memory Leaks in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1.  Definition. (3).mp3"></audio>
+<audio src="..\..\mp3\1.  Definition. (3).mp3"></audio>
 
 1. **Definition**:  
    - A **memory leak** occurs when allocated memory is no longer needed but is not released.  
@@ -14,7 +14,7 @@
 
 > **避免内存泄漏**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  内存泄漏是指分配的内.mp3"></audio>
+> <audio src="..\..\mp3\定义：  内存泄漏是指分配的内.mp3"></audio>
 >
 > 1. **定义**：  
 >    - **内存泄漏**是指分配的内存不再需要但未释放。  

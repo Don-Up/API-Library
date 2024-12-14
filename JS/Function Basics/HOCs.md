@@ -1,6 +1,6 @@
 ### Higher-Order Functions in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A __higher-orde.mp3"></audio>
+<audio src="..\..\mp3\A __higher-orde.mp3"></audio>
 
 A **higher-order function** is a function that either:  
 1. **Takes another function as an argument**, or  
@@ -10,7 +10,7 @@ Examples include `map`, `filter`, `reduce`, and custom functions. Higher-order f
 
 > **高阶函数**：
 >
-> <audio src="C:\Users\10691\Downloads\高阶函数是指以下两种函数：1..mp3"></audio>
+> <audio src="..\..\mp3\高阶函数是指以下两种函数：1..mp3"></audio>
 >
 > **高阶函数**是指以下两种函数：
 >
@@ -22,7 +22,7 @@ Examples include `map`, `filter`, `reduce`, and custom functions. Higher-order f
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了高阶函数在 Ja.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了高阶函数在 Ja.mp3"></audio>
 
 #### **Higher-Order Function Taking a Function as Argument**
 ```javascript

@@ -1,6 +1,6 @@
 ### CommonJS: `require` and `module.exports`
 
-<audio src="C:\Users\10691\Downloads\CommonJS is the.mp3"></audio>
+<audio src="..\..\mp3\CommonJS is the.mp3"></audio>
 
 **CommonJS** is the module system used in Node.js. It allows modular code by using **`require`** to import modules and **`module.exports`** to export functionality.
 
@@ -15,7 +15,7 @@ CommonJS modules are synchronous and work in environments like Node.js but are n
 
 > **CommonJS: `require` 和 `module.exports`**  
 >
-> <audio src="C:\Users\10691\Downloads\CommonJS 是 Node.mp3"></audio>
+> <audio src="..\..\mp3\CommonJS 是 Node.mp3"></audio>
 >
 > **CommonJS** 是 Node.js 使用的模块系统。通过 **`require`** 导入模块，使用 **`module.exports`** 导出功能。  
 >
@@ -78,7 +78,7 @@ console.log(greetModule.greet("Alice")); // Logs: "Hello, Alice!"
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`module ex.mp3"></audio>
+<audio src="..\..\mp3\1. __`module ex.mp3"></audio>
 
 1. **`module.exports`** is the actual object exported; **`exports`** is a shorthand for it.  
 2. CommonJS modules are synchronous and best suited for server-side environments like Node.js.  

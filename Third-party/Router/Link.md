@@ -10,7 +10,7 @@
 
 > **React Router 6 中的 Link**  
 >
-> <audio src="C:\Users\10691\Downloads\Link是用于客户端导航的组件.mp3"></audio>
+> <audio src="..\..\mp3\Link是用于客户端导航的组件.mp3"></audio>
 >
 > **`Link`** 是用于客户端导航的组件。它替代了传统的 `<a>` 标签，从而避免页面的完全刷新，并在单页面应用 (SPA) 中实现无缝导航。`to` 属性指定目标路由，同时可以传递状态或参数。  
 >
@@ -26,7 +26,7 @@
 
 #### **Basic Link Usage**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用了 ReactRo.mp3"></audio>
+<audio src="..\..\mp3\这段代码使用了 ReactRo.mp3"></audio>
 
 ```javascript
 import React from 'react';
@@ -66,7 +66,7 @@ export default App;
 
 #### **Passing Parameters with `Link`**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou.mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou.mp3"></audio>
 
 ```javascript
 function Home() {
@@ -102,7 +102,7 @@ function App() {
 
 #### **Passing State with `Link`**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou (1).mp3"></audio>
 
 ```javascript
 function Home() {

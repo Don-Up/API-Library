@@ -34,8 +34,8 @@ const [isFocused, setIsFocused] = useState(false);
 
 #### Attribute Explanation
 
-<audio src="C:\Users\10691\Downloads\三个关键属性是 in、time.mp3"></audio>
+<audio src="..\..\mp3\三个关键属性是 in、time.mp3"></audio>
 
 #### Code Explanation
 
-<audio src="C:\Users\10691\Downloads\这段代码中的 CSSTrans.mp3"></audio>
+<audio src="..\..\mp3\这段代码中的 CSSTrans.mp3"></audio>

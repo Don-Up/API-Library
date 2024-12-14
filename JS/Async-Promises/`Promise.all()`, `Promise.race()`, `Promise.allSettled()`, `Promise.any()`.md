@@ -1,6 +1,6 @@
 ### `Promise.all()`, `Promise.race()`, `Promise.allSettled()`, and `Promise.any()` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\These methods h.mp3"></audio>
+<audio src="..\..\mp3\These methods h.mp3"></audio>
 
 These methods handle multiple promises concurrently:
 
@@ -11,7 +11,7 @@ These methods handle multiple promises concurrently:
 
 > **`Promise.all()`、`Promise.race()`、`Promise.allSettled()` 和 `Promise.any()`**：
 >
->   <audio src="C:\Users\10691\Downloads\这些方法用于同时处理多个 Pr.mp3"></audio>
+>   <audio src="..\..\mp3\这些方法用于同时处理多个 Pr.mp3"></audio>
 > 这些方法用于同时处理多个 Promise：  
 >
 > 1. **`Promise.all()`**：当**所有 Promise 都成功**时解析；若有一个失败，则立即拒绝。适合等待所有任务完成。  
@@ -23,7 +23,7 @@ These methods handle multiple promises concurrently:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (17).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (17).mp3"></audio>
 
 #### **`Promise.all()`**
 ```javascript

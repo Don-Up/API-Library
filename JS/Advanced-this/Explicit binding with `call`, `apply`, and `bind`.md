@@ -1,6 +1,6 @@
 ### Explicit Binding: `call`, `apply`, and `bind`
 
-<audio src="C:\Users\10691\Downloads\__Explicit bind.mp3"></audio>
+<audio src="..\..\mp3\__Explicit bind.mp3"></audio>
 
 **Explicit binding** allows you to manually set the value of `this` in a function using **`call`**, **`apply`**, or **`bind`**:
 
@@ -15,7 +15,7 @@
 
 > **显式绑定：`call`、`apply` 和 `bind`**  
 >
-> <audio src="C:\Users\10691\Downloads\显式绑定 允许你通过 `cal.mp3"></audio>
+> <audio src="..\..\mp3\显式绑定 允许你通过 `cal.mp3"></audio>
 >
 > **显式绑定** 允许你通过 **`call`**、**`apply`** 或 **`bind`** 手动设置函数的 `this` 值：  
 >
@@ -27,7 +27,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (8).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (8).mp3"></audio>
 
 #### **Using `call`**
 ```javascript
@@ -65,7 +65,7 @@ boundFunction(); // Logs: "I am 30 years old."
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __`call`__ .mp3"></audio>
+<audio src="..\..\mp3\1.  __`call`__ .mp3"></audio>
 
 1. **`call`** and **`apply`** invoke the function **immediately**.  
 2. **`apply`** is useful when arguments are in an array.  

@@ -10,7 +10,7 @@
 
 > **Max-Height**：TailwindCSS 提供了一组工具类，用于控制元素的 **最大高度**，确保元素即使内容较多也不会超过设定的高度。这些工具类直接映射到 CSS 的 `max-height` 属性：
 >
-> <audio src="C:\Users\10691\Downloads\- `max-h-0`：将最大.mp3"></audio>
+> <audio src="..\..\mp3\- `max-h-0`：将最大.mp3"></audio>
 >
 > - **`max-h-0`**：将最大高度设置为 0。
 > - **`max-h-full`**：将最大高度设置为父容器的 100%。
@@ -21,7 +21,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这里展示了一个具有滚动功能的容.mp3"></audio>
+<audio src="..\..\mp3\这里展示了一个具有滚动功能的容.mp3"></audio>
 
 ```html
 <div class="max-h-32 overflow-y-auto bg-gray-200 p-4">

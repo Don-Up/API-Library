@@ -1,6 +1,6 @@
 ### Working with `async/await` in API Requests
 
-<audio src="C:\Users\10691\Downloads\__`async await`.mp3"></audio>
+<audio src="..\..\mp3\__`async await`.mp3"></audio>
 
 **`async/await`** simplifies asynchronous code by making it look synchronous. It is built on **Promises**, where `await` pauses execution until the promise resolves, and `async` marks a function as asynchronous. This is commonly used for API requests with `fetch` or libraries like `axios`.
 
@@ -11,7 +11,7 @@
 
 > **使用 `async/await` 处理 API 请求**  
 >
-> <audio src="C:\Users\10691\Downloads\`async_await` 简.mp3"></audio>
+> <audio src="..\..\mp3\`async_await` 简.mp3"></audio>
 >
 > **`async/await`** 简化了异步代码，使其看起来像同步代码。它基于 **Promise**，`await` 会暂停代码执行直到 Promise 解析，`async` 用于将函数标记为异步函数。  
 > **优点**：语法更简洁，使用 `try/catch` 更易于错误处理。  
@@ -24,7 +24,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`asy.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`asy.mp3"></audio>
 
 #### **Using `async/await` with `fetch`**
 ```javascript
@@ -64,7 +64,7 @@ fetchPosts();
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use  `async .mp3"></audio>
+<audio src="..\..\mp3\1. Use  `async .mp3"></audio>
 
 1. Use **`async/await`** for cleaner, readable asynchronous code.  
 2. Wrap `await` calls in **`try/catch`** for robust error handling.  

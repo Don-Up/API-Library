@@ -1,6 +1,6 @@
 ### Attributes vs. Properties in DOM Nodes
 
-<audio src="C:\Users\10691\Downloads\Attributes are .mp3"></audio>
+<audio src="..\..\mp3\Attributes are .mp3"></audio>
 
 **Attributes** are defined in the HTML markup and reflect initial values. **Properties** are JavaScript representations of these attributes, accessible via DOM objects.  
 
@@ -16,7 +16,7 @@
 
 > **DOM 节点中的属性和属性**  
 >
-> <audio src="C:\Users\10691\Downloads\Attributes定义在 H.mp3"></audio>
+> <audio src="..\..\mp3\Attributes定义在 H.mp3"></audio>
 >
 > **属性（Attributes）** 定义在 HTML 中，表示初始值。**属性（Properties）** 是这些属性在 JavaScript 中的表示，可通过 DOM 对象访问。  
 >
@@ -27,7 +27,7 @@
 
 ### Code Example:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了HTML属性和D.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了HTML属性和D.mp3"></audio>
 
 ```javascript
 const input = document.querySelector("input");

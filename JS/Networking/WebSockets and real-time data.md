@@ -1,6 +1,6 @@
 ### WebSockets and Real-Time Data
 
-<audio src="C:\Users\10691\Downloads\__WebSockets__ .mp3"></audio>
+<audio src="..\..\mp3\__WebSockets__ .mp3"></audio>
 
 **WebSockets** enable full-duplex, persistent communication between a client and a server, making them ideal for real-time applications (e.g., chat apps, live notifications). Unlike HTTP, WebSockets maintain an open connection, allowing data to flow both ways without repeated requests. 
 
@@ -10,7 +10,7 @@
 
 > **WebSockets 和实时数据**  
 >
-> <audio src="C:\Users\10691\Downloads\WebSockets 实现了客.mp3"></audio>
+> <audio src="..\..\mp3\WebSockets 实现了客.mp3"></audio>
 >
 > **WebSockets** 实现了客户端和服务器之间的全双工、持久通信，非常适合实时应用（如聊天应用、实时通知）。与 HTTP 不同，WebSocket 维持一个开放的连接，允许双向数据流，无需重复请求。  
 >
@@ -24,7 +24,7 @@
 
 #### **Basic WebSocket Example**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了一个使用`Web.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了一个使用`Web.mp3"></audio>
 
 ```javascript
 // Connect to WebSocket server
@@ -55,7 +55,7 @@ socket.addEventListener("close", () => {
 
 #### **WebSocket Server (Node.js with `ws`)**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`ws`.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`ws`.mp3"></audio>
 
 ```javascript
 const WebSocket = require("ws");
@@ -84,7 +84,7 @@ server.on("connection", (socket) => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. WebSockets a.mp3"></audio>
+<audio src="..\..\mp3\1. WebSockets a.mp3"></audio>
 
 1. WebSockets are ideal for **real-time, bidirectional communication**.  
 2. Use the `WebSocket` API in the browser and libraries like `ws` in Node.js for server-side support.  

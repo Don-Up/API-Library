@@ -1,6 +1,6 @@
 ### Arrow Functions and Differences from Regular Functions
 
-<audio src="C:\Users\10691\Downloads\__Arrow Functio.mp3"></audio>
+<audio src="..\..\mp3\__Arrow Functio.mp3"></audio>
 
 **Arrow Functions**: Introduced in ES6, they are concise functions defined with the `=>` syntax.  
 Key differences from regular functions:  
@@ -11,7 +11,7 @@ Key differences from regular functions:
 
 > **箭头函数与普通函数的区别**：
 >
-> <audio src="C:\Users\10691\Downloads\箭头函数：ES6 引入，用箭头.mp3"></audio>
+> <audio src="..\..\mp3\箭头函数：ES6 引入，用箭头.mp3"></audio>
 >
 > **箭头函数**：ES6 引入，用 `=>` 定义。  
 >
@@ -25,7 +25,7 @@ Key differences from regular functions:
 
 #### **`this` Behavior**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了普通函数和箭头函.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了普通函数和箭头函.mp3"></audio>
 
 ```javascript
 // Regular function
@@ -43,7 +43,7 @@ arrowFunction(); // Window (or parent scope in strict mode)
 
 #### Arrow Functions in a Class
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了普通函数和箭头函 (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了普通函数和箭头函 (1).mp3"></audio>
 
 ```javascript
 class Example {

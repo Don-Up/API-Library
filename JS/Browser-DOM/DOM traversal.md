@@ -1,6 +1,6 @@
 ### DOM Traversal (`parentNode`, `childNodes`, `nextSibling`, etc.)
 
-<audio src="C:\Users\10691\Downloads\__DOM traversal.mp3"></audio>
+<audio src="..\..\mp3\__DOM traversal.mp3"></audio>
 
 **DOM traversal** allows navigating through nodes in the DOM tree using relationships like parent, child, and sibling. These methods and properties help dynamically access and manipulate elements.
 
@@ -15,7 +15,7 @@ These traversal properties are useful for navigating and manipulating the DOM hi
 
 > **DOM 遍历（`parentNode`、`childNodes`、`nextSibling` 等）** 
 >
->  <audio src="C:\Users\10691\Downloads\DOM 遍历通过父节点、子节点.mp3"></audio>
+>  <audio src="..\..\mp3\DOM 遍历通过父节点、子节点.mp3"></audio>
 > **DOM 遍历**通过父节点、子节点和兄弟节点之间的关系，帮助在 DOM 树中导航。以下是常用的属性和方法：  
 >
 > 1. **`parentNode`**：返回元素的父节点。  
@@ -30,7 +30,7 @@ These traversal properties are useful for navigating and manipulating the DOM hi
 
 #### **Parent and Child Traversal**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何通过Java (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何通过Java (1).mp3"></audio>
 
 ```javascript
 const child = document.querySelector(".child"); // Select an element
@@ -44,7 +44,7 @@ console.log(parent.children); // Logs only child elements
 
 #### **Sibling Traversal**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何通过Java (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何通过Java (2).mp3"></audio>
 
 ```javascript
 const current = document.querySelector(".current"); // Select an element
@@ -56,7 +56,7 @@ console.log(current.previousElementSibling); // Logs the previous sibling that i
 
 #### **First and Last Child**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何通过Java (3).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何通过Java (3).mp3"></audio>
 
 ```javascript
 const parent = document.querySelector(".parent");

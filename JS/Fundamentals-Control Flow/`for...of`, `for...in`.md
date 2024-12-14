@@ -1,13 +1,13 @@
 ### `for...of` vs `for...in` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\- __`for of`___.mp3"></audio>
+<audio src="..\..\mp3\- __`for of`___.mp3"></audio>
 
 - **`for...of`**: Iterates over **iterable objects** (e.g., arrays, strings, maps, sets). It retrieves the **values** of the iterable, making it ideal for working with arrays or collections.  
 - **`for...in`**: Iterates over the **enumerable properties** (keys) of an object. It works on arrays too but retrieves **keys** (indices), not values. It's primarily used for objects.
 
 > **总结**：
 >
-> <audio src="C:\Users\10691\Downloads\for...of：用于遍历可迭.mp3"></audio>
+> <audio src="..\..\mp3\for...of：用于遍历可迭.mp3"></audio>
 >
 > - **`for...of`**：遍历**可迭代对象**（如数组、字符串、Map、Set），返回的是**值**。
 > - **`for...in`**：遍历**对象的可枚举属性**，返回的是**键**（包括数组索引）。适用于对象属性迭代。
@@ -16,7 +16,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (2).mp3"></audio>
 
 #### **`for...of` Example**
 ```javascript

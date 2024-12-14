@@ -1,6 +1,6 @@
 ### Key-Value Pairs of Objects in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1. __Objects__ .mp3"></audio>
+<audio src="..\..\mp3\1. __Objects__ .mp3"></audio>
 
 1. **Objects** store data as **key-value pairs**.
    - Keys are strings or symbols.
@@ -15,7 +15,7 @@
 
 > **对象的键值对**  
 >
-> <audio src="C:\Users\10691\Downloads\1, 对象通过键值对存储数据：.mp3"></audio>
+> <audio src="..\..\mp3\1, 对象通过键值对存储数据：.mp3"></audio>
 >
 > 1. **对象**通过**键值对**存储数据：  
 >    - 键是字符串或符号，值可以是任意类型。  
@@ -29,7 +29,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何操作和遍历对.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何操作和遍历对.mp3"></audio>
 
 #### **Accessing Keys, Values, Entries**
 ```javascript
@@ -60,7 +60,7 @@ Object.entries(obj).forEach(([key, value]) => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __`Objec.mp3"></audio>
+<audio src="..\..\mp3\1. Use __`Objec.mp3"></audio>
 
 1. Use **`Object.keys`**, **`Object.values`**, and **`Object.entries`** for **structured data extraction**(结构化数据提取).  
 2. Use **`for...in`** carefully—filters like `hasOwnProperty()` may be needed to avoid inherited properties.

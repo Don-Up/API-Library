@@ -1,6 +1,6 @@
 ### Custom Errors with `Error` Objects
 
-<audio src="C:\Users\10691\Downloads\In JavaScript,  (2).mp3"></audio>
+<audio src="..\..\mp3\In JavaScript,  (2).mp3"></audio>
 
 In JavaScript, you can create custom errors by extending the built-in **`Error`** class. This allows you to define meaningful error types for specific scenarios.
 
@@ -16,7 +16,7 @@ Custom errors improve error identification and debugging by providing detailed, 
 
 > **使用 `Error` 对象创建自定义错误**  
 >
-> <audio src="C:\Users\10691\Downloads\在 JavaScript 中， (1).mp3"></audio>
+> <audio src="..\..\mp3\在 JavaScript 中， (1).mp3"></audio>
 >
 > 在 JavaScript 中，可以通过扩展内置的 **`Error`** 类来创建自定义错误，用于特定场景：  
 >

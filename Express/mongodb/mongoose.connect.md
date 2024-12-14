@@ -11,7 +11,7 @@ The `mongoose.connect()` method establishes a connection between a Node.js appli
 
 > **mongoose.connect**  
 >
-> <audio src="C:\Users\10691\Downloads\`mongoose.conne.mp3"></audio>
+> <audio src="..\..\mp3\`mongoose.conne.mp3"></audio>
 >
 > `mongoose.connect()` 方法通过 Mongoose（一个对象数据建模库）在 Node.js 应用和 MongoDB 数据库之间建立连接。它接收数据库 URI (`dbURI`) 和一个可选的配置对象作为参数。  
 >
@@ -27,7 +27,7 @@ The `mongoose.connect()` method establishes a connection between a Node.js appli
 
 #### **Basic Connection**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 `mongoos.mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 `mongoos.mp3"></audio>
 
 ```javascript
 const mongoose = require('mongoose');

@@ -2,7 +2,7 @@
 
 这道题要求实现一个 `merge` 函数，用于合并多个已排序的非递减整数数组，最终返回一个合并后的非递减排序数组。输入是一个二维数组 `arrList`，其中每个子数组都是排序好的整数数组；输出是一个一维数组，包含所有子数组元素，且保持排序状态。
 
-<audio src="C:\Users\10691\Downloads\这道题要求实现一个merge函.mp3"></audio>
+<audio src="..\..\mp3\这道题要求实现一个merge函.mp3"></audio>
 
 ```js
 /**
@@ -35,4 +35,4 @@ function merge(arrList) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案基于分治法和归并排序的.mp3"></audio>
+<audio src="..\..\mp3\解题方案基于分治法和归并排序的.mp3"></audio>

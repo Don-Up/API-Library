@@ -2,7 +2,7 @@
 
 ES6 (ECMAScript 2015) and later versions introduced powerful features to enhance JavaScript’s readability, maintainability, and performance. Here are key features:
 
-<audio src="C:\Users\10691\Downloads\1.  Let and Con.mp3"></audio>
+<audio src="..\..\mp3\1.  Let and Con.mp3"></audio>
 
 1. **Let and Const**:  
    - `let` and `const` replace `var` for block-scoped variables.  
@@ -41,7 +41,7 @@ ES6 (ECMAScript 2015) and later versions introduced powerful features to enhance
 > **ES6+ 特性**  
 > ES6（ECMAScript 2015）及后续版本为 JavaScript 引入了强大的功能，提高了代码的可读性、可维护性和性能。  
 >
-> <audio src="C:\Users\10691\Downloads\Let 和 Const：  `.mp3"></audio>
+> <audio src="..\..\mp3\Let 和 Const：  `.mp3"></audio>
 >
 > 1. **Let 和 Const**：  
 >    - `let` 和 `const` 替代 `var`，具有块级作用域。  

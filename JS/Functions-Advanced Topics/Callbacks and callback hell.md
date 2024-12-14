@@ -1,6 +1,6 @@
 ### Callbacks and Callback Hell in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A __callback__ .mp3"></audio>
+<audio src="..\..\mp3\A __callback__ .mp3"></audio>
 
 A **callback** is a function passed as an argument to another function and executed after the completion of that function. Callbacks are widely used in asynchronous operations like fetching data or reading files.  
 
@@ -8,7 +8,7 @@ A **callback** is a function passed as an argument to another function and execu
 
 > **回调函数和回调地狱**：
 >
-> <audio src="C:\Users\10691\Downloads\回掉函数是作为参数传递给另一个.mp3"></audio>
+> <audio src="..\..\mp3\回掉函数是作为参数传递给另一个.mp3"></audio>
 >
 > **回调函数**是作为参数传递给另一个函数，并在该函数执行完成后调用的函数。回调函数常用于异步操作（如获取数据或文件读取）。  
 > **回调地狱**：当多层嵌套回调使代码难以阅读和维护时，就会出现“回调地狱”。可以通过 **Promise** 或 **`async/await`** 解决。
@@ -17,7 +17,7 @@ A **callback** is a function passed as an argument to another function and execu
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (6).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (6).mp3"></audio>
 
 #### **Basic Callback**
 ```javascript

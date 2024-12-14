@@ -2,7 +2,7 @@
 
 这道题要求实现一个二分查找算法，用于在一个升序且元素唯一的数组中查找目标值 `target` 的索引。如果找到目标值，则返回其对应的索引；如果没有找到，则返回 -1。输入包括一个升序唯一的整数数组 `arr` 和一个整数 `target`，输出为整数类型的索引或 -1。
 
-<audio src="C:\Users\10691\Downloads\这道题要求实现一个二分查找算法.mp3"></audio>
+<audio src="..\..\mp3\这道题要求实现一个二分查找算法.mp3"></audio>
 
 ```js
 
@@ -29,4 +29,4 @@ function binarySearch(arr, target) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案通过二分查找的思想实现.mp3"></audio>
+<audio src="..\..\mp3\解题方案通过二分查找的思想实现.mp3"></audio>

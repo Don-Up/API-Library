@@ -1,6 +1,6 @@
 ### Common Event Types in JavaScript
 
-<audio src="C:\Users\10691\Downloads\JavaScript even.mp3"></audio>
+<audio src="..\..\mp3\JavaScript even.mp3"></audio>
 
 JavaScript events allow interaction with the DOM. Here are some commonly used event types:
 
@@ -13,7 +13,7 @@ JavaScript events allow interaction with the DOM. Here are some commonly used ev
 
 > **常见事件类型**  
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 中的事件.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 中的事件.mp3"></audio>
 >
 > JavaScript 中的事件允许与 DOM 交互。以下是常用的事件类型：  
 >
@@ -28,7 +28,7 @@ JavaScript events allow interaction with the DOM. Here are some commonly used ev
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了常见的JavaS.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了常见的JavaS.mp3"></audio>
 
 #### **`click` Event**
 ```javascript
@@ -76,7 +76,7 @@ document.querySelector("#hoverElement").addEventListener("mouseover", () => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  Use __`DOMC.mp3"></audio>
+<audio src="..\..\mp3\1.  Use __`DOMC.mp3"></audio>
 
 1. Use **`DOMContentLoaded`** for scripts that manipulate the DOM without waiting for other resources.  
 2. Prefer **`input`** for real-time changes and **`change`** for finalized input changes.  

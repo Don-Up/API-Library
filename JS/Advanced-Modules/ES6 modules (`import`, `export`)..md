@@ -1,6 +1,6 @@
 ### ES6 Modules
 
-<audio src="C:\Users\10691\Downloads\ES6 modules ena.mp3"></audio>
+<audio src="..\..\mp3\ES6 modules ena.mp3"></audio>
 
 **ES6 modules** enable modular code by allowing you to export and import functionality across files. They use **`import`** and **`export`** keywords. Each file is treated as a module with its own scope.
 
@@ -16,7 +16,7 @@ Modules are loaded asynchronously and run in strict mode by default.
 
 > **ES6 模块**  
 >
-> <audio src="C:\Users\10691\Downloads\ES6 模块 通过 `impo.mp3"></audio>
+> <audio src="..\..\mp3\ES6 模块 通过 `impo.mp3"></audio>
 >
 > **ES6 模块** 通过 **`import`** 和 **`export`** 关键字，实现跨文件的模块化代码。每个文件是一个独立的模块，具有自己的作用域。  
 >
@@ -32,7 +32,7 @@ Modules are loaded asynchronously and run in strict mode by default.
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (4).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (4).mp3"></audio>
 
 #### **Named Export and Import**
 **`math.js`** (module file):
@@ -71,7 +71,7 @@ console.log(greet("Alice")); // Logs: "Hello, Alice!"
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __`expor.mp3"></audio>
+<audio src="..\..\mp3\1. Use __`expor.mp3"></audio>
 
 1. Use **`export`** for reusable components and **`import`** to access them in other files.  
 2. **Named exports** allow exporting multiple values, while **default exports** are used for a single main value.  

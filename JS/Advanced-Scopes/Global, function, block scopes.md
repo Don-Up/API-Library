@@ -1,6 +1,6 @@
 ### Scopes in JavaScript: Global, Function, and Block
 
-<audio src="C:\Users\10691\Downloads\Scope determine.mp3"></audio>
+<audio src="..\..\mp3\Scope determine.mp3"></audio>
 
 **Scope** determines the accessibility of variables in JavaScript. There are three main types:
 
@@ -16,7 +16,7 @@
 
 > **JavaScript 中的作用域：全局、函数、块作用域**  
 >
->   <audio src="C:\Users\10691\Downloads\作用域 决定了变量的可访问性，.mp3"></audio>
+>   <audio src="..\..\mp3\作用域 决定了变量的可访问性，.mp3"></audio>
 >
 > **作用域** 决定了变量的可访问性，有以下三种类型：
 >
@@ -28,7 +28,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (5).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (5).mp3"></audio>
 
 #### **Global Scope**
 ```javascript
@@ -63,7 +63,7 @@ if (true) {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Global var.mp3"></audio>
+<audio src="..\..\mp3\1. __Global var.mp3"></audio>
 
 1. **Global variables** can lead to conflicts; avoid overusing them.  
 2. Use **`let`** and **`const`** for block-scoped variables to prevent issues with re-declaration.  

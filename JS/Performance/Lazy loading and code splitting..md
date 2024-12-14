@@ -1,6 +1,6 @@
 ### Lazy Loading and Code Splitting in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1.  Lazy Loadin.mp3"></audio>
+<audio src="..\..\mp3\1.  Lazy Loadin.mp3"></audio>
 
 1. **Lazy Loading**:  
    - Delays loading of resources (e.g., images, scripts) until they are needed.  
@@ -16,7 +16,7 @@
 
 > **懒加载与代码分割**  
 >
-> <audio src="C:\Users\10691\Downloads\懒加载：  延迟加载资源（如图.mp3"></audio>
+> <audio src="..\..\mp3\懒加载：  延迟加载资源（如图.mp3"></audio>
 >
 > 1. **懒加载**：  
 >    - 延迟加载资源（如图片、脚本），直到需要时才加载。  

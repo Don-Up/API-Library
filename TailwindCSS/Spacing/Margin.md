@@ -16,7 +16,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\最外层的容器使用了 `m4`，.mp3"></audio>
+<audio src="..\..\mp3\最外层的容器使用了 `m4`，.mp3"></audio>
 
 ```html
 <div class="m-4 bg-gray-200">

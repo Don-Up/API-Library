@@ -1,6 +1,6 @@
 ### `innerHTML` vs. `textContent` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Both `innerHTML.mp3"></audio>
+<audio src="..\..\mp3\Both `innerHTML.mp3"></audio>
 
 Both `innerHTML` and `textContent` are used to manipulate or retrieve the content of an element, but they behave differently.
 
@@ -18,14 +18,14 @@ Both `innerHTML` and `textContent` are used to manipulate or retrieve the conten
 > 都可以操作元素的内容，但有以下区别：  
 > #### **`innerHTML`**：
 >
-> <audio src="C:\Users\10691\Downloads\`innerHTML`：- 获.mp3"></audio>
+> <audio src="..\..\mp3\`innerHTML`：- 获.mp3"></audio>
 >
 > - 获取或设置元素的 **HTML 内容**，包括标签。  
 > - 设置内容时会解析并渲染 HTML。  
 > - 使用不受信输入时可能导致安全问题（容易遭受 XSS 攻击）。  
 > #### **`textContent`**：
 >
-> <audio src="C:\Users\10691\Downloads\`textContent`：-.mp3"></audio>
+> <audio src="..\..\mp3\`textContent`：-.mp3"></audio>
 >
 > - 获取或设置元素的 **纯文本内容**（忽略 HTML 标签）。  
 > - 设置内容时会将 HTML 转义为普通文本。  
@@ -37,7 +37,7 @@ Both `innerHTML` and `textContent` are used to manipulate or retrieve the conten
 
 #### **`innerHTML` Example**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用inne.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用inne.mp3"></audio>
 
 ```javascript
 const div = document.querySelector("#myDiv");
@@ -54,7 +54,7 @@ console.log(div.innerHTML);
 
 #### **`textContent` Example**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`tex.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`tex.mp3"></audio>
 
 ```javascript
 const div = document.querySelector("#myDiv");

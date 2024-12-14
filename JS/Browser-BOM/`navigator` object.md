@@ -1,6 +1,6 @@
 ### The `navigator` Object in BOM
 
-<audio src="C:\Users\10691\Downloads\The __`navigato.mp3"></audio>
+<audio src="..\..\mp3\The __`navigato.mp3"></audio>
 
 The **`navigator` object** represents the browser and provides information about the user's environment. It is part of the Browser Object Model (BOM) and is accessible via `window.navigator`.
 
@@ -17,7 +17,7 @@ The **`navigator` object** represents the browser and provides information about
 
 > **BOM 中的 `navigator` 对象**  
 >
-> <audio src="C:\Users\10691\Downloads\`navigator` 对象 .mp3"></audio>
+> <audio src="..\..\mp3\`navigator` 对象 .mp3"></audio>
 >
 > **`navigator` 对象** 表示浏览器，提供用户环境的信息。通过 `window.navigator` 访问。  
 >
@@ -45,7 +45,7 @@ console.log(navigator.onLine);     // E.g., true (if the browser is online)
 
 #### **Using Geolocation**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`nav.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`nav.mp3"></audio>
 
 ```javascript
 if (navigator.geolocation) {
@@ -65,7 +65,7 @@ if (navigator.geolocation) {
 
 #### **Checking Media Devices**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`nav (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`nav (1).mp3"></audio>
 
 ```javascript
 navigator.mediaDevices.enumerateDevices().then((devices) => {
@@ -78,7 +78,7 @@ navigator.mediaDevices.enumerateDevices().then((devices) => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. The __`navig.mp3"></audio>
+<audio src="..\..\mp3\1. The __`navig.mp3"></audio>
 
 1. The **`navigator` object** is read-only but provides methods to interact with hardware or the environment.  
 2. Use **`geolocation`** for location-based services (requires user permission).  

@@ -1,6 +1,6 @@
 ### Promises with `fetch` for Asynchronous Calls
 
-<audio src="C:\Users\10691\Downloads\The `fetch` API.mp3"></audio>
+<audio src="..\..\mp3\The `fetch` API.mp3"></audio>
 
 The `fetch` API is used to make asynchronous HTTP requests and returns a **Promise**. This promise resolves when the request completes successfully, providing a `Response` object. Use `.then()` to handle the response and `.catch()` for errors.
 
@@ -12,7 +12,7 @@ The `fetch` API is used to make asynchronous HTTP requests and returns a **Promi
 
 > **使用 `fetch` 和 Promises 进行异步调用**  
 >
-> <audio src="C:\Users\10691\Downloads\`fetch` API 用于发.mp3"></audio>
+> <audio src="..\..\mp3\`fetch` API 用于发.mp3"></audio>
 >
 > `fetch` API 用于发起异步 HTTP 请求，并返回一个 **Promise**。当请求成功完成时，Promise 会解析，返回一个 `Response` 对象。  
 > **步骤**：  
@@ -25,7 +25,7 @@ The `fetch` API is used to make asynchronous HTTP requests and returns a **Promi
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用`fetch.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用`fetch.mp3"></audio>
 
 #### **Basic `fetch` Example**
 ```javascript
@@ -71,7 +71,7 @@ fetch("https://jsonplaceholder.typicode.com/posts", {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`fetch`__ .mp3"></audio>
+<audio src="..\..\mp3\1. __`fetch`__ .mp3"></audio>
 
 1. **`fetch`** is promise-based and does not reject on HTTP errors (e.g., `404`), so check `response.ok`.  
 2. Use `.then()` to process the response and `.catch()` for network-related errors.  

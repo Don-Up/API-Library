@@ -1,6 +1,6 @@
 ### Default Parameters in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Default paramet.mp3"></audio>
+<audio src="..\..\mp3\Default paramet.mp3"></audio>
 
 Default parameters allow functions to assign default values to parameters if no value is provided or if the value is `undefined`. Introduced in ES6, this simplifies handling optional parameters.
 
@@ -9,7 +9,7 @@ Default values can be constants, expressions, or even other function calls.
 
 > **默认参数**：
 >
-> <audio src="C:\Users\10691\Downloads\默认参数允许函数在参数未传递或.mp3"></audio>
+> <audio src="..\..\mp3\默认参数允许函数在参数未传递或.mp3"></audio>
 >
 > 默认参数允许函数在参数未传递或传递值为 `undefined` 时，使用默认值。ES6 引入该功能，简化了处理可选参数的逻辑。
 > 语法为：`function(参数 = 默认值)`。默认值可以是常量、表达式或函数调用。
@@ -18,7 +18,7 @@ Default values can be constants, expressions, or even other function calls.
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (4).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (4).mp3"></audio>
 
 #### Basic Example:
 ```javascript

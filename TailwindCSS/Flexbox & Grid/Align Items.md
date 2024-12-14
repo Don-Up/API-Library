@@ -18,7 +18,7 @@
 
 ![image-20241119091636455](C:\Users\10691\AppData\Roaming\Typora\typora-user-images\image-20241119091636455.png)
 
-<audio src="C:\Users\10691\Downloads\这里展示了`flex`布局的` (1).mp3"></audio>
+<audio src="..\..\mp3\这里展示了`flex`布局的` (1).mp3"></audio>
 
 ```html
 <div class="flex items-center h-32 bg-gray-200">

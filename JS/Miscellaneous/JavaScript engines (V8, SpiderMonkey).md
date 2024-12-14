@@ -1,6 +1,6 @@
 ### JavaScript Engines (V8, SpiderMonkey)
 
-<audio src="C:\Users\10691\Downloads\JavaScript engi.mp3"></audio>
+<audio src="..\..\mp3\JavaScript engi.mp3"></audio>
 
 JavaScript engines execute JavaScript code in browsers or environments. **V8** and **SpiderMonkey** are two popular engines:
 
@@ -16,7 +16,7 @@ Both engines parse, compile, and optimize JavaScript code, converting it into ma
 
 > **JavaScript 引擎（V8 和 SpiderMonkey）**
 >
->   <audio src="C:\Users\10691\Downloads\JavaScript 引擎负责.mp3"></audio>
+>   <audio src="..\..\mp3\JavaScript 引擎负责.mp3"></audio>
 > JavaScript 引擎负责执行 JavaScript 代码，常见的有 **V8** 和 **SpiderMonkey**：  
 >
 > 1. **V8**：  
@@ -42,7 +42,7 @@ console.log(greet("World")); // Output: Hello, World!
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __V8__ power.mp3"></audio>
+<audio src="..\..\mp3\1. __V8__ power.mp3"></audio>
 
 1. **V8** powers server-side JavaScript (Node.js) and Chrome.  
 2. **SpiderMonkey** excels in standard compliance and Firefox features.  

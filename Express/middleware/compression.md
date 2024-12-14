@@ -14,7 +14,7 @@
 
 > **compression 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`compression` 是.mp3"></audio>
+> <audio src="..\..\mp3\`compression` 是.mp3"></audio>
 >
 > **`compression`** 是一个 Express.js 中间件，用于通过 Gzip 或 Brotli 压缩 HTTP 响应体，从而减小响应体大小。它通过减少服务器和客户端之间传输的数据量提升性能，使页面加载更快。  
 >

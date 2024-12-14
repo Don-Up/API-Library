@@ -1,6 +1,6 @@
 ### Custom Events in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Custom events a.mp3"></audio>
+<audio src="..\..\mp3\Custom events a.mp3"></audio>
 
 Custom events allow you to define and trigger your own events in JavaScript. They are created using the **`CustomEvent`** constructor.
 
@@ -13,7 +13,7 @@ Custom events allow you to define and trigger your own events in JavaScript. The
 
 > **自定义事件**  
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 中可以定.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 中可以定.mp3"></audio>
 >
 > JavaScript 中可以定义和触发自己的事件，使用 **`CustomEvent`** 构造函数实现。  
 >
@@ -30,7 +30,7 @@ Custom events allow you to define and trigger your own events in JavaScript. The
 
 #### **Creating and Dispatching a Custom Event**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何创建和触发自.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何创建和触发自.mp3"></audio>
 
 ```javascript
 // Create a custom event named "myCustomEvent" with data
@@ -49,7 +49,7 @@ document.dispatchEvent(myEvent); // Logs: "Custom event triggered: Hello, this i
 
 #### **Passing and Accessing Data**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何为某个DOM.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何为某个DOM.mp3"></audio>
 
 ```javascript
 const button = document.querySelector("#myButton");
@@ -70,7 +70,7 @@ button.dispatchEvent(
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  Use __`deta.mp3"></audio>
+<audio src="..\..\mp3\1.  Use __`deta.mp3"></audio>
 
 1. Use **`detail`** in the options to pass data with custom events.  
 2. Custom events can bubble by setting `{ bubbles: true }` in options.  

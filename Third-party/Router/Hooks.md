@@ -11,7 +11,7 @@ These hooks simplify routing logic and allow developers to build dynamic, intera
 > **React Router 钩子**  
 > React Router 提供了强大的钩子，比如 `useNavigate`、`useParams` 和 `useSearchParams`，用于在 React 应用中处理导航、路由参数和查询字符串。  
 >
-> <audio src="C:\Users\10691\Downloads\useNavigate：用于编.mp3"></audio>
+> <audio src="..\..\mp3\useNavigate：用于编.mp3"></audio>
 >
 > 1. **`useNavigate`**：编程式导航，跳转到指定路由。  
 > 2. **`useParams`**：获取动态 URL 参数（如 `/user/:id`）。  
@@ -24,7 +24,7 @@ These hooks simplify routing logic and allow developers to build dynamic, intera
 
 #### **`useNavigate`**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou (4).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou (4).mp3"></audio>
 
 ```javascript
 import React from 'react';
@@ -63,7 +63,7 @@ function App() {
 export default App;
 ```
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou (5).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou (5).mp3"></audio>
 
 
 ```jsx
@@ -115,7 +115,7 @@ export default App;
 
 #### **`useParams`**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou (3).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou (3).mp3"></audio>
 
 ```javascript
 import React from 'react';
@@ -145,7 +145,7 @@ export default App;
 
 #### **`useSearchParams`**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 ReactRou (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 ReactRou (2).mp3"></audio>
 
 ```javascript
 import React from 'react';

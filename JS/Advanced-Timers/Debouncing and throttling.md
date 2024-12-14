@@ -1,6 +1,6 @@
 ### Debouncing and Throttling in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Debouncing and .mp3"></audio>
+<audio src="..\..\mp3\Debouncing and .mp3"></audio>
 
 **Debouncing** and **throttling** optimize performance by controlling how often a function is executed, especially during high-frequency events like scrolling or typing.
 
@@ -14,7 +14,7 @@
 
 > **防抖和节流**  
 >
-> <audio src="C:\Users\10691\Downloads\防抖 和 节流 优化了函数的执.mp3"></audio>
+> <audio src="..\..\mp3\防抖 和 节流 优化了函数的执.mp3"></audio>
 >
 > **防抖** 和 **节流** 优化了函数的执行频率，在滚动、输入等高频事件中尤为重要：  
 >
@@ -31,7 +31,7 @@
 
 #### **Debouncing**
 
-<audio src="C:\Users\10691\Downloads\防抖是一种优化技术，用于限制高.mp3"></audio>
+<audio src="..\..\mp3\防抖是一种优化技术，用于限制高.mp3"></audio>
 
 ```javascript
 function debounce(func, delay) {
@@ -53,7 +53,7 @@ document.getElementById("searchInput").addEventListener("input", onSearch);
 
 #### **Throttling**
 
-<audio src="C:\Users\10691\Downloads\节流是一种优化技术，用于限制某.mp3"></audio>
+<audio src="..\..\mp3\节流是一种优化技术，用于限制某.mp3"></audio>
 
 ```javascript
 function throttle(func, interval) {
@@ -78,7 +78,7 @@ window.addEventListener("scroll", onScroll);
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __Debouncin.mp3"></audio>
+<audio src="..\..\mp3\1.  __Debouncin.mp3"></audio>
 
 1. **Debouncing** waits for the event to stop before executing the function.  
 2. **Throttling** ensures the function runs at fixed intervals during frequent events.  

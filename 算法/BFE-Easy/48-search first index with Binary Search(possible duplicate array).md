@@ -2,7 +2,7 @@
 
 这道题要求实现一个二分查找算法，用于在一个升序数组（可能包含重复元素）中找到目标值 `target` 的第一个索引。如果目标值存在，返回其第一个出现位置的索引；如果不存在，返回 -1。输入包括一个升序数组 `arr` 和目标值 `target`，输出是一个整数，表示目标值的第一个索引或 -1。
 
-<audio src="C:\Users\10691\Downloads\这道题要求实现一个二分查找算法 (1).mp3"></audio>
+<audio src="..\..\mp3\这道题要求实现一个二分查找算法 (1).mp3"></audio>
 
 ```js
 /**
@@ -21,7 +21,7 @@ function firstIndex(arr, target){
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解题方案基于二分查找的思想进行.mp3"></audio>
+<audio src="..\..\mp3\解题方案基于二分查找的思想进行.mp3"></audio>
 
 ```js
     const mid = (left + right) >> 1;

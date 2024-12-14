@@ -1,6 +1,6 @@
 ### `super` Keyword in JavaScript
 
-<audio src="C:\Users\10691\Downloads\The __`super`__.mp3"></audio>
+<audio src="..\..\mp3\The __`super`__.mp3"></audio>
 
 The **`super`** keyword refers to the **parent class** (or prototype) and is used in classes:  
 
@@ -11,7 +11,7 @@ It is typically used in ES6 `class` syntax for inheritance.
 
 > **`super` 关键字**:
 >
-> <audio src="C:\Users\10691\Downloads\`super` 关键字指向父类.mp3"></audio>
+> <audio src="..\..\mp3\`super` 关键字指向父类.mp3"></audio>
 >
 > **`super`** 关键字指向**父类**（或原型），在 `class` 中使用：  
 >
@@ -23,7 +23,7 @@ It is typically used in ES6 `class` syntax for inheritance.
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (12).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (12).mp3"></audio>
 
 #### **Using `super()` in Constructor**
 ```javascript

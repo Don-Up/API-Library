@@ -1,6 +1,6 @@
 ### Webpack
 
-<audio src="C:\Users\10691\Downloads\Webpack is a po.mp3"></audio>
+<audio src="..\..\mp3\Webpack is a po.mp3"></audio>
 
 **Webpack** is a powerful **module bundler** for JavaScript applications. It processes files such as JavaScript, CSS, images, and more, bundling them into a single file (or multiple files) for the browser. Webpack uses a dependency graph to understand how modules relate to each other, enabling efficient bundling.  
 
@@ -13,7 +13,7 @@
 
 > **Webpack**  
 >
-> <audio src="C:\Users\10691\Downloads\Webpack 是一个强大的 .mp3"></audio>
+> <audio src="..\..\mp3\Webpack 是一个强大的 .mp3"></audio>
 >
 > **Webpack** 是一个强大的 **模块打包工具**，用于 JavaScript 应用程序。它处理 JavaScript、CSS、图片等文件，并将它们打包成一个文件（或多个文件）供浏览器使用。Webpack 使用依赖图理解模块间的关系，从而高效地进行打包。  
 > **主要特点**：  
@@ -27,7 +27,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用Webp.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用Webp.mp3"></audio>
 
 #### **Basic Webpack Configuration**
 ```javascript
@@ -77,7 +77,7 @@ body {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Loaders__ .mp3"></audio>
+<audio src="..\..\mp3\1. __Loaders__ .mp3"></audio>
 
 1. **Loaders** handle file transformations (e.g., `css-loader` for CSS, `babel-loader` for ES6+ JavaScript).  
 2. **Plugins** enhance Webpack’s capabilities (e.g., `HtmlWebpackPlugin` for generating an HTML file).  

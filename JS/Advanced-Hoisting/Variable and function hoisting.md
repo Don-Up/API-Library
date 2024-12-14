@@ -1,6 +1,6 @@
 ### Variable and Function Hoisting in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Hoisting__ is.mp3"></audio>
+<audio src="..\..\mp3\__Hoisting__ is.mp3"></audio>
 
 **Hoisting** is JavaScript's behavior of moving declarations to the top of their scope during the compilation phase.
 
@@ -14,7 +14,7 @@
 
 > **变量和函数提升**  
 >
-> <audio src="C:\Users\10691\Downloads\在 JavaScript 中， (2).mp3"></audio>
+> <audio src="..\..\mp3\在 JavaScript 中， (2).mp3"></audio>
 >
 > 在 JavaScript 中，**提升** 是指在编译阶段将变量和函数声明移动到其作用域顶部的行为。  
 >
@@ -29,7 +29,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (2).mp3"></audio>
 
 #### **Variable Hoisting**
 ```javascript

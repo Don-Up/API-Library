@@ -1,6 +1,6 @@
 ### Iterating Over `Set` and `Map`
 
-<audio src="C:\Users\10691\Downloads\1. __`Set` Iter.mp3"></audio>
+<audio src="..\..\mp3\1. __`Set` Iter.mp3"></audio>
 
 1. **`Set` Iteration**:
    - Use `for...of` or `.forEach()` to iterate over values.
@@ -13,7 +13,7 @@
 
 > **遍历 `Set` 和 `Map`**  
 >
-> <audio src="C:\Users\10691\Downloads\`Set` 的遍历 ：  使用.mp3"></audio>
+> <audio src="..\..\mp3\`Set` 的遍历 ：  使用.mp3"></audio>
 >
 > 1. **`Set` 的遍历**：  
 >    - 使用 `for...of` 或 `.forEach()` 遍历**值**。  
@@ -27,7 +27,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何迭代`Set.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何迭代`Set.mp3"></audio>
 
 #### **Iterating Over `Set`**
 ```javascript
@@ -70,7 +70,7 @@ for (const value of myMap.values()) {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`Set`___ U.mp3"></audio>
+<audio src="..\..\mp3\1. __`Set`___ U.mp3"></audio>
 
 1. **`Set`**: Use `values()` or `entries()` for iteration.  
 2. **`Map`**: Use `keys()`, `values()`, or `entries()` for specific iterations.  

@@ -4,11 +4,11 @@
 
 - **`res.get(field)`**: This method retrieves the value of a specific response header that has been set.
 
-- <audio src="../../../../Downloads/- __`res.set(fi.mp3"></audio>
+- <audio src="..\..\mp3\- __`res.set(fi.mp3"></audio>
 
 > **`res.set(field, [value])` 和 `res.get(field)`**：`res.set()` 用于设置 HTTP 响应头。当仅提供 `field` 作为对象时，可以一次设置多个头部。提供 `field` 和 `value` 时设置单个头部。`res.get()` 用于获取已设置的响应头的值。
 >
-> <audio src="../../../../Downloads/`res.set(field,.mp3"></audio>
+> <audio src="..\..\mp3\`res.set(field,.mp3"></audio>
 
 | Parameter | Description                        | Example Argument                    |
 | --------- | ---------------------------------- | ----------------------------------- |
@@ -17,7 +17,7 @@
 
 #### Example:
 
-<audio src="../../../../Downloads/在这段代码中，`res.set.mp3"></audio>
+<audio src="..\..\mp3\在这段代码中，`res.set.mp3"></audio>
 
 ```js
 const express = require('express');

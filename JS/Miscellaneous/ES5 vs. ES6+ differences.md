@@ -1,6 +1,6 @@
 ### ES5 vs. ES6+ Differences
 
-<audio src="C:\Users\10691\Downloads\__ES5__ (2009) .mp3"></audio>
+<audio src="..\..\mp3\__ES5__ (2009) .mp3"></audio>
 
 **ES5** (2009) introduced foundational features like **strict mode** and array methods (`forEach`, `map`). **ES6+** (2015 onward) brought modern syntax and features for better readability, performance, and modularity, including:
 
@@ -13,7 +13,7 @@
 
 > **ES5 vs. ES6+ 区别**  
 >
-> <audio src="C:\Users\10691\Downloads\ES5（2009）引入了基础特.mp3"></audio>
+> <audio src="..\..\mp3\ES5（2009）引入了基础特.mp3"></audio>
 >
 > **ES5**（2009）引入了基础特性，如 **严格模式** 和数组方法（`forEach`、`map`）。**ES6+**（2015 及以后）带来了更现代的语法和特性，提高了代码可读性、性能和模块化：  
 >
@@ -28,7 +28,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码对比了ES5和ES6+.mp3"></audio>
+<audio src="..\..\mp3\这段代码对比了ES5和ES6+.mp3"></audio>
 
 #### **ES5**
 ```javascript
@@ -60,7 +60,7 @@ console.log(doubled); // [2, 4, 6]
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __ES6+__ imp.mp3"></audio>
+<audio src="..\..\mp3\1. __ES6+__ imp.mp3"></audio>
 
 1. **ES6+** improves syntax clarity and enables modern features like classes, async/await, and modules.  
 2. Use **transpilers** like Babel for ES6+ compatibility in older environments.  

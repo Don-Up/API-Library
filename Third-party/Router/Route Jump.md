@@ -9,7 +9,7 @@
 
 > **React Router 6 中的路由跳转**  
 >
-> <audio src="C:\Users\10691\Downloads\路由跳转是指通过编程方式在路由.mp3"></audio>
+> <audio src="..\..\mp3\路由跳转是指通过编程方式在路由.mp3"></audio>
 >
 > **路由跳转** 是指在通过编程方式在路由之间导航。使用 `useNavigate` 钩子代替了 React Router v5 的 `useHistory` 钩子。`useNavigate` 提供了 `navigate` 方法，用于跳转到特定路由、传递状态或控制导航行为（如替换历史记录）。  
 >
@@ -24,7 +24,7 @@
 
 #### **Basic Route Jump**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用了ReactRou.mp3"></audio>
+<audio src="..\..\mp3\这段代码使用了ReactRou.mp3"></audio>
 
 ```javascript
 import React from 'react';
@@ -70,7 +70,7 @@ export default App;
 
 #### **Passing State During Navigation**
 
-<audio src="C:\Users\10691\Downloads\这段代码扩展了 ReactRo.mp3"></audio>
+<audio src="..\..\mp3\这段代码扩展了 ReactRo.mp3"></audio>
 
 ```javascript
 function Home() {
@@ -102,7 +102,7 @@ function About() {
 
 #### **Replace History**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 ReactRo.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 ReactRo.mp3"></audio>
 
 ```javascript
 function Home() {

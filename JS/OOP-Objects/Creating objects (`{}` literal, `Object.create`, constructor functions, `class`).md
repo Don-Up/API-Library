@@ -1,6 +1,6 @@
 ### Creating Objects in JavaScript
 
-<audio src="C:\Users\10691\Downloads\JavaScript prov.mp3"></audio>
+<audio src="..\..\mp3\JavaScript prov.mp3"></audio>
 
 JavaScript provides multiple ways to create objects:
 
@@ -11,7 +11,7 @@ JavaScript provides multiple ways to create objects:
 
 > **创建对象**：
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 提供多种.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 提供多种.mp3"></audio>
 >
 > JavaScript 提供多种方法创建对象：  
 >
@@ -24,7 +24,7 @@ JavaScript provides multiple ways to create objects:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (8).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (8).mp3"></audio>
 
 #### **Object Literal**
 ```javascript

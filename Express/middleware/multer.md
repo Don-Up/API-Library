@@ -14,7 +14,7 @@
 
 > **multer 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`multer` 是一个用于处.mp3"></audio>
+> <audio src="..\..\mp3\`multer` 是一个用于处.mp3"></audio>
 >
 > **`multer`** 是一个用于处理 `multipart/form-data` 的中间件，通常用于在 Express.js 应用中上传文件。它可以处理传入的文件，并将其存储在内存或文件系统中。上传的文件可通过 `req.file`（单个文件）或 `req.files`（多个文件）访问。  
 >
@@ -39,7 +39,7 @@ npm install multer
 
 #### **Basic Usage (Single File Upload)**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `mu.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `mu.mp3"></audio>
 
 ```javascript
 const express = require('express');
@@ -63,7 +63,7 @@ app.listen(3000, () => {
 
 #### **Handling Multiple File Uploads**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用 `mult.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用 `mult.mp3"></audio>
 
 ```javascript
 app.post('/upload-multiple', upload.array('files', 5), (req, res) => {
@@ -76,7 +76,7 @@ app.post('/upload-multiple', upload.array('files', 5), (req, res) => {
 
 #### **Custom Storage Configuration**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `mu (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `mu (1).mp3"></audio>
 
 ```javascript
 const storage = multer.diskStorage({
@@ -98,7 +98,7 @@ app.post('/upload-custom', uploadWithStorage.single('file'), (req, res) => {
 
 #### **File Validation**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `mu (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `mu (2).mp3"></audio>
 
 ```javascript
 const uploadWithValidation = multer({

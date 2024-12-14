@@ -1,6 +1,6 @@
 ### Closures in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A closure is a .mp3"></audio>
+<audio src="..\..\mp3\A closure is a .mp3"></audio>
 
 A **closure** is a function that "remembers" the variables from its **outer scope** even after the outer function has executed. Closures are created when a function is defined inside another function and accesses variables from the outer scope.
 
@@ -13,7 +13,7 @@ A **closure** is a function that "remembers" the variables from its **outer scop
 
 > **闭包**  
 >
-> <audio src="C:\Users\10691\Downloads\闭包是一个函数，即使外部函数已.mp3"></audio>
+> <audio src="..\..\mp3\闭包是一个函数，即使外部函数已.mp3"></audio>
 >
 > **闭包** 是一个函数，即使外部函数已经执行结束，它仍然“记住”其 **外部作用域** 中的变量。  
 >

@@ -15,7 +15,7 @@
 
 > **helmet 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`helmet` 是一个 Ex.mp3"></audio>
+> <audio src="..\..\mp3\`helmet` 是一个 Ex.mp3"></audio>
 >
 > **`helmet`** 是一个 Express.js 的中间件，通过设置各种 HTTP 头增强应用程序的安全性。这些头可以帮助防止常见的漏洞，例如跨站脚本攻击（XSS）、点击劫持等。  
 >
@@ -30,15 +30,15 @@
 >
 > > **X-Powered-By** 是一个 HTTP 响应头，通常用于表明服务器所使用的技术栈（如 Express、PHP 等）。它有助于开发者调试，但可能**暴露服务器信息**，增加潜在的安全风险。因此，生产环境中通常会隐藏或移除该头以提高安全性，例如在 Express 中使用 app.disable('x-powered-by')。
 > >
-> > <audio src="C:\Users\10691\Downloads\X-Powered-By 是一.mp3"></audio>
+> > <audio src="..\..\mp3\X-Powered-By 是一.mp3"></audio>
 >
 > > **`X-Frame-Options`** 是一个 HTTP 响应头，用于防止网页被嵌入到 `iframe` 中，从而抵御**点击劫持攻击**。它有三个值：`DENY`（完全禁止嵌入）、`SAMEORIGIN`（仅允许相同来源嵌入）和 `ALLOW-FROM`（允许特定来源嵌入，但已被废弃）。常与安全中间件（如 Helmet）一起使用。
 > >
-> > <audio src="C:\Users\10691\Downloads\X-Frame-Options.mp3"></audio>
+> > <audio src="..\..\mp3\X-Frame-Options.mp3"></audio>
 >
 > > **`X-Content-Type-Options`** 是一个 HTTP 响应头，用于防止浏览器通过内容嗅探将资源解析为错误的 MIME 类型。它的常用值是 `nosniff`，表示浏览器必须严格按照服务器声明的 `Content-Type` 解析资源。这有助于防止某些**跨站脚本攻击（XSS）和 MIME 类型混淆攻击**。
 > >
-> > <audio src="C:\Users\10691\Downloads\`X-Content-Type.mp3"></audio>
+> > <audio src="..\..\mp3\`X-Content-Type.mp3"></audio>
 
 ---
 

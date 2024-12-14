@@ -1,6 +1,6 @@
 ### Mixins and Composition in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Mixins__ are .mp3"></audio>
+<audio src="..\..\mp3\__Mixins__ are .mp3"></audio>
 
 **Mixins** are a way to reuse code by combining properties or methods from multiple objects into one. They enable **composition** by avoiding deep inheritance hierarchies. Instead of using `extends`, mixins allow functionality to be "mixed in" to objects or classes.
 
@@ -8,7 +8,7 @@
 
 > **Mixins 和组合**：
 >
-> <audio src="C:\Users\10691\Downloads\Mixins 是一种代码复用的.mp3"></audio>
+> <audio src="..\..\mp3\Mixins 是一种代码复用的.mp3"></audio>
 >
 > **Mixins** 是一种代码复用的方式，通过将多个对象的属性或方法组合到一个对象中。它们通过**组合**避免深层的继承结构。  
 > 与 `extends` 不同，Mixins 可以将功能“混入”对象或类中。  
@@ -18,7 +18,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (14).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (14).mp3"></audio>
 
 #### **Mixin Example**
 ```javascript

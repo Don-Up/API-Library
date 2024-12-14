@@ -1,6 +1,6 @@
 ### ES6 Classes and `extends` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__ES6 Classes__.mp3"></audio>
+<audio src="..\..\mp3\__ES6 Classes__.mp3"></audio>
 
 **ES6 Classes** provide a cleaner, more syntactic way to create objects and implement inheritance. The **`extends`** keyword is used to create a child class that inherits properties and methods from a parent class.  
 
@@ -12,7 +12,7 @@ Classes and `extends` enable object-oriented programming (OOP) in JavaScript.
 
 > **ES6 类与 `extends`**：
 >
-> <audio src="C:\Users\10691\Downloads\ES6 类提供了一种更简洁的语.mp3"></audio>
+> <audio src="..\..\mp3\ES6 类提供了一种更简洁的语.mp3"></audio>
 >
 > **ES6 类**提供了一种更简洁的语法来创建对象和实现继承。  
 > **`extends`** 用于创建子类，使其继承父类的属性和方法：  
@@ -25,7 +25,7 @@ Classes and `extends` enable object-oriented programming (OOP) in JavaScript.
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (13).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (13).mp3"></audio>
 
 #### **Basic Class Inheritance**
 ```javascript

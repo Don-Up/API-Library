@@ -14,7 +14,7 @@
 
 > **React.StrictMode 在 React 中的作用** 
 >
->  <audio src="C:\Users\10691\Downloads\React.StrictMod.mp3"></audio>
+>  <audio src="..\..\mp3\React.StrictMod.mp3"></audio>
 > **`React.StrictMode`** 是 React 的一个开发工具，用于帮助识别应用中的潜在问题。它会对其子组件启用额外的检查和警告，例如检测不安全的生命周期方法、意外的副作用以及被废弃的 API。它仅在开发模式下运行，不影响生产环境的构建。  
 >
 > 1. **使用场景**：  

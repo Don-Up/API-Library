@@ -2,7 +2,7 @@
 
 这道题要求实现一个大整数相加的函数 `add`，输入是两个非负整数的字符串形式，输出是它们的和的字符串表示。不能直接使用 JavaScript 的 `BigInt`，需要通过手动模拟逐位相加的方式来实现大整数的加法运算。输入参数为两个字符串 `num1` 和 `num2`，返回值是表示相加结果的字符串。
 
-<audio src="C:\Users\10691\Downloads\这道题要求实现一个大整数相加的.mp3"></audio>
+<audio src="..\..\mp3\这道题要求实现一个大整数相加的.mp3"></audio>
 
 ```js
 
@@ -30,4 +30,4 @@ function add(num1, num2) {
 }
 ```
 
-<audio src="C:\Users\10691\Downloads\解决方案通过模拟手动竖式加法来.mp3"></audio>
+<audio src="..\..\mp3\解决方案通过模拟手动竖式加法来.mp3"></audio>

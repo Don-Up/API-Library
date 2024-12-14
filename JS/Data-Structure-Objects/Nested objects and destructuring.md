@@ -1,6 +1,6 @@
 ### Nested Objects and Destructuring in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Nested Objects_.mp3"></audio>
+<audio src="..\..\mp3\Nested Objects_.mp3"></audio>
 
 1. **Nested Objects**:
    - Objects can contain other objects as values, forming a hierarchy.
@@ -15,7 +15,7 @@
 
 > **嵌套对象与对象解构**  
 >
-> <audio src="C:\Users\10691\Downloads\嵌套对象：  对象的值可以是其.mp3"></audio>
+> <audio src="..\..\mp3\嵌套对象：  对象的值可以是其.mp3"></audio>
 >
 > 1. **嵌套对象**：  
 >    - 对象的值可以是其他对象，形成层级结构。  
@@ -30,7 +30,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何操作和解构嵌.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何操作和解构嵌.mp3"></audio>
 
 #### **Nested Objects**
 ```javascript
@@ -63,7 +63,7 @@ console.log(phone); // "N/A" (because `phone` is undefined)
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Match the st.mp3"></audio>
+<audio src="..\..\mp3\1. Match the st.mp3"></audio>
 
 1. Match the structure of the object during destructuring.  
 2. Use default values to handle missing properties.  

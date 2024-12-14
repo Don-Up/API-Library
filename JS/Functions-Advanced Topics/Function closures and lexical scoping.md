@@ -1,6 +1,6 @@
 ### Function Closures and Lexical Scoping in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A __closure__ i.mp3"></audio>
+<audio src="..\..\mp3\A __closure__ i.mp3"></audio>
 
 A **closure** is formed when a function "remembers" variables from its **lexical scope** (the scope in which it was declared) even after the outer function has executed. Closures allow functions to access variables from their parent scope.  
 
@@ -8,7 +8,7 @@ A **closure** is formed when a function "remembers" variables from its **lexical
 
 > **函数闭包和词法作用域**：
 >
-> <audio src="C:\Users\10691\Downloads\闭包是在函数执行完后，内部函数.mp3"></audio>
+> <audio src="..\..\mp3\闭包是在函数执行完后，内部函数.mp3"></audio>
 >
 > **闭包**是在函数执行完后，内部函数仍然“记住”其**词法作用域**中的变量的现象。闭包使函数可以访问其外部作用域中的变量。  
 > **词法作用域**：JavaScript 根据变量声明的位置来决定其作用域，而不是根据运行时的位置。
@@ -17,7 +17,7 @@ A **closure** is formed when a function "remembers" variables from its **lexical
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (7).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (7).mp3"></audio>
 
 #### **Basic Closure**
 ```javascript

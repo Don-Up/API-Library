@@ -15,7 +15,7 @@
 
 > **express-validator 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`express-valida.mp3"></audio>
+> <audio src="..\..\mp3\`express-valida.mp3"></audio>
 >
 > **`express-validator`** 是一个用于在 Express.js 应用中验证和清理传入请求数据的中间件。它提供了一组方法，用于验证 `req.body`、`req.query` 或 `req.params` 中的字段，并确保数据符合指定的条件。  
 >
@@ -41,7 +41,7 @@ npm install express-validator
 
 #### **Basic Usage (Validation and Error Handling)**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 `express.mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 `express.mp3"></audio>
 
 ```javascript
 const express = require('express');
@@ -75,7 +75,7 @@ app.listen(3000, () => {
 
 #### **Sanitizing Input**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 `express (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 `express (1).mp3"></audio>
 
 ```javascript
 const { body } = require('express-validator');
@@ -96,7 +96,7 @@ app.post(
 
 #### **Custom Validators**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 `express (2).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 `express (2).mp3"></audio>
 
 ```javascript
 const { body } = require('express-validator');
@@ -132,7 +132,7 @@ app.post(
 
 #### Example of Error Formatting:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `ex (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `ex (1).mp3"></audio>
 
 ```javascript
 const { validationResult } = require('express-validator');

@@ -1,6 +1,6 @@
 ### Event Handling in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Event handling .mp3"></audio>
+<audio src="..\..\mp3\Event handling .mp3"></audio>
 
 Event handling in JavaScript allows interaction with the DOM by responding to user actions (e.g., clicks, keypresses). Important concepts include:
 
@@ -24,25 +24,25 @@ Event handling in JavaScript allows interaction with the DOM by responding to us
 > JavaScript 的事件处理允许通过响应用户操作（如点击、按键）与 DOM 交互。主要概念包括：  
 > #### **1. `addEventListener`**：
 >
-> <audio src="C:\Users\10691\Downloads\`addEventListen.mp3"></audio>
+> <audio src="..\..\mp3\`addEventListen.mp3"></audio>
 >
 > - 将事件监听器附加到元素上。  
 > - 语法：`element.addEventListener(event, handler, options)`，其中 `options` 可控制事件传播（冒泡或捕获）。  
 > #### **2. 事件传播**：
 >
-> <audio src="C:\Users\10691\Downloads\事件传播：- 冒泡（Bubbl.mp3"></audio>
+> <audio src="..\..\mp3\事件传播：- 冒泡（Bubbl.mp3"></audio>
 >
 > - **冒泡（Bubbling）**：事件从目标元素向上传播到其祖先元素。  
 > - **捕获（Capturing）**：事件从根元素向下传播到目标元素。  
 > - 使用 `addEventListener` 的 `capture` 选项控制传播。  
 > #### **3. 事件委托**：
 >
-> <audio src="C:\Users\10691\Downloads\事件委托：- 使用父元素监听子.mp3"></audio>
+> <audio src="..\..\mp3\事件委托：- 使用父元素监听子.mp3"></audio>
 >
 > - 使用父元素监听子元素的事件，适合动态生成的元素。  
 > #### **4. 移除事件监听器**：
 >
-> <audio src="C:\Users\10691\Downloads\移除事件监听器：- 使用 `r.mp3"></audio>
+> <audio src="..\..\mp3\移除事件监听器：- 使用 `r.mp3"></audio>
 >
 > - 使用 `removeEventListener` 解除监听。
 
@@ -60,7 +60,7 @@ button.addEventListener("click", () => {
 
 #### **Event Propagation: Bubbling and Capturing**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri.mp3"></audio>
 
 ```javascript
 const parent = document.querySelector(".parent");
@@ -81,7 +81,7 @@ parent.addEventListener("click", () => console.log("Parent clicked (capturing)!"
 
 #### **Event Delegation**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了事件委托的用法，.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了事件委托的用法，.mp3"></audio>
 
 ```javascript
 const list = document.querySelector("#list");
@@ -100,7 +100,7 @@ list.appendChild(newItem);
 
 #### **Removing an Event Listener**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何通过Java (4).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何通过Java (4).mp3"></audio>
 
 ```javascript
 function logClick() {

@@ -1,6 +1,6 @@
 ### Loose (`==`) vs. Strict Equality (`===`) in JavaScript
 
-<audio src="C:\Users\10691\Downloads\1. Loose Equali.mp3"></audio>
+<audio src="..\..\mp3\1. Loose Equali.mp3"></audio>
 
 1. **Loose Equality (`==`)**:
    - Compares two values **after type coercion**.
@@ -17,7 +17,7 @@
 
 > **宽松相等 (`==`) 与严格相等 (`===`)**  
 >
-> <audio src="C:\Users\10691\Downloads\宽松相等：     - 在比较.mp3"></audio>
+> <audio src="..\..\mp3\宽松相等：     - 在比较.mp3"></audio>
 >
 > 1. **宽松相等 (`==`)**：  
 >    - 在比较前会进行**类型强制转换**。  

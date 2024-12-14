@@ -2,7 +2,7 @@
 
 JavaScript has **7 primitive data types**:
 
-<audio src="C:\Users\10691\Downloads\String_ Represe.mp3"></audio>
+<audio src="..\..\mp3\String_ Represe.mp3"></audio>
 
 1. **`string`**: Represents text (e.g., `"hello"`).
 2. **`number`**: Represents integers and floating-point numbers (e.g., `42`, `3.14`).
@@ -16,7 +16,7 @@ These types are **immutable** (except `bigint` and `symbol`) and compared by val
 
 > JavaScript 有 **7 种原始数据类型**：
 >
-> <audio src="C:\Users\10691\Downloads\`string`：表示文本（如.mp3"></audio>
+> <audio src="..\..\mp3\`string`：表示文本（如.mp3"></audio>
 >
 > 1. **`string`**：表示文本（如 `"hello"`）。
 > 2. **`number`**：表示整数和浮点数（如 `42`，`3.14`）。

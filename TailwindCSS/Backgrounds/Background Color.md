@@ -20,7 +20,7 @@
 
 ![image-20241119101101206](C:\Users\10691\AppData\Roaming\Typora\typora-user-images\image-20241119101101206.png)
 
-<audio src="C:\Users\10691\Downloads\这里展示了`bg`相关属性的用.mp3"></audio>
+<audio src="..\..\mp3\这里展示了`bg`相关属性的用.mp3"></audio>
 
 ```html
 <div class="space-y-4 p-4">

@@ -1,6 +1,6 @@
 ### `Object.keys()`, `Object.values()`, `Object.entries()` in JavaScript
 
-<audio src="C:\Users\10691\Downloads\These methods a.mp3"></audio>
+<audio src="..\..\mp3\These methods a.mp3"></audio>
 
 These methods are used to extract specific data from objects:  
 
@@ -12,7 +12,7 @@ These methods are useful for iterating over objects or converting them into arra
 
 > **`Object.keys()`、`Object.values()` 和 `Object.entries()`**：
 >
-> <audio src="C:\Users\10691\Downloads\_这些方法用于提取对象中的特定.mp3"></audio>
+> <audio src="..\..\mp3\_这些方法用于提取对象中的特定.mp3"></audio>
 >
 > 这些方法用于提取对象中的特定数据：  
 >
@@ -25,7 +25,7 @@ These methods are useful for iterating over objects or converting them into arra
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (15).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (15).mp3"></audio>
 
 #### **`Object.keys()`**
 ```javascript

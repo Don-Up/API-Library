@@ -2,7 +2,7 @@
 
 The **`...` operator** serves two purposes:  
 
-<audio src="C:\Users\10691\Downloads\__Rest Syntax__.mp3"></audio>
+<audio src="..\..\mp3\__Rest Syntax__.mp3"></audio>
 
 1. **Rest Syntax**: Collects multiple arguments into a single array. It is used in function parameters to handle a variable number of arguments.  
 2. **Spread Syntax**: Expands an array, object, or iterable into individual elements. It is often used to copy or merge arrays/objects.  
@@ -15,7 +15,7 @@ The **`...` operator** serves two purposes:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (5).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (5).mp3"></audio>
 
 #### **Rest Syntax**
 ```javascript

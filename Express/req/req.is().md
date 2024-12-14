@@ -2,11 +2,11 @@
 
 - **`req.is(type)`**: This method checks if the incoming request's `Content-Type` header matches the specified MIME type. It can take a full MIME type (e.g., `'application/json'`) or a shorthand (e.g., `'json'`). If the request matches the specified type, it returns `true`; otherwise, it returns `false`.
 
-- <audio src="../../../../Downloads/__`req.is(type).mp3"></audio>
+- <audio src="..\..\mp3\__`req.is(type).mp3"></audio>
 
 > **`req.is(type)`**：此方法用于**检查传入请求的 `Content-Type` 头是否与指定的 MIME 类型匹配**。它可以接受完整的 MIME 类型（如 `'application/json'`）或简写（如 `'json'`）。如果请求匹配指定类型，则返回 `true`；否则返回 `false`。
 >
-> <audio src="../../../../Downloads/req.is(type)：此方.mp3"></audio>
+> <audio src="..\..\mp3\req.is(type)：此方.mp3"></audio>
 
 | Parameter | Description                                 | Example Value                  |
 | --------- | ------------------------------------------- | ------------------------------ |
@@ -14,7 +14,7 @@
 
 #### Example:
 
-<audio src="../../../../Downloads/`req.is(type)` .mp3"></audio>
+<audio src="..\..\mp3\`req.is(type)` .mp3"></audio>
 
 ```js
 const express = require('express');

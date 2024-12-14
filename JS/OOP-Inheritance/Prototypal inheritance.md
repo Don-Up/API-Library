@@ -1,6 +1,6 @@
 ### Prototypal Inheritance in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__Prototypal in.mp3"></audio>
+<audio src="..\..\mp3\__Prototypal in.mp3"></audio>
 
 **Prototypal inheritance** allows objects to inherit properties and methods from other objects via the prototype chain. Each object has an internal reference to its prototype, accessible via `__proto__` (deprecated, use `Object.getPrototypeOf`).  
 
@@ -8,7 +8,7 @@ Inheritance enables reusing functionality without duplicating code. Modification
 
 > **原型继承**：
 >
-> <audio src="C:\Users\10691\Downloads\JavaScript 的原型继.mp3"></audio>
+> <audio src="..\..\mp3\JavaScript 的原型继.mp3"></audio>
 >
 > JavaScript 的**原型继承**使对象可以通过原型链继承其他对象的属性和方法。每个对象都有一个内部引用指向其原型，通过 `__proto__`（已弃用，推荐使用 `Object.getPrototypeOf`）访问。  
 > 原型继承支持代码复用，对原型的修改会影响所有继承它的对象。
@@ -17,7 +17,7 @@ Inheritance enables reusing functionality without duplicating code. Modification
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (11).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (11).mp3"></audio>
 
 #### **Basic Prototypal Inheritance**
 ```javascript

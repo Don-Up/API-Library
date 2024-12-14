@@ -1,6 +1,6 @@
 ### Polyfills and Transpilers (e.g., Babel)
 
-<audio src="C:\Users\10691\Downloads\Polyfills_  Pro.mp3"></audio>
+<audio src="..\..\mp3\Polyfills_  Pro.mp3"></audio>
 
 1. **Polyfills**:  
    - Provide missing features in older environments by adding fallback implementations (e.g., `Promise`, `fetch`).  
@@ -14,7 +14,7 @@
 
 > **Polyfills 和 Transpilers（如 Babel）**  
 >
-> <audio src="C:\Users\10691\Downloads\Polyfills：     .mp3"></audio>
+> <audio src="..\..\mp3\Polyfills：     .mp3"></audio>
 >
 > 1. **Polyfills**：  
 >    - 为旧环境提供缺失功能的回退实现（如 `Promise`、`fetch`）。  
@@ -30,7 +30,7 @@
 
 #### **Using a Polyfill**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何为旧环境添加.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何为旧环境添加.mp3"></audio>
 
 ```javascript
 // Add a polyfill for Promise in older environments
@@ -45,7 +45,7 @@ Promise.resolve("Polyfill works!").then(console.log);
 
 #### **Using Babel (via CLI)**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用Babe.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用Babe.mp3"></audio>
 
 1. Install Babel:
    ```bash
@@ -85,7 +85,7 @@ console.log(greet());
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __polyfi.mp3"></audio>
+<audio src="..\..\mp3\1. Use __polyfi.mp3"></audio>
 
 1. Use **polyfills** for missing features and **Babel** to ensure modern code runs in older environments.  
 2. Babel + **`@babel/preset-env`** targets specific browsers based on your configuration.  

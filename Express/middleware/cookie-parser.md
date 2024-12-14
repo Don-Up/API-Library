@@ -14,7 +14,7 @@
 
 > **cookie-parser 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`cookie-parser`.mp3"></audio>
+> <audio src="..\..\mp3\`cookie-parser`.mp3"></audio>
 >
 > **`cookie-parser`** 是 Express.js 的一个中间件，用于从传入 HTTP 请求的 `Cookie` 头解析 cookie。解析后的 cookie 可以通过 `req.cookies`（普通 cookie）和 `req.signedCookies`（签名的 cookie）访问。签名的 cookie 使用密钥确保数据完整性。  
 >
@@ -37,7 +37,7 @@ npm install cookie-parser
 
 #### **Basic Usage**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `co.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `co.mp3"></audio>
 
 ```javascript
 const express = require('express');
@@ -65,7 +65,7 @@ app.listen(3000, () => {
 
 #### **Using Signed Cookies**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `co (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `co (1).mp3"></audio>
 
 ```javascript
 const express = require('express');

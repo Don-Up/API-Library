@@ -1,6 +1,6 @@
 ### Hoisting Differences: `var`, `let`, and `const`
 
-<audio src="C:\Users\10691\Downloads\Hoisting refers.mp3"></audio>
+<audio src="..\..\mp3\Hoisting refers.mp3"></audio>
 
 **Hoisting** refers to how JavaScript moves declarations to the top of their scope during the compilation phase.  
 
@@ -14,7 +14,7 @@
 
 > **`var`、`let` 和 `const` 的提升差异**  
 >
-> <audio src="C:\Users\10691\Downloads\提升 指 JavaScript.mp3"></audio>
+> <audio src="..\..\mp3\提升 指 JavaScript.mp3"></audio>
 >
 > **提升** 指 JavaScript 在编译阶段将变量声明移到其作用域顶部的过程。  
 >
@@ -29,7 +29,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (1).mp3"></audio>
 
 #### **`var` Hoisting**
 ```javascript
@@ -62,7 +62,7 @@ console.log(myConst); // Logs: 30
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __`var`__ v.mp3"></audio>
+<audio src="..\..\mp3\1.  __`var`__ v.mp3"></audio>
 
 1. **`var`** variables are hoisted and initialized as `undefined`.  
 2. **`let` and `const`** are hoisted but stay in the **TDZ** until their declaration.  

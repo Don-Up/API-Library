@@ -10,7 +10,7 @@
 
 #### React Example with JSX Comments:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了类名 `sr-o.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了类名 `sr-o.mp3"></audio>
 
 ```jsx
 {/* Visually hidden but accessible to screen readers */}

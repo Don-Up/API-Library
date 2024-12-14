@@ -18,7 +18,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这里展示了min-h（最小高度.mp3"></audio>
+<audio src="..\..\mp3\这里展示了min-h（最小高度.mp3"></audio>
 
 ```html
 <div class="min-h-screen bg-gray-200 p-4">

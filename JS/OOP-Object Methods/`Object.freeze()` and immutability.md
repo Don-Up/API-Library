@@ -1,6 +1,6 @@
 ### `Object.freeze()` and Immutability in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__`Object.freez.mp3"></audio>
+<audio src="..\..\mp3\__`Object.freez.mp3"></audio>
 
 **`Object.freeze()`** makes an object **immutable** by preventing any changes to its properties or structure. Once an object is frozen:  
 
@@ -12,7 +12,7 @@
 
 > **`Object.freeze()` 和不可变性**：
 >
-> <audio src="C:\Users\10691\Downloads\`Object.freeze(.mp3"></audio>
+> <audio src="..\..\mp3\`Object.freeze(.mp3"></audio>
 >
 > **`Object.freeze()`** 使对象**不可变**，禁止修改对象的属性或结构：  
 >
@@ -25,7 +25,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 `Object.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 `Object.mp3"></audio>
 
 #### **Using `Object.freeze()`**
 ```javascript

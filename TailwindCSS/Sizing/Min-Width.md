@@ -18,7 +18,7 @@
 
 ![image-20241119095258774](C:\Users\10691\AppData\Roaming\Typora\typora-user-images\image-20241119095258774.png)
 
-<audio src="C:\Users\10691\Downloads\这里展示了`min-w`（最小.mp3"></audio>
+<audio src="..\..\mp3\这里展示了`min-w`（最小.mp3"></audio>
 
 ```html
 <div class="min-w-full bg-gray-200 p-4">

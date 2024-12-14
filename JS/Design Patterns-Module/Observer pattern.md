@@ -1,6 +1,6 @@
 ### Observer Pattern in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Definition_  A  (1).mp3"></audio>
+<audio src="..\..\mp3\Definition_  A  (1).mp3"></audio>
 
 1. **Definition**:  
    - A design pattern where an object (subject) maintains a list of dependents (observers) and notifies them of state changes.  
@@ -16,7 +16,7 @@
 
 > **观察者模式**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  一种设计模式，对象（.mp3"></audio>
+> <audio src="..\..\mp3\定义：  一种设计模式，对象（.mp3"></audio>
 >
 > 1. **定义**：  
 >    - 一种设计模式，对象（主题）维护一个依赖列表（观察者），并在状态变化时通知它们。  
@@ -34,7 +34,7 @@
 
 #### **Implementation of Observer Pattern**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了观察者模式的实现.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了观察者模式的实现.mp3"></audio>
 
 ```javascript
 // Subject
@@ -87,7 +87,7 @@ subject.notify("Event 2"); // Only Observer 2 receives notification
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. The __subjec.mp3"></audio>
+<audio src="..\..\mp3\1. The __subjec.mp3"></audio>
 
 1. The **subject** handles adding/removing observers and notifying them.  
 2. Observers implement an **update** method to respond to notifications.  

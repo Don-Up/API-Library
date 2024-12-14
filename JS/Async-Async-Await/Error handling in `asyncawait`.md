@@ -1,6 +1,6 @@
 ### Error Handling in `async/await`
 
-<audio src="C:\Users\10691\Downloads\Error handling .mp3"></audio>
+<audio src="..\..\mp3\Error handling .mp3"></audio>
 
 Error handling in `async/await` is primarily done using **`try...catch`** blocks. When `await` is used, if the promise it is waiting for rejects, an error is thrown and can be caught in the `catch` block. This makes error handling in asynchronous code more readable and manageable compared to `.catch()` in promise chains.
 
@@ -12,7 +12,7 @@ Key points:
 
 > **`async/await` 中的错误处理**：
 >
-> <audio src="C:\Users\10691\Downloads\在 `async_await`.mp3"></audio>
+> <audio src="..\..\mp3\在 `async_await`.mp3"></audio>
 >
 > 在 `async/await` 中，错误处理主要通过 **`try...catch`** 实现。如果 `await` 等待的 Promise 被拒绝，会抛出错误，可在 `catch` 块中捕获。这使得异步代码的错误处理更易读、更易管理。  
 > 关键点：  
@@ -26,7 +26,7 @@ Key points:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何在 asyn.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何在 asyn.mp3"></audio>
 
 #### **Basic Error Handling with `try...catch`**
 ```javascript

@@ -2,7 +2,7 @@
 
 The value of **`this`** in JavaScript depends on the execution context:
 
-<audio src="C:\Users\10691\Downloads\1.  __Global Co.mp3"></audio>
+<audio src="..\..\mp3\1.  __Global Co.mp3"></audio>
 
 1. **Global Context**:
    - In the browser, `this` refers to the global `window` object.
@@ -20,7 +20,7 @@ The value of **`this`** in JavaScript depends on the execution context:
 
 > **`this` 在全局、对象、函数和类中的表现**  
 >
-> <audio src="C:\Users\10691\Downloads\全局上下文：  在浏览器中，`.mp3"></audio>
+> <audio src="..\..\mp3\全局上下文：  在浏览器中，`.mp3"></audio>
 >
 > **`this`** 的值取决于执行的上下文：  
 >
@@ -39,7 +39,7 @@ The value of **`this`** in JavaScript depends on the execution context:
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (7).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (7).mp3"></audio>
 
 #### **1. Global Context**
 ```javascript
@@ -94,7 +94,7 @@ instance.getName(); // Logs: "Class Instance"
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1.  __Arrow fun.mp3"></audio>
+<audio src="..\..\mp3\1.  __Arrow fun.mp3"></audio>
 
 1. **Arrow functions** do not have their own `this`; they inherit it from their enclosing scope.  
 2. In **strict mode**, `this` in functions is `undefined`.  

@@ -1,6 +1,6 @@
 ### How `async` and `await` Work in JavaScript
 
-<audio src="C:\Users\10691\Downloads\__`async`__ and.mp3"></audio>
+<audio src="..\..\mp3\__`async`__ and.mp3"></audio>
 
 **`async`** and **`await`** simplify working with promises, making asynchronous code look and behave like synchronous code.  
 
@@ -11,7 +11,7 @@
 
 > **`async` 和 `await` 工作原理**：
 >
-> <audio src="C:\Users\10691\Downloads\`async` 和 `awai.mp3"></audio>
+> <audio src="..\..\mp3\`async` 和 `awai.mp3"></audio>
 >
 > **`async`** 和 **`await`** 简化了 Promise 的使用，让异步代码看起来像同步代码：  
 >
@@ -23,7 +23,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (18).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (18).mp3"></audio>
 
 #### **Basic `async` and `await`**
 ```javascript

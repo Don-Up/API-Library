@@ -1,6 +1,6 @@
 ### Promise Error Handling with `.catch()`
 
-<audio src="C:\Users\10691\Downloads\The __`.catch`_.mp3"></audio>
+<audio src="..\..\mp3\The __`.catch`_.mp3"></audio>
 
 The **`.catch()`** method handles errors in a promise chain. If a promise is rejected (via `reject()` or a thrown error), `.catch()` is triggered. It ensures the error is caught, preventing unhandled promise rejections.  
 
@@ -8,7 +8,7 @@ Errors can occur at any point in the chain; `.catch()` captures them and stops f
 
 > **Promise 的 `.catch()` 错误处理**：
 >
-> <audio src="C:\Users\10691\Downloads\`.catch()` 方法用于.mp3"></audio>
+> <audio src="..\..\mp3\`.catch()` 方法用于.mp3"></audio>
 >
 > **`.catch()`** 方法用于处理 Promise 链中的错误。当 Promise 被拒绝（通过 `reject()` 或抛出错误）时，`.catch()` 会被触发。  
 > 它确保错误被捕获，避免未处理的 Promise 拒绝。  
@@ -18,7 +18,7 @@ Errors can occur at any point in the chain; `.catch()` captures them and stops f
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了在 JavaSc.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了在 JavaSc.mp3"></audio>
 
 #### **Handling Rejections**
 ```javascript

@@ -26,7 +26,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这里展示了`bg-gradie.mp3"></audio>
+<audio src="..\..\mp3\这里展示了`bg-gradie.mp3"></audio>
 
 ```html
 <div class="space-y-4 p-4">

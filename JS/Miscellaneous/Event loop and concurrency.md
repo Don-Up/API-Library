@@ -1,6 +1,6 @@
 ### Event Loop and Concurrency
 
-<audio src="C:\Users\10691\Downloads\The event loop .mp3"></audio>
+<audio src="..\..\mp3\The event loop .mp3"></audio>
 
 The **event loop** is a mechanism in JavaScript that handles concurrency and asynchronous operations. JavaScript is **single-threaded**, meaning it executes one task at a time. However, with the **event loop**, it can handle **non-blocking tasks** (e.g., `setTimeout`, `fetch`).
 
@@ -13,7 +13,7 @@ This enables concurrency without multithreading.
 
 > **事件循环与并发**  
 >
-> <audio src="C:\Users\10691\Downloads\事件循环（Event Loop.mp3"></audio>
+> <audio src="..\..\mp3\事件循环（Event Loop.mp3"></audio>
 >
 > **事件循环（Event Loop）** 是 JavaScript 中用于处理并发和异步操作的机制。JavaScript 是 **单线程** 的，即一次只能执行一个任务。但借助 **事件循环**，它可以处理 **非阻塞任务**（如 `setTimeout`、`fetch`）。  
 > **工作流程**：  
@@ -27,7 +27,7 @@ This enables concurrency without multithreading.
 
 ### Code Example:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (9).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (9).mp3"></audio>
 
 #### **Event Loop in Action**
 ```javascript
@@ -55,7 +55,7 @@ Timeout callback
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __Microtasks.mp3"></audio>
+<audio src="..\..\mp3\1. __Microtasks.mp3"></audio>
 
 1. **Microtasks** (e.g., Promises) are prioritized over **macrotasks** (e.g., `setTimeout`).  
 2. The **event loop** ensures non-blocking I/O and asynchronous behavior in JavaScript.  

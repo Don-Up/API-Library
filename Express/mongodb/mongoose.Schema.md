@@ -12,7 +12,7 @@ In Mongoose, a **Schema** defines the structure of documents in a MongoDB collec
 
 > **mongoose.Schema**  
 >
-> <audio src="C:\Users\10691\Downloads\在 Mongoose 中，Sc.mp3"></audio>
+> <audio src="..\..\mp3\在 Mongoose 中，Sc.mp3"></audio>
 >
 > 在 Mongoose 中，**Schema** 定义了 MongoDB 集合中文档的结构。它指定了字段、数据类型以及任何验证规则或默认值。Schema 是创建 **模型** 的蓝图，模型用于与数据库交互。  
 >
@@ -29,7 +29,7 @@ In Mongoose, a **Schema** defines the structure of documents in a MongoDB collec
 
 #### **Basic Schema Example**
 
-<audio src="C:\Users\10691\Downloads\这段代码使用 `mongoos (1).mp3"></audio>
+<audio src="..\..\mp3\这段代码使用 `mongoos (1).mp3"></audio>
 
 ```javascript
 const mongoose = require('mongoose');
@@ -52,7 +52,7 @@ module.exports = User;
 
 #### **Adding Methods and Virtuals**
 
-<audio src="C:\Users\10691\Downloads\这段代码向 `userSche.mp3"></audio>
+<audio src="..\..\mp3\这段代码向 `userSche.mp3"></audio>
 
 ```javascript
 // Add a schema method

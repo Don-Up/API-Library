@@ -14,7 +14,7 @@
 
 > **外边距合并**  
 >
-> <audio src="C:\Users\10691\Downloads\外边距合并 是指相邻元素的垂直.mp3"></audio>
+> <audio src="..\..\mp3\外边距合并 是指相邻元素的垂直.mp3"></audio>
 >
 > **外边距合并** 是指相邻元素的垂直外边距合并为一个外边距，而不是相加。合并后的外边距等于两个中较大的一个。  
 > **发生情况**：  
@@ -31,7 +31,7 @@
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了CSS中的“外边.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了CSS中的“外边.mp3"></audio>
 
 #### **Margin Collapse Example**
 ```html

@@ -15,7 +15,7 @@
 
 > **passport 中间件**  
 >
-> <audio src="C:\Users\10691\Downloads\`passport` 是一个用.mp3"></audio>
+> <audio src="..\..\mp3\`passport` 是一个用.mp3"></audio>
 >
 > **`passport`** 是一个用于 Node.js 的认证中间件，与 Express.js 无缝集成。它提供了一个灵活的框架，用于实现多种认证策略，例如本地认证（用户名/密码）或第三方认证（如 Google、Facebook、GitHub）。  
 >
@@ -40,7 +40,7 @@ npm install passport-local express-session
 
 #### **Basic Usage with Local Strategy**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用 `pa.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用 `pa.mp3"></audio>
 
 ```javascript
 const express = require('express');

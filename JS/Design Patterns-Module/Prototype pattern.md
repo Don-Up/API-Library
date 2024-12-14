@@ -1,6 +1,6 @@
 ### Prototype Pattern in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Definition_  A  (2).mp3"></audio>
+<audio src="..\..\mp3\Definition_  A  (2).mp3"></audio>
 
 1. **Definition**:  
    - A design pattern where objects are created by cloning an existing object (prototype).  
@@ -16,7 +16,7 @@
 
 > **原型模式**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  一种设计模式，通过克.mp3"></audio>
+> <audio src="..\..\mp3\定义：  一种设计模式，通过克.mp3"></audio>
 >
 > 1. **定义**：  
 >    - 一种设计模式，通过克隆一个已有对象（原型）创建新对象。  
@@ -34,7 +34,7 @@
 
 #### **Basic Prototype Pattern**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了如何使用`Obj.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了如何使用`Obj.mp3"></audio>
 
 ```javascript
 const carPrototype = {
@@ -54,7 +54,7 @@ car2.drive(); // "Driving a Honda car."
 
 #### **Prototype with Constructor Functions*
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了使用构造函数和原.mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了使用构造函数和原.mp3"></audio>
 
 ```javascript
 function Car(make) {
@@ -76,7 +76,7 @@ car2.drive(); // "Driving a Honda car."
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. Use __`Objec (1).mp3"></audio>
+<audio src="..\..\mp3\1. Use __`Objec (1).mp3"></audio>
 
 1. Use **`Object.create()`** for simple prototype-based inheritance.  
 2. Use **constructor functions** or **classes** for structured instantiation with shared prototypes.  

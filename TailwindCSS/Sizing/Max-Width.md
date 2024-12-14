@@ -16,7 +16,7 @@
 
 #### Example:
 
-<audio src="C:\Users\10691\Downloads\这里展示了一个具有最大宽度限制.mp3"></audio>
+<audio src="..\..\mp3\这里展示了一个具有最大宽度限制.mp3"></audio>
 
 ```html
 <div class="max-w-md bg-gray-200 p-4">

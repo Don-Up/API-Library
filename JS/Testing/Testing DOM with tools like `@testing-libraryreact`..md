@@ -1,6 +1,6 @@
 ### Testing DOM with `@testing-library/react`
 
-<audio src="C:\Users\10691\Downloads\1.  Definition. (1).mp3"></audio>
+<audio src="..\..\mp3\1.  Definition. (1).mp3"></audio>
 
 1. **Definition**:  
    - **`@testing-library/react`** is a library for testing React components.  
@@ -16,7 +16,7 @@
 
 > **使用 `@testing-library/react` 测试 DOM**  
 >
-> <audio src="C:\Users\10691\Downloads\定义：  `@testing-.mp3"></audio>
+> <audio src="..\..\mp3\定义：  `@testing-.mp3"></audio>
 >
 > 1. **定义**：  
 >    - **`@testing-library/react`** 是一个用于测试 React 组件的工具库。  

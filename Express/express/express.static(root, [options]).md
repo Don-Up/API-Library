@@ -2,11 +2,11 @@
 
 - **`express.static(root, [options])`**: This middleware serves static files (like images, CSS, JavaScript) from the specified `root` directory. It allows you to serve assets directly without defining routes. The `options` parameter can customize behavior, such as setting cache control, handling hidden files, or specifying a fallback extension.
 
-- <audio src="../../../../Downloads/__`express.stat.mp3"></audio>
+- <audio src="..\..\mp3\__`express.stat.mp3"></audio>
 
 > **`express.static(root, [options])`**：此中间件用于从指定的 `root` 目录提供静态文件（如图片、CSS、JavaScript）。它允许你直接提供资源文件，而无需定义路由。`options` 参数可以自定义行为，例如设置缓存控制、处理隐藏文件或指定备用扩展名。
 >
-> <audio src="../../../../Downloads/`express.static.mp3"></audio>
+> <audio src="..\..\mp3\`express.static.mp3"></audio>
 
 | Parameter | Description                          | Example Value                    |
 | --------- | ------------------------------------ | -------------------------------- |
@@ -15,7 +15,7 @@
 
 #### Example:
 
-<audio src="../../../../Downloads/_`express.stati.mp3"></audio>
+<audio src="..\..\mp3\_`express.stati.mp3"></audio>
 
 ```js
 const express = require('express');

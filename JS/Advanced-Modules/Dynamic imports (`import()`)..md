@@ -1,6 +1,6 @@
 ### Dynamic Imports in JavaScript
 
-<audio src="C:\Users\10691\Downloads\Dynamic imports.mp3"></audio>
+<audio src="..\..\mp3\Dynamic imports.mp3"></audio>
 
 **Dynamic imports** allow you to load modules dynamically at runtime using the **`import()`** function. Unlike static imports, which are resolved at compile time, dynamic imports return a **Promise** and can be used conditionally or asynchronously.
 
@@ -12,7 +12,7 @@ Dynamic imports are supported in ES6 and are particularly useful in modern web a
 
 > **动态导入**  
 >
-> <audio src="C:\Users\10691\Downloads\动态导入 使用 `import.mp3"></audio>
+> <audio src="..\..\mp3\动态导入 使用 `import.mp3"></audio>
 >
 > **动态导入** 使用 **`import()`** 函数在运行时动态加载模块。与静态导入不同，动态导入返回一个 **Promise**，可以在条件满足时或异步加载时使用。  
 >
@@ -26,7 +26,7 @@ Dynamic imports are supported in ES6 and are particularly useful in modern web a
 
 ### Code Examples:
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了JavaScri (3).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了JavaScri (3).mp3"></audio>
 
 #### **Basic Dynamic Import**
 ```javascript
@@ -68,7 +68,7 @@ document.querySelector('#loadButton').addEventListener('click', async () => {
 
 ### Key Notes:
 
-<audio src="C:\Users\10691\Downloads\1. __`import`__.mp3"></audio>
+<audio src="..\..\mp3\1. __`import`__.mp3"></audio>
 
 1. **`import()`** returns a **Promise** that resolves with the module object.  
 2. Ideal for **code splitting** and **lazy loading** in large applications.  

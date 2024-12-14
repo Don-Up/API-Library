@@ -1,6 +1,6 @@
 ### Creating and Chaining Promises in JavaScript
 
-<audio src="C:\Users\10691\Downloads\A __promise__ r.mp3"></audio>
+<audio src="..\..\mp3\A __promise__ r.mp3"></audio>
 
 A **promise** represents a value that may be available now, later, or never. Promises are created using the `Promise` constructor, which takes a function with `resolve` and `reject` callbacks.  
 
@@ -8,7 +8,7 @@ A **promise** represents a value that may be available now, later, or never. Pro
 
 > **创建和链式调用 Promise**：
 >
-> <audio src="C:\Users\10691\Downloads\Promise 表示一个可能现.mp3"></audio>
+> <audio src="..\..\mp3\Promise 表示一个可能现.mp3"></audio>
 >
 > **Promise** 表示一个可能现在、稍后或永远不可用的值。使用 `Promise` 构造函数创建 Promise，传入一个包含 `resolve` 和 `reject` 回调的函数。  
 > **Promise 链式调用**通过在 `.then()` 中返回一个新 Promise 实现异步任务的顺序执行。链中的错误可通过 `.catch()` 捕获。
@@ -57,7 +57,7 @@ fetchData()
 
 #### **Error Handling in Chains**
 
-<audio src="C:\Users\10691\Downloads\这段代码展示了 JavaScr (16).mp3"></audio>
+<audio src="..\..\mp3\这段代码展示了 JavaScr (16).mp3"></audio>
 
 ```javascript
 const promiseChain = new Promise((resolve, reject) => {
