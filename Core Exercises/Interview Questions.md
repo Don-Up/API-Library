@@ -398,6 +398,181 @@ CSS position property is used to define how elements are positioned in a page. I
 
 Choosing a proper `position` value can i·mplement flexible layout effects. For example, using `absolute` to implement a popover, using `sticky` to make a scrollable navigation bar, etc.
 
-###### 
+# what is the difference between `block` and `inline`?
 
-###### 
+### 翻译中的主要问题:
+
+1. "to display elements" 应改为 "for displaying elements"，因 "to" 在此处不符合语法习惯。
+2. "their primary differences as follow" 应改为 "their primary differences are as follows"，需补充系动词并改为复数形式。
+3. "not take up a line exclusively" 应改为 "do not take up a line exclusively"，缺少助动词。
+4. "be arranged with adjacent elements in a same row" 应改为 "are arranged with adjacent elements in the same row"，需使用正确的动词形式并将 "a same row" 改为 "the same row"。
+
+------
+
+### 修正前后的对比:
+
+In CSS, `block` and `inline` are two common types to display elements, their primary differences as follow:
+
+> In CSS, `block` and `inline` are two common types for displaying elements, and their primary differences are as follows:
+
+1. `block` elements:
+
+- take up a line exclusively, fill the parent's width.
+
+> - take up a line exclusively and fill the parent's width.
+
+- width, height, padding, border and margin can be set normally.
+   （未改动）
+- common `block` elements include `div`, `p`,  `h1`, etc.
+   （未改动）
+
+1. `inline` elements:
+
+- not take up a line exclusively, be arranged with adjacent elements in a same row.
+
+> - do not take up a line exclusively and are arranged with adjacent elements in the same row.
+
+- can only be set with horizontal sizes (e.g. `width` and `margin-left`), disallow direct setting of height and vertical margin.
+
+> - can only have horizontal sizes (e.g., `width` and `margin-left`) set and do not allow direct setting of height or vertical margin.
+
+- common `inline` elements include `span`, `a` and `strong`, etc.
+
+> - common `inline` elements include `span`, `a`, and `strong`.
+
+Additionally, `inline-block` is a combination of both, can be arranged in a same row and be set with width and height.
+
+> Additionally, `inline-block` is a combination of both. It can be arranged in the same row and have its width and height set.
+
+Proper choice of types is conducive to implement flexible layouts.
+
+> Proper selection of types helps in implementing flexible layouts.
+
+------
+
+### 修正后的版本:
+
+<audio src="../../../../Downloads/In CSS, `block`.mp3"></audio>
+
+在CSS中，`block`和`inline`是两种常见的元素显示类型，它们的主要区别如下：
+
+1. **`block`元素**：
+   - 独占一行，占满父容器的宽度。
+   - 宽度、高度、内边距、边框和外边距都可以正常设置。
+   - 常见的`block`元素包括`div`、`p`、`h1`等。
+2. **`inline`元素**：
+   - 不独占一行，与相邻的元素在同一行内排列。
+   - 仅能设置水平尺寸（如`width`和`margin-left`），不能直接设置高度或垂直外边距。
+   - 常见的`inline`元素包括`span`、`a`、`strong`等。
+
+此外，`inline-block`是两者的结合，既可排列在一行，也可设置宽高。正确选择类型有助于实现灵活布局。
+
+In CSS, `block` and `inline` are two common types for displaying elements, and their primary differences are as follows:
+
+1. `block` elements:
+
+- take up a line exclusively and fill the parent's width.
+- width, height, padding, border, and margin can be set normally.
+- common `block` elements include `div`, `p`, and `h1`.
+
+1. `inline` elements:
+
+- do not take up a line exclusively and are arranged with adjacent elements in the same row.
+- can only have horizontal sizes (e.g., `width` and `margin-left`) set and do not allow direct setting of height or vertical margin.
+- common `inline` elements include `span`, `a`, and `strong`.
+
+Additionally, `inline-block` is a combination of both. It can be arranged in the same row and have its width and height set. Proper selection of types helps in implementing flexible layouts.
+
+
+
+## How HTTP works ? What is HTTP/2?
+
+### 翻译中的主要问题
+
+1. **拼写错误**：`Procotol` 应为 `Protocol`，`multipl` 应为 `multiple`。
+2. **表达问题**：`it bases on the request-response model` 改为更地道的 `it is based on the request-response model`。
+3. **术语翻译**：`server pushing` 更常用的表达是 `server push`。
+4. **语法与流畅性**：`To improve performance, you can use mechanisms like Cookie or Session to store states` 中，`Cookie` 和 `Session` 应复数化，`to store states` 可调整为 `for state management`。
+
+------
+
+### 修正前后的对比
+
+#### 修正前：
+
+HTTP(Hyper Text Transfer Procotol) is an application-layer protocol for communication between the client-side and the server. It bases on the request-response model, the client sends requests (e.g. the browser requests a webpage), the server provides responses based on requests (e.g. returning HTML files).
+
+HTTP is stateless, this means each request is independent. To improve performance, you can use mechanisms like Cookie or Session to store states.
+
+HTTP/2 is the upgraded version of HTTP. It solves inefficient issues in HTTP/1.1 by using binary to transfer data, supporting multiplex which can handle multipl requests and responses in a single connection. Additionally, HTTP/2 also supports header compression and server pushing, significantly improving web load times and user experience.
+
+------
+
+#### 修正后：
+
+HTTP (Hypertext Transfer Protocol) is an application-layer protocol for communication between the client and server. It is based on the request-response model, where the client sends requests (e.g., a browser requesting a webpage), and the server provides responses (e.g., returning HTML files).
+
+HTTP is stateless, meaning each request is independent. For state management, mechanisms like Cookies or Sessions can be used.
+
+HTTP/2 is an upgraded version of HTTP. It addresses inefficiencies in HTTP/1.1 by using binary data transfer and supporting multiplexing, allowing multiple requests and responses to be processed over a single connection. Additionally, HTTP/2 supports header compression and server push, significantly improving web load times and user experience.
+
+HTTP（超文本传输协议）是一种用于客户端和服务器之间通信的应用层协议。它基于请求-响应模型，客户端发送请求（如浏览器请求网页），服务器根据请求提供响应（如返回HTML文件）。HTTP是无状态的，这意味着每次请求都是独立的。为了改善性能，可使用Cookie或Session等机制来存储状态。
+
+HTTP/2是HTTP协议的升级版本，解决了HTTP/1.1中效率较低的问题。它采用二进制格式传输数据，支持多路复用，即同一连接中可以同时处理多个请求和响应。此外，HTTP/2还支持头部压缩和服务器推送功能，大幅提升了网页加载速度和用户体验。
+
+------
+
+<audio src="../../../../Downloads/HTTP (Hypertext.mp3"></audio>
+
+
+
+## How does HTTPS work?
+
+### 修正内容
+
+**主要问题**：
+
+1. 语言表达：
+   - “encrypting transferring data”语义重复，建议更精炼。
+   - “to prevent information from stealing or tampering”语法不够准确，改为更符合英文表达习惯的“to prevent data theft or tampering”。
+   - “Its working principle is as follow”需改为“as follows”。
+2. 句式和用词：
+   - “TLS/SSL handshakes”建议调整为单数形式“TLS/SSL handshake”，更符合技术文档用法。
+   - “a symmetric key is generated and encrypted by the server's public key and then sent to the server”缺少清晰度，可分解为更具体的描述。
+   - “is the key to security communication”建议改为“is essential for secure communication”。
+
+------
+
+### 修正前后对比
+
+#### 修正前：
+
+HTTPS (Hyper Text Transfer Protocol Security) is the secure version of HTTP for encrypting transferring data to prevent information from stealing or tampering. Its working principle is as follow:
+
+1. TLS/SSL handshakes: the client sends a request to the server which returns its digital certificate containing a public key for authentication.
+2. Exchanging secret key: when the certificate is verified by the client, a symmetric key is generated and encrypted by the server's public key and then sent to the server.
+3. Encrypted data transmission: both sides encrypt communication data using shared symmetric secret key, thereby improving data confidentiality and integrity.
+
+HTTPS protects user privacy and prevents intermediary attack using encryption and authentication, is the key to security communication in modern network.
+
+#### 修正后：
+
+HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, designed to encrypt data transfers and prevent data theft or tampering. Its working principles are as follows:
+
+1. **TLS/SSL handshake**: The client sends a request to the server, which responds with its digital certificate containing a public key for authentication.
+2. **Key exchange**: After verifying the certificate, the client generates a symmetric key, encrypts it using the server's public key, and sends it back to the server.
+3. **Encrypted data transmission**: Both parties use the shared symmetric key to encrypt and decrypt data, ensuring confidentiality and integrity.
+
+By combining encryption and authentication, HTTPS protects user privacy, prevents man-in-the-middle attacks, and is essential for secure communication in modern networks.
+
+<audio src="../../../../Downloads/HTTPS (Hypertex.mp3"></audio>
+
+------
+
+HTTPS（超文本传输安全协议）是HTTP的安全版本，用于在客户端和服务器之间加密传输数据，以防止信息被窃取或篡改。其工作原理如下：
+
+1. **TLS/SSL握手**：客户端向服务器发起请求，服务器返回其数字证书（包含公钥）以证明身份。
+2. **密钥交换**：客户端验证证书合法性后，生成一个对称密钥，并用服务器的公钥加密后发送给服务器。
+3. **数据加密传输**：双方通过共享的对称密钥加密通信数据，从而确保数据机密性和完整性。
+
+HTTPS通过加密和身份验证，保护用户隐私并防止中间人攻击，是现代网络中安全通信的关键。
