@@ -23,12 +23,14 @@ export class AppModule {}
 
 ### **Explanation**
 
+<audio src="C:\Users\10691\Downloads\- __`@Module` D.mp3"></audio>
+
 - **`@Module()` Decorator**:
   - This decorator marks the class as a **module** and provides metadata about the module's structure.
   - It has several properties:
-    - **`imports`**: Imports other modules that this module depends on (e.g., feature modules, database modules).
-    - **`controllers`**: Lists all controllers in this module. Controllers handle incoming HTTP requests.
-    - **`providers`**: Lists all services/providers in this module. Providers contain business logic and can be injected into controllers or other services.
+    - **`imports`**(导入外部模块): Imports other modules that this module depends on (e.g., feature modules, database modules).
+    - **`controllers`**(网络请求处理者): Lists all controllers in this module. Controllers handle incoming HTTP requests.
+    - **`providers`**(网络请求执行者): Lists all services/providers in this module. Providers contain business logic and can be injected into controllers or other services.
 
 - **`AppController`**:
   - This is the controller responsible for handling incoming HTTP requests.
@@ -36,7 +38,7 @@ export class AppModule {}
 - **`AppService`**:
   - This is the service that contains the business logic used by the controller.
 
-#### **Purpose of `AppModule`**
+#### **Purpose of `AppModule`**(公司总部)
 The `AppModule` is the entry point of the application’s module system. It wires together all the controllers, services, and any other modules needed by the app.
 
 ---
@@ -62,17 +64,21 @@ export class AppController {
 
 ### **Explanation**
 
+<audio src="C:\Users\10691\Downloads\2024年12月15日20点37分.mp3"></audio>
+
 - **`@Controller()` Decorator**:
+  
   - Marks the class as a **controller**. Controllers handle incoming requests and define endpoints (routes).
   - In this example, the controller is mapped to the root path (`/`) because no argument is passed to the `@Controller()` decorator.
-
+  
 - **Dependency Injection**:
+  
   ```typescript
   constructor(private readonly appService: AppService) {}
   ```
   - The `AppController` depends on `AppService` to perform its logic.
   - Nest.js uses **dependency injection** to provide the `AppService` instance to the controller.
-
+  
 - **`@Get()` Decorator**:
   - Maps the `getHello()` method to the `GET` HTTP method at the root path (`/`).
   - When a `GET` request is sent to `/`, the `getHello()` method is called.
@@ -88,6 +94,9 @@ The `AppController` handles all incoming requests for a specific route (or a gro
 ---
 
 ## **3. `app.service.ts`**
+
+<audio src="C:\Users\10691\Downloads\The service fil.mp3"></audio>
+
 The service file defines the **service**, which contains the business logic of the application. Services are designed to be reusable and can be injected into controllers or other services.
 
 ### **Code**
@@ -118,6 +127,9 @@ The `AppService` encapsulates business logic and data manipulation. By separatin
 ---
 
 ## **How These Files Work Together**
+
+<audio src="C:\Users\10691\Downloads\1.  __`AppModul.mp3"></audio>
+
 1. **`AppModule`**:
    - Registers `AppController` and `AppService`.
 
@@ -131,6 +143,9 @@ The `AppService` encapsulates business logic and data manipulation. By separatin
 ---
 
 ### **Flow of a Request**
+
+<audio src="C:\Users\10691\Downloads\1. __Client sen.mp3"></audio>
+
 1. **Client sends a request** (e.g., `GET /`):
    - The framework identifies the route (`/`) and the HTTP method (`GET`) and directs the request to the `AppController`.
 
@@ -155,6 +170,9 @@ Hello World!
 ---
 
 ## **Key Concepts Illustrated**
+
+<audio src="C:\Users\10691\Downloads\1. __Modularity.mp3"></audio>
+
 1. **Modularity**:
    - The app is divided into modules (`AppModule`), controllers (`AppController`), and services (`AppService`) for better structure and maintainability.
 

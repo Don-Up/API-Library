@@ -1,5 +1,7 @@
 The line of code:
 
+<audio src="C:\Users\10691\Downloads\The line of cod.mp3"></audio>
+
 ```typescript
 app.useGlobalPipes(new ValidationPipe());
 ```
@@ -11,6 +13,9 @@ sets up a **global validation pipe** in your Nest.js application. Its role is to
 ### **Roles and Purpose of `app.useGlobalPipes(new ValidationPipe())`**
 
 #### **1. Automatic Validation**
+
+<audio src="C:\Users\10691\Downloads\1. Automatic Va.mp3"></audio>
+
 - It applies validation rules to incoming data based on the decorators (e.g., `@IsNotEmpty`, `@IsString`, `@IsIn`, etc.) defined in your DTO classes.
 - If the incoming data does not meet the validation constraints, it automatically throws a `400 Bad Request` error with details about what failed.
 
@@ -37,6 +42,8 @@ POST /tasks
 Content-Type: application/json
 
 {
+  // lack title
+  
   "description": "This is a task"
 }
 ```
@@ -56,6 +63,9 @@ Without the `ValidationPipe`, the request would pass through, and you'd have to 
 ---
 
 #### **2. Reduces Boilerplate**
+
+<audio src="C:\Users\10691\Downloads\2. Reduces Boil.mp3"></audio>
+
 Using `ValidationPipe` globally eliminates the need to manually validate data in every controller method. Instead of writing custom validation logic, you can simply define validation rules in your DTOs.
 
 For example:
@@ -71,6 +81,9 @@ createTask(@Body() createTaskDto: CreateTaskDto) {
 ---
 
 #### **3. Error Handling**
+
+<audio src="C:\Users\10691\Downloads\3. Error Handli.mp3"></audio>
+
 The `ValidationPipe` automatically handles invalid data and responds with a standardized error message. This ensures consistency in how validation errors are returned across your application.
 
 ---
