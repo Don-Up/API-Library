@@ -23,7 +23,7 @@ export class AppModule {}
 
 ### **Explanation**
 
-<audio src="C:\Users\10691\Downloads\- __`@Module` D.mp3"></audio>
+<audio src="..\..\mp3\- __`@Module` D.mp3"></audio>
 
 - **`@Module()` Decorator**:
   - This decorator marks the class as a **module** and provides metadata about the module's structure.
@@ -64,7 +64,7 @@ export class AppController {
 
 ### **Explanation**
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日20点37分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月15日20点37分.mp3"></audio>
 
 - **`@Controller()` Decorator**:
   
@@ -95,7 +95,7 @@ The `AppController` handles all incoming requests for a specific route (or a gro
 
 ## **3. `app.service.ts`**
 
-<audio src="C:\Users\10691\Downloads\The service fil.mp3"></audio>
+<audio src="..\..\mp3\The service fil.mp3"></audio>
 
 The service file defines the **service**, which contains the business logic of the application. Services are designed to be reusable and can be injected into controllers or other services.
 
@@ -128,7 +128,7 @@ The `AppService` encapsulates business logic and data manipulation. By separatin
 
 ## **How These Files Work Together**
 
-<audio src="C:\Users\10691\Downloads\1.  __`AppModul.mp3"></audio>
+<audio src="..\..\mp3\1.  __`AppModul.mp3"></audio>
 
 1. **`AppModule`**:
    - Registers `AppController` and `AppService`.
@@ -144,7 +144,7 @@ The `AppService` encapsulates business logic and data manipulation. By separatin
 
 ### **Flow of a Request**
 
-<audio src="C:\Users\10691\Downloads\1. __Client sen.mp3"></audio>
+<audio src="..\..\mp3\1. __Client sen.mp3"></audio>
 
 1. **Client sends a request** (e.g., `GET /`):
    - The framework identifies the route (`/`) and the HTTP method (`GET`) and directs the request to the `AppController`.
@@ -171,7 +171,7 @@ Hello World!
 
 ## **Key Concepts Illustrated**
 
-<audio src="C:\Users\10691\Downloads\1. __Modularity.mp3"></audio>
+<audio src="..\..\mp3\1. __Modularity.mp3"></audio>
 
 1. **Modularity**:
    - The app is divided into modules (`AppModule`), controllers (`AppController`), and services (`AppService`) for better structure and maintainability.

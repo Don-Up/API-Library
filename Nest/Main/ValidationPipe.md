@@ -1,6 +1,6 @@
 The line of code:
 
-<audio src="C:\Users\10691\Downloads\The line of cod.mp3"></audio>
+<audio src="..\..\mp3\The line of cod.mp3"></audio>
 
 ```typescript
 app.useGlobalPipes(new ValidationPipe());
@@ -14,7 +14,7 @@ sets up a **global validation pipe** in your Nest.js application. Its role is to
 
 #### **1. Automatic Validation**
 
-<audio src="C:\Users\10691\Downloads\1. Automatic Va.mp3"></audio>
+<audio src="..\..\mp3\1. Automatic Va.mp3"></audio>
 
 - It applies validation rules to incoming data based on the decorators (e.g., `@IsNotEmpty`, `@IsString`, `@IsIn`, etc.) defined in your DTO classes.
 - If the incoming data does not meet the validation constraints, it automatically throws a `400 Bad Request` error with details about what failed.
@@ -64,7 +64,7 @@ Without the `ValidationPipe`, the request would pass through, and you'd have to 
 
 #### **2. Reduces Boilerplate**
 
-<audio src="C:\Users\10691\Downloads\2. Reduces Boil.mp3"></audio>
+<audio src="..\..\mp3\2. Reduces Boil.mp3"></audio>
 
 Using `ValidationPipe` globally eliminates the need to manually validate data in every controller method. Instead of writing custom validation logic, you can simply define validation rules in your DTOs.
 
@@ -82,7 +82,7 @@ createTask(@Body() createTaskDto: CreateTaskDto) {
 
 #### **3. Error Handling**
 
-<audio src="C:\Users\10691\Downloads\3. Error Handli.mp3"></audio>
+<audio src="..\..\mp3\3. Error Handli.mp3"></audio>
 
 The `ValidationPipe` automatically handles invalid data and responds with a standardized error message. This ensures consistency in how validation errors are returned across your application.
 
@@ -93,6 +93,9 @@ The `ValidationPipe` automatically handles invalid data and responds with a stan
 The `ValidationPipe` provides several useful features out of the box:
 
 #### **1. Whitelisting Properties (`whitelist`)**
+
+<audio src="../../mp3/2024年12月16日13点58分.mp3"></audio>
+
 - Removes any extra or unexpected properties from the incoming payload.
 - For example, if your DTO only defines `title` and `description` but the client sends an extra field like `isAdmin`, it will be automatically removed.
 
@@ -102,6 +105,9 @@ app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 ```
 
 #### **2. Forbidding Extra Properties (`forbidNonWhitelisted`)**
+
+<audio src="../../mp3/2024年12月16日14点01分.mp3"></audio>
+
 - If the client sends extra properties that are not defined in the DTO, it throws an error instead of silently ignoring them.
 - Example error:
   ```json
@@ -118,6 +124,9 @@ app.useGlobalPipes(new ValidationPipe({ forbidNonWhitelisted: true }));
 ```
 
 #### **3. Auto-Transform (`transform`)**
+
+<audio src="../../mp3/2024年12月16日14点06分.mp3"></audio>
+
 - Automatically converts incoming payloads into DTO instances or transforms data types (e.g., a string `"123"` to a number `123`).
 - Useful when you have strict typing in your application.
 
@@ -128,6 +137,7 @@ app.useGlobalPipes(new ValidationPipe({ transform: true }));
 
 Example:
 If your DTO expects a number:
+
 ```typescript
 export class GetTaskByIdDto {
   @IsNotEmpty()
@@ -146,6 +156,9 @@ The `ValidationPipe` with `transform: true` will automatically convert `id` to a
 ---
 
 ### **Why Use `ValidationPipe` Globally?**
+
+<audio src="../../mp3/By applying the.mp3"></audio>
+
 By applying the `ValidationPipe` globally using `app.useGlobalPipes()`, you:
 1. Ensure consistent validation rules across your application.
 2. Avoid having to set up validation on every route or controller manually.
@@ -222,6 +235,8 @@ Content-Type: application/json
 ---
 
 ### **Summary**
+
+<audio src="../../mp3/The line `app.u.mp3"></audio>
 
 The line `app.useGlobalPipes(new ValidationPipe())`:
 1. Enables automatic validation of incoming requests.

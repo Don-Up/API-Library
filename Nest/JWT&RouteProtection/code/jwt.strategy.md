@@ -25,7 +25,7 @@ The given code defines a **JWT strategy** for authentication in a **NestJS appli
 
 ### 1. **Imports**
 
-<audio src="C:\Users\10691\Downloads\19点43分.mp3"></audio>
+<audio src="..\..\..\mp3\19点43分.mp3"></audio>
 
 ```ts
 import { Injectable } from '@nestjs/common';
@@ -44,6 +44,8 @@ import { ExtractJwt, Strategy } from 'passport-jwt';
 > It supports various strategies like **local**, **OAuth**, and **OpenID**, enabling integration with multiple authentication providers. 
 >
 > By separating application logic from authentication, Passport.js simplifies secure login, session handling, and user management in web applications.
+>
+> <audio src="../../mp3/../Downloads/__Passport js__.mp3"></audio>
 
 ------
 
@@ -57,7 +59,7 @@ import { ExtractJwt, Strategy } from 'passport-jwt';
 
 ### 3. **Class Definition: `JwtStrategy`**
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日19点56分.mp3"></audio>
+<audio src="..\..\..\mp3\2024年12月15日19点56分.mp3"></audio>
 
 ```ts
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -93,7 +95,7 @@ This class extends `PassportStrategy` and customizes the behavior of the Passpor
 
 ### 4. **`validate(payload: any)`**
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日19点59分.mp3"></audio>
+<audio src="..\..\..\mp3\2024年12月15日19点59分.mp3"></audio>
 
 ```ts
   async validate(payload: any) {
@@ -112,7 +114,7 @@ This class extends `PassportStrategy` and customizes the behavior of the Passpor
 
 ### **How It Works in Authentication**
 
-<audio src="C:\Users\10691\Downloads\1. Client sends.mp3"></audio>
+<audio src="..\..\..\mp3\1. Client sends.mp3"></audio>
 
 1. Client sends a request with a JWT:
    - Authorization header: `Authorization: Bearer <JWT>`
@@ -128,7 +130,7 @@ This class extends `PassportStrategy` and customizes the behavior of the Passpor
 
 ### **Typical Use Case**
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日20点05分.mp3"></audio>
+<audio src="..\..\..\mp3\2024年12月15日20点05分.mp3"></audio>
 
 This `JwtStrategy` class would be used in conjunction with **Guards** (e.g., `AuthGuard('jwt')`) to secure routes. 
 
@@ -155,7 +157,7 @@ In this setup:
 
 ### Key Points to Improve Security
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日20点05分 (2).mp3"></audio>
+<audio src="..\..\..\mp3\2024年12月15日20点05分 (2).mp3"></audio>
 
 1. Store `SECRET_KEY` securely:
    - Use environment variables or a secret management system.

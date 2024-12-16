@@ -576,3 +576,136 @@ HTTPS（超文本传输安全协议）是HTTP的安全版本，用于在客户�
 3. **数据加密传输**：双方通过共享的对称密钥加密通信数据，从而确保数据机密性和完整性。
 
 HTTPS通过加密和身份验证，保护用户隐私并防止中间人攻击，是现代网络中安全通信的关键。
+
+## What is Event Delegation?
+
+### 翻译中的主要问题
+
+1. **语言精炼度：**
+    原翻译较为准确，但部分句子略显冗长。可通过精炼语言提升可读性。
+2. **术语的一致性：**
+    “child elements' events” 在语义上没有问题，但可用更简洁的 “events of child elements”。
+3. **句子结构：**
+    “During the process of event bubbling” 可以简化为 “During event bubbling”。
+4. **表达逻辑：**
+    “saving memory and improving performance” 可以调整位置以强调逻辑顺序。
+
+------
+
+### 修正前后的对比
+
+#### 修正前
+
+Event Delegation is a technique that leverages event bubbling mechanism, managing child elements' events by binding an event listener on the parent element.
+
+During the process of event bubbling, child elements' events will be bubbled up to the parent element, therefore you can capture all events triggered by child elements through adding an event listener for the parent element. This approach can dynamically manage child elements' events without binding an event listener for each child element, saving memory and improving performance.
+
+For example, when clicking an arbitrary item in a list, you can capture child elements' click events on the parent element through event delegation. Event Delegation is commonly used to handle elements generated dynamically, suitable for scenarios like performance optimization and code simplification.
+
+#### 修正后
+
+Event Delegation is a technique that utilizes the event bubbling mechanism to manage events of child elements by **binding** a single event listener **to** the parent element.
+
+During event bubbling, events from child elements **propagate to** the parent element, allowing you to capture all **child-triggered** events through a single parent listener. This method simplifies code and improves performance by dynamically managing child events without **attaching** individual listeners to each element, thereby saving memory.
+
+For instance, in a list, clicking any item can be captured by the parent element using event delegation. It is particularly effective for handling dynamically created elements and optimizing performance.
+
+事件代理（Event Delegation）是一种利用事件冒泡机制的技术，通过为父元素绑定事件监听器来管理其子元素的事件。
+
+在事件冒泡过程中，子元素的事件会冒泡到父元素，因此只需为父元素添加一个事件监听器，就可以捕获所有子元素触发的事件。这种方式可以动态管理子元素的事件，无需为每个子元素单独绑定事件监听器，节省内存并提高性能。
+
+例如，在列表中点击任意项时，通过事件代理可以在父元素上捕获子元素的点击事件。事件代理常用于动态生成的元素处理，适用于性能优化和代码简化的场景。
+
+<audio src="../../../../Downloads/Event Delegatio.mp3"></audio>
+
+## Explain the differences between AMD, CommonJS and ES modules
+
+翻译中的主要问题：
+
+1. CommonJS 描述中存在逻辑错误，CommonJS 使用的是 **同步加载**，而不是异步加载。
+2. 表达方式需要进一步优化以增强语言流畅性和专业性，例如“supporting asynchronously loading module” 可以改为“supports asynchronous module loading”。
+3. 部分术语如“server client”容易产生歧义，建议直接用“server-side”。
+
+修正前后的对比：
+
+1. **错误描述修正**:
+   - 原文：CommonJS ... uses asynchronous loading.
+   - 修正：CommonJS ... uses synchronous loading.
+2. **语言优化**:
+   - 原文：supporting asynchronously loading module.
+   - 修正：supports asynchronous module loading.
+
+修正后的版本：
+ AMD (Asynchronous Module Definition), CommonJS, and ES Modules are three common JavaScript module standards, each with unique characteristics and use cases.
+
+1. **AMD**: Primarily used in browser environments, it supports asynchronous module loading to optimize performance. Modules are defined using `define` and load dependencies through an array. For example: `define(['moduleA'], function(A) {...})`.
+2. **CommonJS**: Commonly used on the server-side (e.g., Node.js), it uses `require` for importing and `module.exports` for exporting. Modules are loaded synchronously. For example: `const A = require('moduleA')`.
+3. **ES Modules**: A standardized module system supported by modern browsers and tools. It uses `import` and `export` statements, supports static analysis, and allows for on-demand loading. For example: `import A from './moduleA.js'`.
+
+In summary, AMD is tailored for browsers, CommonJS for server-side environments, and ES Modules are the modern standard in contemporary development.
+
+AMD（Asynchronous Module Definition）、CommonJS 和 ES 模块是三种常见的 JavaScript 模块化规范，它们各有特点和适用场景：
+
+1. **AMD**：主要用于浏览器环境，支持异步加载模块以优化性能。模块通过 `define` 定义，并通过依赖数组加载其他模块。例如：`define(['moduleA'], function(A) {...})`。
+2. **CommonJS**：常用于服务器端（如 Node.js），模块通过 `require` 导入，`module.exports` 导出，采用同步加载方式。例如：`const A = require('moduleA')`。
+3. **ES 模块**：现代浏览器和工具支持的标准化方案，使用 `import` 和 `export` 声明，支持静态分析和按需加载。例如：`import A from './moduleA.js'`。
+
+总体来看，AMD 偏向浏览器，CommonJS 偏向服务器，而 ES 模块是现代开发的主流选择。
+
+<audio src="../../../../Downloads/AMD (Asynchrono.mp3"></audio>
+
+# Array.prototype.forEach()` vs `Array.prototype.map()`
+
+### 修正前的问题：
+
+1. **语法与拼写：**
+   - "used to iterate over each item **of** an array" → 应该为“in”。
+   - “It **return** void...” → 应为“It returns void...”。
+   - “The length of the new array **is same as** the old array” → 应为“is the same as”。
+2. **表达流畅性：**
+   - "commonly for executing side effects" 应改为“commonly used for executing side effects”，使表达更完整流畅。
+   - “You should decide using which one on demand” 可以优化为更自然的表达，如“Choose between them based on your needs”。
+
+------
+
+### 修正后的版本：
+
+`Array.prototype.forEach()` and `Array.prototype.map()` are common methods to iterate over arrays in JavaScript, but they prominently differ in purpose and return values.
+
+**`forEach()`**: Commonly used to iterate over each item in an array and execute side effects (such as logging or modifying external variables). It returns `undefined` and only operates on each array element one by one.
+
+```js
+const arr = [1, 2, 3];
+arr.forEach(num => console.log(num * 2)); // 输出：2, 4, 6
+```
+
+**`map()`**: Used to transform each item in an array and returns a new array. The length of the new array is the same as the original array. It is typically used for pure function operations.
+
+```js
+const arr = [1, 2, 3];
+const doubled = arr.map(num => num * 2); // 返回：[2, 4, 6]
+```
+
+In summary, `forEach()` is better suited for operations without a return value, while `map()` is ideal for creating a new array. Choose between them based on your needs.
+
+`Array.prototype.forEach()` 和 `Array.prototype.map()` 是 JavaScript 中常用的数组迭代方法，但它们的用途和返回值存在显著差异：
+
+1. **`forEach()`**：用于遍历数组的每一项，常用于执行副作用（如打印日志或修改外部变量）。它不返回任何值，只是对数组中的元素逐个操作。
+    示例：
+
+   ```javascript
+   const arr = [1, 2, 3];
+   arr.forEach(num => console.log(num * 2)); // 输出：2, 4, 6
+   ```
+
+2. **`map()`**：用于对数组中的每一项进行转换操作，并返回一个新数组，新数组的长度与原数组一致。它常用于纯函数操作。
+    示例：
+
+   ```javascript
+   const arr = [1, 2, 3];
+   const doubled = arr.map(num => num * 2); // 返回：[2, 4, 6]
+   ```
+
+总之，`forEach()` 更适合处理无返回值的操作，而 `map()` 是用来创建新数组的。选择时应根据需求决定。
+
+<audio src="../../../../Downloads/Array prototype.mp3"></audio>
