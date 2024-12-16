@@ -1,6 +1,6 @@
 The `main.ts` file in a **Nest.js** application serves as the **entry point** for the application. It is the first file executed when the application starts, and its primary purpose is to bootstrap (initialize) the Nest.js application.
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日20点12分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月15日20点12分.mp3"></audio>
 
 Here’s a breakdown of the provided code:
 
@@ -31,7 +31,7 @@ import { AppModule } from './app.module';
 
   - This is a utility provided by Nest.js to create and manage the application instance.
   - It provides methods to create a new Nest.js application, set up middleware, and configure the application.
-  - <audio src="C:\Users\10691\Downloads\2024年12月15日20点14分.mp3"></audio>
+  - <audio src="..\..\mp3\2024年12月15日20点14分.mp3"></audio>
 
 - **`AppModule`**(Corporate Headquarters):
 
@@ -39,7 +39,7 @@ import { AppModule } from './app.module';
 
   - It serves as the entry point to the application's module system and organizes the application's structure. It contains imports, controllers, and providers for the app.
 
-  - <audio src="C:\Users\10691\Downloads\2024年12月15日20点16分.mp3"></audio>
+  - <audio src="..\..\mp3\2024年12月15日20点16分.mp3"></audio>
 
 ---
 
@@ -136,7 +136,7 @@ bootstrap();
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\2024年12月15日20点20分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月15日20点20分.mp3"></audio>
 
 - The `main.ts` file is the entry point of a Nest.js application.
 - It bootstraps the application by creating an instance of the app using `AppModule` and starts listening for requests on the specified port.

@@ -277,6 +277,14 @@ Nest.js supports **API versioning** to manage multiple versions of your API.
 > ##### 什么是路由版本控制？
 >
 > <audio src="../../mp3/2024年12月16日16点18分.mp3"></audio>
+>
+> ##### Nest.js 的版本控制支持
+>
+> <audio src="..\..\mp3\Nest.js 支持多种版本控.mp3"></audio>
+>
+> ##### 代码讲解
+>
+> <audio src="..\..\mp3\@Controller() 装.mp3"></audio>
 
 ```typescript
 import { Controller, Get } from '@nestjs/common';
@@ -299,16 +307,23 @@ export class TasksControllerV2 {
 ```
 
 In `main.ts`:
+
 ```typescript
 app.enableVersioning();
 ```
 
 ---
 
+<audio src="..\..\mp3\app.enableVersi.mp3"></audio>
+
 ### **12. Redirect Routes**
+
 You can redirect a route to another using the `@Redirect()` decorator.
 
 #### **Example: Redirect Route**
+
+<audio src="..\..\mp3\在 Nest.js 中，@Re.mp3"></audio>
+
 ```typescript
 import { Controller, Get, Redirect } from '@nestjs/common';
 
@@ -354,6 +369,8 @@ export class TasksController {
 ---
 
 ### **Summary**
+
+<audio src="..\..\mp3\- __Routing in .mp3"></audio>
 
 - **Routing in Nest.js** uses decorators like `@Controller`, `@Get`, `@Post`, etc., to define routes in a clean, declarative way.
 - Features like **route parameters**, **query parameters**, **request bodies**, and **middleware** make routing flexible.
