@@ -82,6 +82,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
 Include the `JwtModule` and register the `JwtStrategy` in the `auth.module.ts`.
 
 #### **`src/auth/auth.module.ts`**
+
 ```typescript
 import { Module } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
@@ -110,6 +111,7 @@ export class AuthModule {}
 Create a service to generate JWT tokens for authenticated users.
 
 #### **`src/auth/auth.service.ts`**
+
 ```typescript
 import { Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
@@ -144,6 +146,7 @@ export class AuthService {
 The `AuthGuard` will use the **JWT strategy** to validate incoming requests and protect routes.
 
 #### **`src/auth/auth.guard.ts`**
+
 ```typescript
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
@@ -169,6 +172,7 @@ export class JwtAuthGuard extends AuthGuard('jwt') implements CanActivate {
 The `AuthController` will provide an endpoint to authenticate users and return a JWT token.
 
 #### **`src/auth/auth.controller.ts`**
+
 ```typescript
 import { Controller, Post, Body, UnauthorizedException } from '@nestjs/common';
 import { AuthService } from './auth.service';
@@ -199,6 +203,7 @@ Use the `JwtAuthGuard` to protect specific routes in your application.
 Update the `TasksController` to use the `JwtAuthGuard`.
 
 #### **`src/tasks/tasks.controller.ts`**
+
 ```typescript
 import {
   Controller,
@@ -257,7 +262,9 @@ export class TasksController {
 ### **Step 7: Test the Implementation**
 
 #### **1. Login to Get a Token**
+
 Send a `POST` request to `/auth/login` with valid credentials:
+
 ```http
 POST /auth/login
 Content-Type: application/json
@@ -269,6 +276,7 @@ Content-Type: application/json
 ```
 
 Response:
+
 ```json
 {
   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
@@ -276,9 +284,11 @@ Response:
 ```
 
 #### **2. Access Protected Routes**
+
 Use the `access_token` in the `Authorization` header to access protected routes.
 
 Example:
+
 ```http
 GET /tasks
 Authorization: Bearer <access_token>

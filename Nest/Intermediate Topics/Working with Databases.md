@@ -205,6 +205,8 @@ In Nest.js, you can use the Prisma client as a repository for executing database
 
 Create a service to encapsulate Prisma's functionality.
 
+<audio src="C:\Users\10691\Downloads\在 NestJS 项目中创建 .mp3"></audio>
+
 ```typescript
 import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
@@ -228,6 +230,8 @@ export class PrismaService extends PrismaClient implements OnModuleInit, OnModul
 
 Register the Prisma service in your module:
 
+<audio src="C:\Users\10691\Downloads\1, 模块中的角色分配. 在一.mp3"></audio>
+
 ```typescript
 import { Module } from '@nestjs/common';
 import { PrismaService } from './prisma.service';
@@ -244,6 +248,8 @@ export class UsersModule {}
 #### **Step 3: Query the Database in a Service**
 
 Use the Prisma client to perform CRUD operations in your service:
+
+<audio src="C:\Users\10691\Downloads\2024年12月18日00点55分.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -275,6 +281,8 @@ export class UsersService {
 
 Expose the database queries through RESTful endpoints:
 
+<audio src="C:\Users\10691\Downloads\以下是如何通过 RESTful.mp3"></audio>
+
 ```typescript
 import { Controller, Get, Post, Body, Param } from '@nestjs/common';
 import { UsersService } from './users.service';
@@ -304,6 +312,8 @@ export class UsersController {
 
 ### **6. Benefits of Using Prisma**
 
+<audio src="C:\Users\10691\Downloads\- __Type Safety.mp3"></audio>
+
 - **Type Safety**: The Prisma client is auto-generated and provides full type safety for all database queries.
 - **Ease of Use**: Simplifies database management with schema migrations and declarative schema definitions.
 - **Cross-Database Support**: Works with relational and non-relational databases, including MongoDB, PostgreSQL, and MySQL.
@@ -312,5 +322,7 @@ export class UsersController {
 ---
 
 ### **Conclusion**
+
+<audio src="C:\Users\10691\Downloads\When working wi.mp3"></audio>
 
 When working with databases in **Nest.js**, **Prisma** provides a modern, type-safe, and developer-friendly way to manage your database. By defining your schema declaratively, using migrations to keep your database in sync, and leveraging the Prisma client for database queries, you can build scalable and maintainable applications. Whether you're using MongoDB, PostgreSQL, or another database, Prisma integrates seamlessly into your Nest.js application to simplify database operations.
