@@ -709,3 +709,123 @@ In summary, `forEach()` is better suited for operations without a return value, 
 总之，`forEach()` 更适合处理无返回值的操作，而 `map()` 是用来创建新数组的。选择时应根据需求决定。
 
 <audio src="../../../../Downloads/Array prototype.mp3"></audio>
+
+
+
+## How does `instanceOf` work? difference with `typeof`
+
+------
+
+### 修正前后的主要问题和对比：
+
+#### 1. **"constructed through `Array`"**
+
+- **问题**: 表述不够精准，应该改为“由 `Array` 构造”。
+- **修正**: 改为 "`obj` was created by `Array`."
+
+#### 2. **"unable to discriminate specific object types"**
+
+- **问题**: 表述稍显僵硬，可以更自然地表达。
+- **修正**: 改为 "cannot distinguish specific object types."
+
+#### 3. **"can lead to misguiding"**
+
+- **问题**: "misguiding" 用法不够地道，改为更常见的 "can be misleading."
+- **修正**: 改为 "but it can be misleading because it returns `'object'` for `null`."
+
+`instanceof` is used to determine if an object is an instance of a certain constructor by checking if the object's prototype chain contains the constructor's `prototype`. For instance, `object instanceof Array` returns `true` if `obj` is constructed through `Array`. While `typeof` is used to check types of variables, returning a string to represent basic data types of values, such as `"string"`,  `"number". But it just returns `"object"` for object and unable to discriminate specific object types. ` Differences lie in: 1. `instanceof` focuses on the relationship between objects and constructors and is suitable for complex object types. 2. `typeof` is used to check types of basic data types, but can lead to misguiding due to returning `"object"` for `null`. Both differ in use cases, you should select a proper method on demand.
+
+#### 修正后的版本：
+
+`instanceof` is used to determine if an object is an instance of a certain constructor by checking if the object's prototype chain contains the constructor's `prototype`. For example, `obj instanceof Array` returns `true` if `obj` was created by `Array`.
+
+On the other hand, `typeof` is used to check the type of a variable, returning a string representing its basic data type, such as `"string"` or `"number"`. However, for objects, it only returns `"object"` and cannot distinguish specific object types.
+
+Differences:
+
+1. `instanceof` focuses on the relationship between objects and constructors, making it suitable for checking complex object types.
+2. `typeof` is used for basic data type checks, but it can be misleading because it returns `"object"` for `null`.
+
+Each has its own use case, so choose the appropriate method as needed.
+
+------
+
+`instanceof` 用于判断一个对象是否是某个构造函数的实例，通过检查对象的原型链是否包含该构造函数的 `prototype`。例如，`obj instanceof Array` 返回 `true`，如果 `obj` 是通过 `Array` 构造的。
+
+而 `typeof` 用于检测变量的类型，返回一个字符串表示值的基本数据类型，如 `'string'`、`'number'`，但对对象类型，它只返回 `'object'`，无法区分具体的对象类型。
+
+区别在于：
+
+1. `instanceof` 专注于对象与构造函数的关系，适合检测复杂对象类型。
+2. `typeof` 用于基本数据类型检测，但对 `null` 返回 `'object'` 会导致误导。
+
+两者适用场景不同，应根据需求选择合适的方法。
+
+<audio src="../../../../Downloads/`instance of` i.mp3"></audio>
+
+## Explain `new` operator in JavaScript. What exactly does it do?
+
+The `new` operator in JavaScript  is used to create an object instance defined by the constructor. Its internal execution process is as follows:
+
+1. Create an empty object, and point its implicit prototype (`__proto__`) to the constructor's prototype object (`prototype`).
+2. Take the object as the context to execute the constructor , which is calling the constructor while appending properties and methods on the object.
+3. If the constructor returns an object, return the object, otherwise return the new-created object.
+
+For example, `let obj = new Constructor();` initializes `obj` which extends properties and methods from `Constructor.prototype`.
+
+The object created by `new`  has dual properties of a constructor and a prototype, making it become an important tool to construct function instances.
+
+------
+
+The `new` operator in JavaScript is used to create an object instance defined by a constructor. Its internal execution process is as follows:
+
+1. Creates an empty object and sets its implicit prototype (`__proto__`) to the constructor's prototype object (`prototype`).
+2. Executes the constructor with the object as its context, appending properties and methods to the object.
+3. Returns the object created by the constructor if it explicitly returns an object; otherwise, returns the newly created object.
+
+For example, `let obj = new Constructor();` initializes `obj`, which inherits properties and methods from `Constructor.prototype`.
+
+Objects created with `new` combine the characteristics of the constructor and its prototype, making `new` a vital tool for creating instances of constructor functions.
+
+***
+
+`new` 运算符在 JavaScript 中用于创建一个由构造函数定义的对象实例。其内部执行过程如下：
+
+1. 创建一个空对象，并将其隐式原型（`__proto__`）指向构造函数的原型对象（`prototype`）。
+2. 以该对象为上下文执行构造函数，即调用构造函数，并将属性或方法添加到该对象上。
+3. 如果构造函数返回一个对象，则返回该对象；否则，返回新创建的对象。
+
+例如，`let obj = new Constructor();` 会初始化 `obj`，继承 `Constructor.prototype` 上的属性和方法。
+
+通过 `new` 创建的对象具有构造函数和原型的双重特性，使其成为构造函数实例的重要工具。
+
+<audio src="../../../../Downloads/The `new` opera.mp3"></audio>
+
+------
+
+### Changes Made:
+
+1. Adjusted minor grammatical errors: changed "Take" to "Executes," and "return the new-created object" to "returns the newly created object."
+2. Improved sentence clarity for better readability (e.g., "has dual properties" was rephrased to "combine the characteristics").
+
+Your original translation was already very accurate!
+
+## Explain `macrotask` and `microtask`
+
+1. 宏任务（Macrotask）和微任务（Microtask）是 JavaScript 中事件循环任务队列的两种类型，用于管理异步操作的执行顺序。
+
+   1. **宏任务**：包括 `setTimeout`、`setInterval` 和一些 DOM 操作等，每次事件循环都会从宏任务队列中取出一个任务执行。宏任务通常用于更大粒度的操作，如计时器回调。
+   2. **微任务**：包括 `Promise.then`、`MutationObserver` 和 `queueMicrotask` 等，微任务优先于宏任务执行，在当前任务完成后、下一个事件循环开始前执行。微任务适合处理更小粒度的操作。
+
+   微任务的优先级高于宏任务，且可以嵌套在同一事件循环中。例如，`Promise.then` 的回调会比 `setTimeout` 更早执行。合理使用两者有助于优化性能和控制任务执行顺序。
+
+   **Macrotasks** and **Microtasks** are two types of task queues in JavaScript'**s event** loop, used to manage the execution order of asynchronous operations.
+
+   1. **Macrotasks**: Include operations like `setTimeout`, `setInterval`, and certain DOM tasks. *In each iteration of* the event loop, one task is *taken from* the macrotask queue and executed. Macrotasks handle larger-grain operations, such as *timer callbacks*.
+   2. **Microtasks**: Include operations like `Promise.then`, `MutationObserver`, and `queueMicrotask`. Microtasks are executed immediately after the current task finishes, before *the next iteration of* the event loop. They are suitable for smaller-grain operations.
+
+   Microtasks have higher priority than macrotasks and can be nested within the *same* *event loop iteration*. For example, callbacks from `Promise.then` execute earlier *than those* from `setTimeout`. Properly managing these tasks helps optimize performance and *task execution order*.
+
+   <audio src="../../../../Downloads/__Macrotasks__ .mp3"></audio>
+
+###### 
