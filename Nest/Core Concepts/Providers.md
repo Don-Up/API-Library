@@ -1,6 +1,6 @@
 ### **Providers (Services) in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\In Nest js, pro.mp3"></audio>
+<audio src="../../mp3/In Nest js, pro.mp3"></audio>
 
 In **Nest.js**, **providers** (commonly referred to as **services**) are classes that encapsulate **business logic** and provide reusable functionality throughout the application. Providers are at the core of Nest.js's **Dependency Injection (DI)** system, which allows them to be injected into other components like controllers, other services, or even other modules.
 
@@ -34,9 +34,9 @@ Providers are **classes** annotated with the `@Injectable()` decorator. This tel
 
 #### **Step 1: Define the Service**
 
-<audio src="C:\Users\10691\Downloads\在 NestJS 中，服务（S.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，服务（S.mp3"></audio>
 
-<audio src="C:\Users\10691\Downloads\关键点讲解. @Injecta.mp3"></audio>
+<audio src="../../mp3/关键点讲解. @Injecta.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -66,19 +66,19 @@ To make the service available in the application, it must be registered in a mod
 
 ##### 如何注册服务到模块中
 
-<audio src="C:\Users\10691\Downloads\要在模块中使用服务，我们需要将.mp3"></audio>
+<audio src="../../mp3/要在模块中使用服务，我们需要将.mp3"></audio>
 
 ##### 模块结构
 
-<audio src="C:\Users\10691\Downloads\在模块中，使用 @Module.mp3"></audio>
+<audio src="../../mp3/在模块中，使用 @Module.mp3"></audio>
 
 ##### 服务注册
 
-<audio src="C:\Users\10691\Downloads\通过将 UsersServic.mp3"></audio>
+<audio src="../../mp3/通过将 UsersServic.mp3"></audio>
 
 ##### 总结
 
-<audio src="C:\Users\10691\Downloads\在 UsersModule 中.mp3"></audio>
+<audio src="../../mp3/在 UsersModule 中.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -100,7 +100,7 @@ export class UsersModule {}
 
 The service can now be injected into a controller using the constructor.
 
-<audio src="C:\Users\10691\Downloads\NestJS 使用依赖注入（D.mp3"></audio>
+<audio src="../../mp3/NestJS 使用依赖注入（D.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Param } from '@nestjs/common';
@@ -129,7 +129,7 @@ export class UsersController {
 
 ### **Dependency Injection in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\Nest js uses __.mp3"></audio>
+<audio src="../../mp3/Nest js uses __.mp3"></audio>
 
 Nest.js uses **Dependency Injection (DI)** to manage the lifecycle and dependencies of providers. DI makes it easy to:
 - Use services in different parts of your application.
@@ -138,7 +138,7 @@ Nest.js uses **Dependency Injection (DI)** to manage the lifecycle and dependenc
 
 #### **How DI Works in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\1. __Injectable.mp3"></audio>
+<audio src="../../mp3/1. __Injectable.mp3"></audio>
 
 1. **Injectable Classes**: Classes marked with `@Injectable()` are registered in the DI container.
 2. **Constructor Injection**: Dependencies are injected into the constructor of a class.
@@ -377,7 +377,7 @@ describe('UsersService', () => {
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\- __Providers s.mp3"></audio>
+<audio src="../../mp3/- __Providers s.mp3"></audio>
 
 - **Providers (services)** encapsulate business logic and reusable functionality in Nest.js applications.
 - They are decorated with `@Injectable()` and registered in the `providers` array of a module.

@@ -1,6 +1,6 @@
 ### **Error Handling in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\2024年12月18日01点16分.mp3"></audio>
+<audio src="../../mp3/2024年12月18日01点16分.mp3"></audio>
 
 Error handling is an essential part of any application. In Nest.js, error handling is designed to be both **flexible** and **centralized**, making it easier to manage and respond to errors consistently across your application.
 
@@ -12,7 +12,7 @@ Nest.js provides tools like **exception filters**, the **built-in `HttpException
 
 #### **1. Implementing Global Exception Filters**
 
-<audio src="C:\Users\10691\Downloads\Implementing Gl.mp3"></audio>
+<audio src="../../mp3/Implementing Gl.mp3"></audio>
 
 **Exception Filters** in Nest.js intercept thrown exceptions and transform them into appropriate HTTP responses. Using a global exception filter ensures that all unhandled errors in your application are processed uniformly.
 
@@ -20,11 +20,11 @@ Nest.js provides tools like **exception filters**, the **built-in `HttpException
 
 **Step 1: Implement the `ExceptionFilter` Interface**
 
-<audio src="C:\Users\10691\Downloads\2024年12月18日01点19分.mp3"></audio>
+<audio src="../../mp3/2024年12月18日01点19分.mp3"></audio>
 
 To create a custom exception filter, implement the `ExceptionFilter` interface and use the `@Catch()` decorator to target specific exceptions (or all exceptions).
 
-<audio src="C:\Users\10691\Downloads\1, 什么是 Exceptio.mp3"></audio>
+<audio src="../../mp3/1, 什么是 Exceptio.mp3"></audio>
 
 ```typescript
 import {
@@ -76,7 +76,7 @@ You can register the filter globally either programmatically or with metadata.
 
 Register the exception filter in the `main.ts` file when bootstrapping the application.
 
-<audio src="C:\Users\10691\Downloads\1, 为什么选择编程方式注册过.mp3"></audio>
+<audio src="../../mp3/1, 为什么选择编程方式注册过.mp3"></audio>
 
 ```typescript
 import { NestFactory } from '@nestjs/core';
@@ -102,7 +102,7 @@ If you're using class-based exceptions, you can set the global filter using `@Us
 
 #### **Advantages of Global Exception Filters**
 
-<audio src="C:\Users\10691\Downloads\Advantages of G.mp3"></audio>
+<audio src="../../mp3/Advantages of G.mp3"></audio>
 
 1. Centralized error handling: All unhandled errors pass through the filter.
 2. Consistent error responses: All errors follow the same format.
@@ -114,13 +114,13 @@ If you're using class-based exceptions, you can set the global filter using `@Us
 
 ### **2. Using `HttpException` for Custom Error Responses**
 
-<audio src="C:\Users\10691\Downloads\Nest js provide.mp3"></audio>
+<audio src="../../mp3/Nest js provide.mp3"></audio>
 
 Nest.js provides the built-in **`HttpException` class**, which allows developers to throw HTTP errors with custom messages and status codes. This is useful for creating custom error responses in services, controllers, or other parts of your application.
 
 #### **Throwing an `HttpException`**
 
-<audio src="C:\Users\10691\Downloads\Throwing an `Ht.mp3"></audio>
+<audio src="../../mp3/Throwing an `Ht.mp3"></audio>
 
 To throw a custom HTTP error, use the `HttpException` class. It accepts:
 - A **response** (message or object) as the first argument.
@@ -134,7 +134,7 @@ throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
 
 #### **Example: Custom Error Response**
 
-<audio src="C:\Users\10691\Downloads\当你需要返回一个自定义的错误响.mp3"></audio>
+<audio src="../../mp3/当你需要返回一个自定义的错误响.mp3"></audio>
 
 ```typescript
 throw new HttpException(
@@ -153,7 +153,7 @@ throw new HttpException(
 
 You can use `HttpException` in both services and controllers to handle errors gracefully.
 
-<audio src="C:\Users\10691\Downloads\1, 如何在服务中使用 Htt.mp3"></audio>
+<audio src="../../mp3/1, 如何在服务中使用 Htt.mp3"></audio>
 
 ```typescript
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
@@ -204,7 +204,7 @@ If the user is not found, the `HttpException` will be thrown, and the client wil
 
 You can extend the `HttpException` class to create your own custom exceptions.
 
-<audio src="C:\Users\10691\Downloads\在 NestJS 中，您可以创.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，您可以创.mp3"></audio>
 
 ```typescript
 import { HttpException, HttpStatus } from '@nestjs/common';
@@ -224,7 +224,7 @@ throw new ForbiddenException();
 
 #### **Advantages of Using `HttpException`**
 
-<audio src="C:\Users\10691\Downloads\Advantages of U.mp3"></audio>
+<audio src="../../mp3/Advantages of U.mp3"></audio>
 
 - Provides a standardized way to return HTTP errors.
 - Fully integrates with Nest.js's exception handling system.
@@ -234,7 +234,7 @@ throw new ForbiddenException();
 
 ### **Combining Exception Filters and `HttpException`**
 
-<audio src="C:\Users\10691\Downloads\2024年12月18日01点46分.mp3"></audio>
+<audio src="../../mp3/2024年12月18日01点46分.mp3"></audio>
 
 The combination of **exception filters** and **`HttpException`** provides a robust error handling strategy.
 
@@ -250,7 +250,7 @@ The combination of **exception filters** and **`HttpException`** provides a robu
 
 ### **Error Handling Best Practices**
 
-<audio src="C:\Users\10691\Downloads\1. __Centralize.mp3"></audio>
+<audio src="../../mp3/1. __Centralize.mp3"></audio>
 
 1. **Centralize Error Handling**:
    - Use global exception filters to handle all unhandled errors consistently.
@@ -276,7 +276,7 @@ The combination of **exception filters** and **`HttpException`** provides a robu
 
 #### **Global Exception Filter**
 
-<audio src="C:\Users\10691\Downloads\在 NestJS 中，全局异常.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，全局异常.mp3"></audio>
 
 ```typescript
 import {
@@ -372,7 +372,7 @@ export class UsersController {
 
 ---
 
-<audio src="C:\Users\10691\Downloads\With this setup.mp3"></audio>
+<audio src="../../mp3/With this setup.mp3"></audio>
 
 With this setup:
 

@@ -1,6 +1,6 @@
 ### **Modules in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\Modules are a f.mp3"></audio>
+<audio src="../../mp3/Modules are a f.mp3"></audio>
 
 Modules are a fundamental building block in **Nest.js** applications. They allow developers to organize application code into cohesive and reusable pieces. A module is essentially a **class** decorated with the `@Module()` decorator, which provides metadata to define the structure and dependencies of the module.
 
@@ -29,7 +29,7 @@ Modules help to manage and encapsulate related components such as controllers, p
 
 ### **Module Structure**
 
-<audio src="C:\Users\10691\Downloads\A module in Nes.mp3"></audio>
+<audio src="../../mp3/A module in Nes.mp3"></audio>
 
 A module in Nest.js is a class decorated with the `@Module()` decorator. It typically consists of:
 
@@ -40,7 +40,7 @@ A module in Nest.js is a class decorated with the `@Module()` decorator. It typi
 
 #### **Basic Module Example**
 
-<audio src="C:\Users\10691\Downloads\在 NestJS 中，模块是组.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，模块是组.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -58,7 +58,7 @@ export class AppModule {}
 
 ### **Creating Modules**
 
-<audio src="C:\Users\10691\Downloads\1. Manually Cre.mp3"></audio>
+<audio src="../../mp3/1. Manually Cre.mp3"></audio>
 
 #### **1. Manually Creating a Module**
 
@@ -100,7 +100,7 @@ The `@Module()` decorator accepts an object with the following properties:
 
 #### **1. `imports`**
 
-<audio src="C:\Users\10691\Downloads\- Specifies the (2).mp3"></audio>
+<audio src="../../mp3/- Specifies the (2).mp3"></audio>
 
 - Specifies the **other modules** that this module depends on.
 - These imported modules expose their exported providers for use in the current module.
@@ -116,7 +116,7 @@ export class AppModule {}
 
 #### **2. `controllers`**
 
-<audio src="C:\Users\10691\Downloads\- Specifies the (3).mp3"></audio>
+<audio src="../../mp3/- Specifies the (3).mp3"></audio>
 
 - Specifies the controllers defined in the module.
 - Controllers handle incoming HTTP requests and delegate tasks to services.
@@ -132,7 +132,7 @@ export class UsersModule {}
 
 #### **3. `providers`**
 
-<audio src="C:\Users\10691\Downloads\- Specifies the (1).mp3"></audio>
+<audio src="../../mp3/- Specifies the (1).mp3"></audio>
 
 - Specifies the providers (e.g., services, factories, helpers) that belong to the module.
 - Providers are instantiated by the Nest.js **Dependency Injection (DI)** system and can be injected into other components.
@@ -148,7 +148,7 @@ export class UsersModule {}
 
 #### **4. `exports`**
 
-<audio src="C:\Users\10691\Downloads\- Specifies the.mp3"></audio>
+<audio src="../../mp3/- Specifies the.mp3"></audio>
 
 - Specifies the providers that are made available to other modules that import this module.
 - Without exporting a provider, it won’t be accessible in other modules.
@@ -185,7 +185,7 @@ export class AppModule {}
 
 ### **Feature Modules**
 
-<audio src="C:\Users\10691\Downloads\In Nest js, you.mp3"></audio>
+<audio src="../../mp3/In Nest js, you.mp3"></audio>
 
 In Nest.js, you create **feature modules** to encapsulate specific features of the application. A feature module manages its own controllers, providers, and other related components.
 
@@ -214,7 +214,7 @@ If you want to share providers (e.g., services) across multiple modules, you can
 
 #### **Example: Shared Module**
 
-<audio src="C:\Users\10691\Downloads\1, 什么是共享模块？共享模块.mp3"></audio>
+<audio src="../../mp3/1, 什么是共享模块？共享模块.mp3"></audio>
 
 ```typescript
 // shared.module.ts
@@ -255,13 +255,13 @@ export class FeatureModule {}
 
 ### **Global Modules**
 
-<audio src="C:\Users\10691\Downloads\Sometimes, you .mp3"></audio>
+<audio src="../../mp3/Sometimes, you .mp3"></audio>
 
 Sometimes, you may want a module to be available globally across the entire application. For this, you can use the `@Global()` decorator.
 
 #### **Example: Global Module**
 
-<audio src="C:\Users\10691\Downloads\1, 什么是全局模块？全局模块.mp3"></audio>
+<audio src="../../mp3/1, 什么是全局模块？全局模块.mp3"></audio>
 
 ```typescript
 import { Module, Global } from '@nestjs/common';
@@ -284,7 +284,7 @@ Dynamic modules allow you to pass configuration or customize the behavior of a m
 
 #### **Example: Dynamic Module**
 
-<audio src="C:\Users\10691\Downloads\1, 什么是动态模块？动态模块.mp3"></audio>
+<audio src="../../mp3/1, 什么是动态模块？动态模块.mp3"></audio>
 
 ```typescript
 // logger.module.ts
@@ -322,7 +322,7 @@ export class AppModule {}
 
 ### **Lazy Loading Modules**
 
-<audio src="C:\Users\10691\Downloads\Nest js support.mp3"></audio>
+<audio src="../../mp3/Nest js support.mp3"></audio>
 
 Nest.js supports lazy loading of modules, which allows you to load certain modules only when they are needed. This is particularly useful in microservices or modular monolithic architectures.
 
@@ -330,7 +330,7 @@ Nest.js supports lazy loading of modules, which allows you to load certain modul
 
 ### **Key Concepts in Module Design**
 
-<audio src="C:\Users\10691\Downloads\1. __Separation.mp3"></audio>
+<audio src="../../mp3/1. __Separation.mp3"></audio>
 
 1. **Separation of Concerns**:
    - Divide the application into feature modules.
@@ -349,7 +349,7 @@ Nest.js supports lazy loading of modules, which allows you to load certain modul
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\- __Modules__ i.mp3"></audio>
+<audio src="../../mp3/- __Modules__ i.mp3"></audio>
 
 - **Modules** in Nest.js provide a way to organize and encapsulate application functionality into cohesive, self-contained pieces.
 - A module is defined using the `@Module()` decorator and can include **controllers**, **providers**, **imports**, and **exports**.

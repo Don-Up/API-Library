@@ -1,10 +1,14 @@
 ### **Configuration Management in Nest.js**
 
+<audio src="../../../../../Downloads/Configuration m.mp3"></audio>
+
 Configuration management is a critical part of any application, especially when dealing with environment-specific settings like database credentials, API keys, or application secrets. Nest.js provides the `@nestjs/config` package to simplify configuration management and allow seamless access to environment variables across your application.
 
 ---
 
 ### **Key Features of `@nestjs/config`**
+
+<audio src="../../../../../Downloads/1. __Centralize.mp3"></audio>
 
 1. **Centralized Configuration**: Manage all environment variables and settings in one place.
 2. **Environment-Specific Settings**: Load different configurations for different environments (`.env` files).
@@ -27,6 +31,8 @@ npm install @nestjs/config
 
 #### **2. Create `.env` Files**
 
+<audio src="../../../../../Downloads/Environment var.mp3"></audio>
+
 Environment variables are typically stored in a `.env` file in the root of your project. These files should not be committed to version control systems (add them to `.gitignore`).
 
 Example `.env` file:
@@ -48,7 +54,17 @@ DB_NAME=mydatabase
 
 #### **3. Import the `ConfigModule`**
 
+<audio src="../../../../../Downloads/The `ConfigModu.mp3"></audio>
+
 The `ConfigModule` from `@nestjs/config` handles loading and parsing the `.env` file. Import and configure it in your app's root module (`AppModule`).
+
+##### 什么是 ConfigModule？
+
+<audio src="../../../../../Downloads/ConfigModule 是 .mp3"></audio>
+
+##### 主要步骤
+
+<audio src="../../../../../Downloads/1, 引入 ConfigMod.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -69,9 +85,19 @@ export class AppModule {}
 
 #### **4. Access Configuration Values**
 
+<audio src="../../../../../Downloads/You can access .mp3"></audio>
+
 You can access environment variables using the `ConfigService`, which is provided by the `@nestjs/config` package. Inject the `ConfigService` wherever you need it.
 
 ##### Example: Using `ConfigService` in a Service
+
+##### 什么是 ConfigService？
+
+<audio src="../../../../../Downloads/ConfigService 是.mp3"></audio>
+
+##### 如何在 Service 中使用 `ConfigService`？
+
+<audio src="../../../../../Downloads/1, 依赖注入 ConfigS.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -99,6 +125,10 @@ export class AppService {
 
 ##### Example: Using `ConfigService` in a Controller
 
+##### 如何在 Controller 中使用 ConfigService？
+
+<audio src="../../../../../Downloads/1, 依赖注入 ConfigS (1).mp3"></audio>
+
 ```typescript
 import { Controller, Get } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
@@ -123,7 +153,11 @@ export class AppController {
 
 #### **1. Load Multiple `.env` Files**
 
+<audio src="../../../../../Downloads/You can load di.mp3"></audio>
+
 You can load different `.env` files for different environments (e.g., `development`, `production`, `test`) by specifying the file in `envFilePath`.
+
+<audio src="../../../../../Downloads/在 ConfigModule .mp3"></audio>
 
 ```typescript
 ConfigModule.forRoot({
@@ -140,6 +174,8 @@ For example:
 
 #### **2. Define Default Values**
 
+<audio src="../../../../../Downloads/If an environme.mp3"></audio>
+
 If an environment variable is not defined, you can provide a default value using the `get()` method.
 
 ```typescript
@@ -150,7 +186,7 @@ const appPort = this.configService.get<number>('APP_PORT', 3000); // Default to 
 
 #### **3. Validate Environment Variables**
 
-Use the `validate()` method with **Joi** (a popular validation library) to ensure that your environment variables meet certain criteria.
+Use the `validate()` method with **Joi** (a popular validation library) to ensure that **your environment variables meet certain criteria**.
 
 ##### Step 1: Install Joi
 
@@ -159,6 +195,8 @@ npm install joi
 ```
 
 ##### Step 2: Add Validation to `ConfigModule`
+
+<audio src="../../../../../Downloads/如何实现环境变量验证？通过 C.mp3"></audio>
 
 ```typescript
 import * as Joi from 'joi';
@@ -186,7 +224,13 @@ If the `.env` file is missing a required variable or a variable is invalid, an e
 
 You can define configuration namespaces for grouping related settings (e.g., database settings, app settings).
 
+##### 什么是配置命名空间？
+
+<audio src="../../../../../Downloads/配置命名空间是一种组织和分类环.mp3"></audio>
+
 ##### Step 1: Create a Configuration File
+
+<audio src="../../../../../Downloads/创建配置文件. 将配置分组逻辑.mp3"></audio>
 
 Create a file (e.g., `database.config.ts`) to define the database configuration.
 
@@ -203,6 +247,8 @@ export default () => ({
 ```
 
 ##### Step 2: Register the Configuration File
+
+<audio src="../../../../../Downloads/注册配置文件. 在 AppMo.mp3"></audio>
 
 Register the configuration file using `ConfigModule.forRoot()`.
 
@@ -224,6 +270,8 @@ export class AppModule {}
 
 ##### Step 3: Access Namespaced Configuration
 
+<audio src="../../../../../Downloads/访问命名空间中的配置.  使用.mp3"></audio>
+
 Access the nested configuration values using `ConfigService`.
 
 ```typescript
@@ -234,6 +282,8 @@ const dbHost = this.configService.get('database.host'); // Get a specific proper
 ---
 
 ### **Best Practices**
+
+<audio src="../../../../../Downloads/1. __Use Enviro.mp3"></audio>
 
 1. **Use Environment-Specific `.env` Files**:
    - Use different `.env` files for different environments (e.g., `.env.development`, `.env.production`).
@@ -260,17 +310,18 @@ const dbHost = this.configService.get('database.host'); // Get a specific proper
 #### **.env**
 
 ```env
-APP_PORT=3000
-APP_ENV=development
-
-DB_HOST=localhost
-DB_PORT=5432
-DB_USERNAME=admin
-DB_PASSWORD=secret
-DB_NAME=mydatabase
+APP_PORT=3000         # 应用监听的端口
+APP_ENV=development   # 应用运行的环境（如开发、生产）
+DB_HOST=localhost     # 数据库主机地址
+DB_PORT=5432          # 数据库端口
+DB_USERNAME=admin     # 数据库用户名
+DB_PASSWORD=secret    # 数据库密码
+DB_NAME=mydatabase    # 数据库名称
 ```
 
 #### **AppModule**
+
+<audio src="../../../../../Downloads/AppModule是应用的主模.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -303,6 +354,8 @@ export class AppModule {}
 ```
 
 #### **Access Configuration**
+
+<audio src="../../../../../Downloads/AppService 使用 C.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';

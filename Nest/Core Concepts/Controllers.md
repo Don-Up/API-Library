@@ -1,6 +1,6 @@
 ### **Controllers in Nest.js**
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日18点42分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日18点42分.mp3"></audio>
 
 In **Nest.js**, controllers are responsible for handling **incoming requests** and returning **responses** to the client. They act as the interface between the **application's services (business logic)** and the **outside world** (e.g., HTTP requests, WebSocket events). Controllers are a fundamental part of Nest.js's **MVC (Model-View-Controller)** architecture.
 
@@ -34,7 +34,7 @@ Controllers in Nest.js are **classes** decorated with the `@Controller()` decora
 
 #### **Example: Basic Controller**
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日18点47分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日18点47分.mp3"></audio>
 
 ```typescript
 import { Controller, Get } from '@nestjs/common';
@@ -69,7 +69,7 @@ Route handlers in controllers are methods decorated with **HTTP method decorator
 
 #### **Example: Multiple Routes**
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日18点51分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日18点51分.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Post, Param, Body, Query } from '@nestjs/common';
@@ -108,7 +108,7 @@ You can extract **route parameters**, **query parameters**, or **body data** usi
 
 Route parameters are specified in the path (e.g., `/users/:id`). Use the `@Param()` decorator to extract them.
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日18点56分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日18点56分.mp3"></audio>
 
 ```typescript
 @Get(':id') // e.g., GET /users/123
@@ -123,7 +123,7 @@ findOne(@Param('id') id: string) {
 
 Query parameters are part of the URL query string (e.g., `/users?name=John`). Use the `@Query()` decorator to extract them.
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日19点02分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日19点02分.mp3"></audio>
 
 ```typescript
 @Get('search') // e.g., GET /users/search?name=John
@@ -138,7 +138,7 @@ search(@Query('name') name: string) {
 
 The request body is typically sent with POST or PUT requests. Use the `@Body()` decorator to extract the data.
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日19点04分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日19点04分.mp3"></audio>
 
 ```typescript
 @Post()
@@ -153,7 +153,7 @@ create(@Body() createUserDto: any) {
 
 You can access custom headers using the `@Headers()` decorator.
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日19点07分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日19点07分.mp3"></audio>
 
 ```typescript
 @Get()
@@ -168,7 +168,7 @@ getWithHeaders(@Headers('custom-header') customHeader: string) {
 
 Controllers should not implement business logic directly. Instead, they should delegate tasks to **services**.
 
-<audio src="C:\Users\10691\Downloads\2024年12月17日19点11分.mp3"></audio>
+<audio src="../../mp3/2024年12月17日19点11分.mp3"></audio>
 
 #### **Example: Using a Service in a Controller**
 
@@ -261,11 +261,11 @@ Nest.js provides several decorators to handle incoming requests:
 
 > 什么是装饰器？
 >
-> <audio src="C:\Users\10691\Downloads\装饰器是一个用于声明式编程的功.mp3"></audio>
+> <audio src="../../mp3/装饰器是一个用于声明式编程的功.mp3"></audio>
 >
 > 代码分析
 >
-> <audio src="C:\Users\10691\Downloads\控制器装饰器. @Contro.mp3"></audio>
+> <audio src="../../mp3/控制器装饰器. @Contro.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Post, Param, Query, Body, Headers } from '@nestjs/common';
@@ -303,7 +303,7 @@ By default, Nest.js returns an HTTP 200 status code for successful responses. Yo
 
 #### **Customizing Status Codes**
 
-<audio src="C:\Users\10691\Downloads\NestJS 默认根据 HTT.mp3"></audio>
+<audio src="../../mp3/NestJS 默认根据 HTT.mp3"></audio>
 
 ```typescript
 import { Controller, Post, HttpCode } from '@nestjs/common';
@@ -326,9 +326,9 @@ You can access the raw response object using the `@Res()` decorator, but it is d
 
 #### **Example: Using `@Res()`**
 
-<audio src="C:\Users\10691\Downloads\@Res() 是 NestJS.mp3"></audio>
+<audio src="../../mp3/@Res() 是 NestJS.mp3"></audio>
 
-<audio src="C:\Users\10691\Downloads\注意事项. 1, 失去内置功能.mp3"></audio>
+<audio src="../../mp3/注意事项. 1, 失去内置功能.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Res } from '@nestjs/common';
@@ -351,9 +351,9 @@ Controllers can be registered globally by including them in the `AppModule` or a
 
 #### **Example: Registering a Controller in a Module**
 
-<audio src="C:\Users\10691\Downloads\在 NestJS 中，注册控制.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，注册控制.mp3"></audio>
 
-<audio src="C:\Users\10691\Downloads\_总结. @Module 装饰.mp3"></audio>
+<audio src="../../mp3/_总结. @Module 装饰.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -371,7 +371,7 @@ export class UsersModule {}
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\- __Controllers.mp3"></audio>
+<audio src="../../mp3/- __Controllers.mp3"></audio>
 
 - **Controllers** in Nest.js are responsible for handling **HTTP requests** and delegating business logic to services.
 - They use the `@Controller()` decorator to define the base route and **HTTP method decorators** to define route handlers.
