@@ -1,6 +1,6 @@
 ### **Writing Unit Tests with Jest in Nest.js**
 
-<audio src="../../../../../Downloads/Unit testing is.mp3"></audio>
+<audio src="../../mp3/Unit testing is.mp3"></audio>
 
 Unit testing is an essential part of software development, ensuring that individual components (services, controllers, modules) work as expected. Nest.js provides built-in support for **Jest**, a popular JavaScript testing framework, and includes tools like `TestingModule` to streamline the testing process.
 
@@ -44,7 +44,7 @@ Now, you're ready to write tests for services, controllers, and modules.
 
 Let's assume you have the following `AppService`:
 
-<audio src="../../../../../Downloads/AppService 是一个简.mp3"></audio>
+<audio src="../../mp3/AppService 是一个简.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -65,9 +65,9 @@ export class AppService {
 
 To test this service, create a `app.service.spec.ts` file:
 
-<audio src="../../../../../Downloads/编写单元测试的步骤. 1, 设.mp3"></audio>
+<audio src="../../mp3/编写单元测试的步骤. 1, 设.mp3"></audio>
 
-<audio src="../../../../../Downloads/总结与建议. 1, 单一职责测.mp3"></audio>
+<audio src="../../mp3/总结与建议. 1, 单一职责测.mp3"></audio>
 
 ```typescript
 import { Test, TestingModule } from '@nestjs/testing';
@@ -117,7 +117,7 @@ npm test
 
 #### **Controller Example**
 
-<audio src="../../../../../Downloads/控制器是 NestJS 中的核.mp3"></audio>
+<audio src="../../mp3/控制器是 NestJS 中的核.mp3"></audio>
 
 Here's a simple `AppController`:
 
@@ -138,9 +138,9 @@ export class AppController {
 
 #### **Unit Test for `AppController`**
 
-<audio src="../../../../../Downloads/单元测试的目标.  1, 验证.mp3"></audio>
+<audio src="../../mp3/单元测试的目标.  1, 验证.mp3"></audio>
 
-<audio src="../../../../../Downloads/测试的编写步骤. 1, 设置测.mp3"></audio>
+<audio src="../../mp3/测试的编写步骤. 1, 设置测.mp3"></audio>
 
 Create a `app.controller.spec.ts` file:
 
@@ -184,7 +184,7 @@ describe('AppController', () => {
 
 #### **Explanation**
 
-<audio src="../../../../../Downloads/- __Mocking Ser.mp3"></audio>
+<audio src="../../mp3/- __Mocking Ser.mp3"></audio>
 
 - **Mocking Services**: The `useValue` option is used to mock the `AppService` dependency. This is crucial for isolating the controller logic during testing.
 - **Test Cases**:
@@ -199,7 +199,7 @@ Modules are containers for services, controllers, and other providers. Testing m
 
 #### **Module Example**
 
-<audio src="../../../../../Downloads/在 NestJS 中，模块是应.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，模块是应.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -216,9 +216,9 @@ export class AppModule {}
 
 #### **Unit Test for `AppModule`**
 
-<audio src="../../../../../Downloads/测试目标. 模块的单元测试旨在.mp3"></audio>
+<audio src="../../mp3/测试目标. 模块的单元测试旨在.mp3"></audio>
 
-<audio src="../../../../../Downloads/测试步骤. 1, 设置测试环境.mp3"></audio>
+<audio src="../../mp3/测试步骤. 1, 设置测试环境.mp3"></audio>
 
 Create a `app.module.spec.ts` file:
 
@@ -249,7 +249,7 @@ describe('AppModule', () => {
 
 #### **Explanation**
 
-<audio src="../../../../../Downloads/- __Test the En.mp3"></audio>
+<audio src="../../mp3/- __Test the En.mp3"></audio>
 
 - **Test the Entire Module**: The test ensures that all components (controllers, services, etc.) are properly registered and instantiated in the module.
 - **Dependency Injection**: Verifies that the dependencies within the module are properly injected.
@@ -262,13 +262,13 @@ describe('AppModule', () => {
 
 ##### 目标与背景
 
-<audio src="../../../../../Downloads/在单元测试中，我们通常需要隔离.mp3"></audio>
+<audio src="../../mp3/在单元测试中，我们通常需要隔离.mp3"></audio>
 
 For more complex dependencies (e.g., database access), you can use mocks for isolation.
 
 Example: Mocking a repository:
 
-<audio src="../../../../../Downloads/例如，在测试一个需要访问数据库.mp3"></audio>
+<audio src="../../mp3/例如，在测试一个需要访问数据库.mp3"></audio>
 
 ```typescript
 const mockRepository = {
@@ -279,7 +279,7 @@ const mockRepository = {
 
 Inject the mock into your service:
 
-<audio src="../../../../../Downloads/接下来，我们需要将模拟的依赖注.mp3"></audio>
+<audio src="../../mp3/接下来，我们需要将模拟的依赖注.mp3"></audio>
 
 ```typescript
 providers: [
@@ -292,7 +292,7 @@ providers: [
 
 ##### 模拟的优势
 
-<audio src="../../../../../Downloads/1, 隔离测试环境：通过模拟外.mp3"></audio>
+<audio src="../../mp3/1, 隔离测试环境：通过模拟外.mp3"></audio>
 
 ***
 
@@ -300,13 +300,13 @@ providers: [
 
 ##### Spies概述
 
-<audio src="../../../../../Downloads/在Jest中，spies（间谍.mp3"></audio>
+<audio src="../../mp3/在Jest中，spies（间谍.mp3"></audio>
 
 Jest spies allow you to monitor function calls.
 
 Example:
 
-<audio src="../../../../../Downloads/我们监控appService的.mp3"></audio>
+<audio src="../../mp3/我们监控appService的.mp3"></audio>
 
 ```typescript
 it('should call the service method once', () => {
@@ -324,7 +324,7 @@ Use `beforeAll` and `afterAll` for setup/teardown logic, such as initializing da
 
 Example:
 
-<audio src="../../../../../Downloads/Jest提供了beforeAl.mp3"></audio>
+<audio src="../../mp3/Jest提供了beforeAl.mp3"></audio>
 
 ```typescript
 beforeAll(() => {
@@ -342,15 +342,15 @@ afterAll(() => {
 
 ##### 边界情况和错误处理的重要性
 
-<audio src="../../../../../Downloads/在编写单元测试时，测试边界情况.mp3"></audio>
+<audio src="../../mp3/在编写单元测试时，测试边界情况.mp3"></audio>
 
 Always test for edge cases and error handling.
 
 Example: Testing error handling in a service:
 
-<audio src="../../../../../Downloads/以下的示例用于测试addNum.mp3"></audio>
+<audio src="../../mp3/以下的示例用于测试addNum.mp3"></audio>
 
-<audio src="../../../../../Downloads/总结. 测试边界情况和错误处理.mp3"></audio>
+<audio src="../../mp3/总结. 测试边界情况和错误处理.mp3"></audio>
 
 ```typescript
 it('should throw an error if inputs are invalid', () => {
@@ -366,7 +366,7 @@ it('should throw an error if inputs are invalid', () => {
 
 ### **6. Best Practices for Unit Testing**
 
-<audio src="../../../../../Downloads/1. __Isolate Co.mp3"></audio>
+<audio src="../../mp3/1. __Isolate Co.mp3"></audio>
 
 1. **Isolate Components**: Use mocks to isolate the component being tested.
 2. **Test Only Public APIs**: Focus on testing the public methods of services or controllers.
@@ -383,7 +383,7 @@ it('should throw an error if inputs are invalid', () => {
 
 ### **Summary**
 
-<audio src="../../../../../Downloads/- __Testing Ser.mp3"></audio>
+<audio src="../../mp3/- __Testing Ser.mp3"></audio>
 
 - **Testing Services**: Focus on business logic and ensure methods behave as expected.
 - **Testing Controllers**: Mock service dependencies to isolate controller logic.

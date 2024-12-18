@@ -1,6 +1,6 @@
 ### **Authentication and Authorization in Nest.js**
 
-<audio src="../../../../../Downloads/Authentication .mp3"></audio>
+<audio src="../../mp3/Authentication .mp3"></audio>
 
 Authentication and authorization are critical components in securing an application. Nest.js provides built-in support for **authentication** and **authorization** through the `@nestjs/passport` package and **Guards**. This allows developers to implement strategies like **JWT-based authentication**, **role-based access control (RBAC)**, and **permission-based access control (PBAC)** efficiently.
 
@@ -8,7 +8,7 @@ Authentication and authorization are critical components in securing an applicat
 
 ### **Key Concepts**
 
-<audio src="../../../../../Downloads/1. __Authentica.mp3"></audio>
+<audio src="../../mp3/1. __Authentica.mp3"></audio>
 
 1. **Authentication**: Verifies the identity of a user (e.g., login with credentials or tokens).
 2. **Authorization**: Determines what actions a user is permitted to perform (e.g., based on roles or permissions).
@@ -35,19 +35,19 @@ The `JwtModule` provides tools for generating and verifying JWT tokens. Configur
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/在 NestJS 中，JwtM.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，JwtM.mp3"></audio>
 
 ##### 代码工作流程
 
-<audio src="../../../../../Downloads/1, 导入模块. JwtMod.mp3"></audio>
+<audio src="../../mp3/1, 导入模块. JwtMod.mp3"></audio>
 
 ##### 如何在认证中使用 JWT
 
-<audio src="../../../../../Downloads/生成JWT：JwtModule.mp3"></audio>
+<audio src="../../mp3/生成JWT：JwtModule.mp3"></audio>
 
 ##### 总结
 
-<audio src="../../../../../Downloads/通过配置 JwtModule，.mp3"></audio>
+<audio src="../../mp3/通过配置 JwtModule，.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -79,15 +79,15 @@ This service handles user validation and token generation.
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/AuthService 是我们.mp3"></audio>
+<audio src="../../mp3/AuthService 是我们.mp3"></audio>
 
 ##### 代码工作流程
 
-<audio src="../../../../../Downloads/1, 依赖注入. 我们通过构造.mp3"></audio>
+<audio src="../../mp3/1, 依赖注入. 我们通过构造.mp3"></audio>
 
 ##### 工作流程总结
 
-<audio src="../../../../../Downloads/1, 用户通过发送 usern.mp3"></audio>
+<audio src="../../mp3/1, 用户通过发送 usern.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -127,19 +127,19 @@ The `JwtStrategy` is used to validate incoming tokens on protected routes.
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/JwtStrategy 是使用.mp3"></audio>
+<audio src="../../mp3/JwtStrategy 是使用.mp3"></audio>
 
 ##### 代码工作流程
 
-<audio src="../../../../../Downloads/1, 继承 PassportS.mp3"></audio>
+<audio src="../../mp3/1, 继承 PassportS.mp3"></audio>
 
 ##### 工作流程总结
 
-<audio src="../../../../../Downloads/1,  请求通过 JwtStr.mp3"></audio>
+<audio src="../../mp3/1,  请求通过 JwtStr.mp3"></audio>
 
 ##### 总结(提取→验证→附加)
 
-<audio src="../../../../../Downloads/JwtStrategy 的主要.mp3"></audio>
+<audio src="../../mp3/JwtStrategy 的主要.mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -171,15 +171,15 @@ The controller handles login requests and serves the JWT to authenticated users.
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/AuthController .mp3"></audio>
+<audio src="../../mp3/AuthController .mp3"></audio>
 
 ##### 代码工作流程
 
-<audio src="../../../../../Downloads/1, 控制器装饰器 (@Con.mp3"></audio>
+<audio src="../../mp3/1, 控制器装饰器 (@Con.mp3"></audio>
 
 ##### 工作流程总结
 
-<audio src="../../../../../Downloads/1, 客户端向 _auth_l.mp3"></audio>
+<audio src="../../mp3/1, 客户端向 _auth_l.mp3"></audio>
 
 ```typescript
 import { Controller, Post, Body, Request, UseGuards } from '@nestjs/common';
@@ -210,15 +210,15 @@ Use the `@UseGuards()` decorator with the `AuthGuard` to protect routes.
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/在 NestJS 中，守卫 (.mp3"></audio>
+<audio src="../../mp3/在 NestJS 中，守卫 (.mp3"></audio>
 
 ##### 代码工作流程
 
-<audio src="../../../../../Downloads/1, 控制器装饰器 (@Con (1).mp3"></audio>
+<audio src="../../mp3/1, 控制器装饰器 (@Con (1).mp3"></audio>
 
 ##### 工作流程总结
 
-<audio src="../../../../../Downloads/1,  用户尝试访问 _pro.mp3"></audio>
+<audio src="../../mp3/1,  用户尝试访问 _pro.mp3"></audio>
 
 ```typescript
 import { Controller, Get, UseGuards } from '@nestjs/common';
@@ -238,19 +238,19 @@ export class ProtectedController {
 
 ##### 功能概述
 
-<audio src="../../../../../Downloads/JwtAuthGuard 是一.mp3"></audio>
+<audio src="../../mp3/JwtAuthGuard 是一.mp3"></audio>
 
 ##### 代码解析
 
-<audio src="../../../../../Downloads/1, 守卫类 (JwtAuth.mp3"></audio>
+<audio src="../../mp3/1, 守卫类 (JwtAuth.mp3"></audio>
 
 ##### 工作流程(守卫启动→验证令牌)
 
-<audio src="../../../../../Downloads/1, 守卫启动. 当请求到达一.mp3"></audio>
+<audio src="../../mp3/1, 守卫启动. 当请求到达一.mp3"></audio>
 
 ##### 总结
 
-<audio src="../../../../../Downloads/JwtAuthGuard 是一 (1).mp3"></audio>
+<audio src="../../mp3/JwtAuthGuard 是一 (1).mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -264,17 +264,17 @@ export class JwtAuthGuard extends AuthGuard('jwt') {}
 
 ### **2. Using `Passport` Strategies for Login and User Sessions**
 
-<audio src="../../../../../Downloads/Nest js support.mp3"></audio>
+<audio src="../../mp3/Nest js support.mp3"></audio>
 
 Nest.js supports **Passport.js**, a popular library for implementing authentication strategies. In addition to JWT, you can use strategies like **Local**, **OAuth**, or **Sessions**.
 
 #### **Example: Local Authentication Strategy**
 
-<audio src="../../../../../Downloads/1, LocalStrateg.mp3"></audio>
+<audio src="../../mp3/1, LocalStrateg.mp3"></audio>
 
 **Step 1: Create the `LocalStrategy`**
 
-<audio src="../../../../../Downloads/LocalStrategy 是.mp3"></audio>
+<audio src="../../mp3/LocalStrategy 是.mp3"></audio>
 
 ```typescript
 import { Injectable, UnauthorizedException } from '@nestjs/common';
@@ -300,7 +300,7 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
 
 **Step 2: Create a Guard for Local Strategy**
 
-<audio src="../../../../../Downloads/LocalAuthGuard .mp3"></audio>
+<audio src="../../mp3/LocalAuthGuard .mp3"></audio>
 
 ```typescript
 import { Injectable } from '@nestjs/common';
@@ -312,7 +312,7 @@ export class LocalAuthGuard extends AuthGuard('local') {}
 
 **Step 3: Use the Guard in the Controller**
 
-<audio src="../../../../../Downloads/AuthController  (1).mp3"></audio>
+<audio src="../../mp3/AuthController  (1).mp3"></audio>
 
 ```typescript
 import { Controller, Post, UseGuards, Request } from '@nestjs/common';
@@ -339,11 +339,11 @@ Nest.js uses **Guards** to implement authorization logic. Guards are used to res
 
 #### **Role-Based Access Control (RBAC)**
 
-<audio src="../../../../../Downloads/1, RolesGuard 用.mp3"></audio>
+<audio src="../../mp3/1, RolesGuard 用.mp3"></audio>
 
 **Step 1: Create a `RolesGuard`**
 
-<audio src="../../../../../Downloads/创建 RolesGuard. .mp3"></audio>
+<audio src="../../mp3/创建 RolesGuard. .mp3"></audio>
 
 ```typescript
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
@@ -367,7 +367,7 @@ export class RolesGuard implements CanActivate {
 
 **Step 2: Create a `@Roles` Decorator**
 
-<audio src="../../../../../Downloads/@Roles 装饰器用于指定控.mp3"></audio>
+<audio src="../../mp3/@Roles 装饰器用于指定控.mp3"></audio>
 
 ```typescript
 import { SetMetadata } from '@nestjs/common';
@@ -377,7 +377,7 @@ export const Roles = (...roles: string[]) => SetMetadata('roles', roles);
 
 **Step 3: Use the Guard and Decorator**
 
-<audio src="../../../../../Downloads/AdminController.mp3"></audio>
+<audio src="../../mp3/AdminController.mp3"></audio>
 
 ```typescript
 import { Controller, Get, UseGuards } from '@nestjs/common';
@@ -400,15 +400,15 @@ export class AdminController {
 
 #### **Permission-Based Access Control (PBAC)**
 
-<audio src="../../../../../Downloads/Permissions can.mp3"></audio>
+<audio src="../../mp3/Permissions can.mp3"></audio>
 
 Permissions can be implemented similarly to roles, using custom decorators and guards. Instead of roles, you would define and check for specific permissions.
 
-<audio src="../../../../../Downloads/1, PermissionsG.mp3"></audio>
+<audio src="../../mp3/1, PermissionsG.mp3"></audio>
 
 **Example: Permission Guard**
 
-<audio src="../../../../../Downloads/权限守卫. Permissio.mp3"></audio>
+<audio src="../../mp3/权限守卫. Permissio.mp3"></audio>
 
 ```typescript
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
@@ -432,7 +432,7 @@ export class PermissionsGuard implements CanActivate {
 
 **Permission Decorator**:
 
-<audio src="../../../../../Downloads/@Permissions 装饰.mp3"></audio>
+<audio src="../../mp3/@Permissions 装饰.mp3"></audio>
 
 ```typescript
 import { SetMetadata } from '@nestjs/common';
@@ -443,7 +443,7 @@ export const Permissions = (...permissions: string[]) =>
 
 **Usage**:
 
-<audio src="../../../../../Downloads/在控制器中使用 Permiss.mp3"></audio>
+<audio src="../../mp3/在控制器中使用 Permiss.mp3"></audio>
 
 ```typescript
 import { Controller, Get, UseGuards } from '@nestjs/common';
@@ -465,7 +465,7 @@ export class ResourcesController {
 
 ### **Best Practices**
 
-<audio src="../../../../../Downloads/1. __Use JWT fo.mp3"></audio>
+<audio src="../../mp3/1. __Use JWT fo.mp3"></audio>
 
 1. **Use JWT for Stateless Authentication**:
    - Avoid session-based storage for scalability.
