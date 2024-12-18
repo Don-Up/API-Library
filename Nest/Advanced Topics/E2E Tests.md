@@ -1,5 +1,7 @@
 ### **Writing End-to-End (E2E) Tests for Your Nest.js Application**
 
+<audio src="C:\Users\10691\Downloads\End-to-end (E2E.mp3"></audio>
+
 End-to-end (E2E) tests verify that the entire application works as expected, from sending an HTTP request to receiving the correct response. Unlike unit tests (which focus on isolated components), E2E tests simulate real-world user interactions with your application and ensure that all parts (controllers, services, database, etc.) function together correctly.
 
 Nest.js comes preconfigured with **Jest** for E2E testing, making it easy to set up and run tests for your application.
@@ -306,6 +308,8 @@ For example, use **SQLite** in memory mode with TypeORM.
 
 ### **5. Best Practices for E2E Testing**
 
+<audio src="C:\Users\10691\Downloads\1. __Isolate Te.mp3"></audio>
+
 1. **Isolate Test Environment**:
    - Use in-memory databases or mock services to ensure tests do not affect production data.
 
@@ -327,6 +331,8 @@ For example, use **SQLite** in memory mode with TypeORM.
 ---
 
 ### **Summary**
+
+<audio src="C:\Users\10691\Downloads\- __Bootstrappi.mp3"></audio>
 
 - **Bootstrapping**: Use `Test.createTestingModule` to initialize the app for testing.
 - **Simulating Requests**: Use `supertest` to interact with your app as an HTTP client.

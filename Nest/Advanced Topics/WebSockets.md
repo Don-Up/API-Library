@@ -1,5 +1,7 @@
 ### **WebSockets in NestJS**
 
+<audio src="C:\Users\10691\Downloads\WebSockets enab.mp3"></audio>
+
 WebSockets enable real-time, bidirectional communication between clients and servers, making them ideal for applications like chat systems, notifications, live updates, or multiplayer games. NestJS provides built-in support for WebSockets through the `@nestjs/websockets` package, along with decorators and tools to make implementation smooth and scalable.
 
 ---

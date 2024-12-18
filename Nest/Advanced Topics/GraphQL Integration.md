@@ -1,5 +1,7 @@
 ### **GraphQL Integration in Nest.js**
 
+<audio src="C:\Users\10691\Downloads\GraphQL is a po.mp3"></audio>
+
 GraphQL is a powerful query language for APIs that allows clients to request only the data they need, making it highly efficient for modern applications. Nest.js provides seamless integration with GraphQL through the `@nestjs/graphql` package, enabling developers to create robust, type-safe GraphQL APIs.
 
 ---
@@ -19,6 +21,8 @@ npm install @nestjs/graphql graphql-tools graphql apollo-server-express
 #### **Step 2: Configure GraphQL Module**
 
 Nest.js uses the `GraphQLModule` to integrate GraphQL into the application. Configure it in your root module (e.g., `AppModule`).
+
+<audio src="C:\Users\10691\Downloads\GraphQL 是一种用于 A.mp3"></audio>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -55,6 +59,8 @@ Use decorators from the `@nestjs/graphql` package to define GraphQL object types
 
 ##### **Example: Create a DTO (Data Transfer Object)**
 
+<audio src="C:\Users\10691\Downloads\什么是 DTO？DTO 是一种.mp3"></audio>
+
 ```typescript
 import { ObjectType, Field, Int } from '@nestjs/graphql';
 
@@ -82,6 +88,8 @@ Resolvers handle incoming GraphQL queries, mutations, or subscriptions. They map
 
 ##### **Example: Resolver for User**
 
+<audio src="C:\Users\10691\Downloads\什么是 Resolver？在 .mp3"></audio>
+
 ```typescript
 import { Query, Resolver } from '@nestjs/graphql';
 import { User } from './user.dto';
@@ -108,6 +116,10 @@ export class UserResolver {
 Mutations are used to modify data (e.g., create, update, delete).
 
 ##### **Example: Mutation for Creating a User**
+
+<audio src="C:\Users\10691\Downloads\什么是 Mutation？在 .mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. 1, Mutation.mp3"></audio>
 
 ```typescript
 import { Mutation, Resolver, Args } from '@nestjs/graphql';
@@ -137,6 +149,10 @@ export class UserResolver {
 #### **Step 4: Add Input Types**
 
 For complex input arguments, define an `@InputType`.
+
+<audio src="C:\Users\10691\Downloads\什么是 Input Type？.mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. 1, Input Ty.mp3"></audio>
 
 ```typescript
 import { InputType, Field } from '@nestjs/graphql';
@@ -193,13 +209,15 @@ type Mutation {
 
 ### **3. Use DataLoader for Optimized Data Fetching**
 
-When dealing with complex queries involving relationships (e.g., fetching nested resources), multiple database or API calls can lead to performance bottlenecks. **DataLoader** is a utility for batching and caching requests to optimize data fetching.
+<audio src="C:\Users\10691\Downloads\2024年12月18日20点09分.mp3"></audio>
+
+When dealing with complex queries involving relationships (e.g., fetching nested resources), multiple database or API calls can lead to performance bottlenecks. **DataLoader** is a utility for **batching** and **caching** requests to optimize data fetching.
 
 ---
 
 #### **What is DataLoader?**
 
-DataLoader batches multiple requests for the same type of data into a single query and caches the results. This is especially useful for avoiding the "N+1 problem" in GraphQL.
+DataLoader batches multiple requests for the same type of data into a single query and caches the results. This is especially useful for avoiding the N+1 problem in GraphQL.
 
 ---
 
@@ -214,6 +232,10 @@ npm install dataloader
 #### **Step 2: Create a DataLoader**
 
 Create a DataLoader to batch and cache requests. For example, if fetching posts for users:
+
+<audio src="C:\Users\10691\Downloads\DataLoader 是一个 .mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. 1, DataLoad.mp3"></audio>
 
 ```typescript
 import * as DataLoader from 'dataloader';
@@ -252,6 +274,10 @@ export class PostsLoader {
 #### **Step 3: Use DataLoader in a Resolver**
 
 Inject the DataLoader into your resolver to optimize data fetching.
+
+<audio src="C:\Users\10691\Downloads\第一步. 准备用户数据和帖子加.mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\服务器的执行流程. 1, 解析.mp3"></audio>
 
 ```typescript
 import { Resolver, Query, Parent, ResolveField } from '@nestjs/graphql';
@@ -329,6 +355,8 @@ The DataLoader ensures the posts for all users are fetched in a single batch ins
 
 ### **Best Practices for GraphQL in Nest.js**
 
+<audio src="C:\Users\10691\Downloads\1. __Use Auto-G.mp3"></audio>
+
 1. **Use Auto-Generated Schemas**:
    - Use `autoSchemaFile` to automatically generate GraphQL schemas from TypeScript code.
 
@@ -353,6 +381,8 @@ The DataLoader ensures the posts for all users are fetched in a single batch ins
 ---
 
 ### **Summary**
+
+<audio src="C:\Users\10691\Downloads\2024年12月18日20点39分.mp3"></audio>
 
 - **GraphQLModule**: Simplifies integration and schema generation.
 - **Resolvers**: Handle queries, mutations, and subscriptions.

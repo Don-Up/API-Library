@@ -1,5 +1,7 @@
 ### **Handling File Uploads with Multer in NestJS**
 
+<audio src="C:\Users\10691\Downloads\File uploads ar.mp3"></audio>
+
 File uploads are a common requirement in modern web applications, whether it’s for profile pictures, documents, or media uploads. NestJS simplifies file handling through integration with **Multer**, a middleware for handling `multipart/form-data`, primarily used for uploading files.
 
 In this guide, we’ll cover how to handle file uploads in NestJS using **Multer**.
@@ -26,6 +28,10 @@ To handle file uploads, use the `FileInterceptor` provided by NestJS. The `FileI
 
 ##### **Controller Example**
 
+<audio src="C:\Users\10691\Downloads\2024年12月18日17点59分.mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. @Post('sing.mp3"></audio>
+
 ```typescript
 import {
   Controller,
@@ -47,13 +53,18 @@ export class UploadController {
 ```
 
 #### **Explanation:**
+
+<audio src="C:\Users\10691\Downloads\2024年12月18日18点02分.mp3"></audio>
+
 1. **`@UseInterceptors(FileInterceptor('file'))`**:
+   
    - Wraps the request in a file-handling middleware.
    - The `'file'` parameter specifies the name of the form field expected in the request.
-
+   
 2. **`@UploadedFile()`**:
+   
    - Extracts the uploaded file object from the request.
-
+   
 3. **File Metadata**:
    - The `file` object contains metadata such as the original filename, encoding, MIME type, and storage location. Example structure:
      ```json
@@ -90,6 +101,10 @@ You can customize Multer’s behavior, such as the storage location and file nam
 #### **Step 1: Creating a Multer Configuration**
 
 NestJS provides the `diskStorage` option for saving files to the disk with custom rules.
+
+<audio src="C:\Users\10691\Downloads\2024年12月18日18点06分.mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. diskStorage.mp3"></audio>
 
 ```typescript
 import { Controller, Post, UploadedFile, UseInterceptors } from '@nestjs/common';
@@ -129,6 +144,8 @@ export class UploadController {
 
 #### **Explanation:**
 
+<audio src="C:\Users\10691\Downloads\1. __`diskStora.mp3"></audio>
+
 1. **`diskStorage`**:
    - Configures where and how files are stored on the disk.
    - `destination`: Specifies the directory to store files (`./uploads` in this case).
@@ -148,6 +165,10 @@ export class UploadController {
 ### **4. Handling Multiple File Uploads**
 
 To upload multiple files, use the `FilesInterceptor` provided by NestJS.
+
+<audio src="C:\Users\10691\Downloads\2024年12月18日18点11分.mp3"></audio>
+
+<audio src="C:\Users\10691\Downloads\总结. FilesInterc.mp3"></audio>
 
 ```typescript
 import {
@@ -171,6 +192,8 @@ export class UploadController {
 
 #### **Explanation:**
 
+<audio src="C:\Users\10691\Downloads\2024年12月18日18点14分.mp3"></audio>
+
 1. **`FilesInterceptor`**:
    - Similar to `FileInterceptor` but allows uploading multiple files.
    - The second parameter specifies the maximum number of files allowed.
@@ -183,6 +206,8 @@ export class UploadController {
 ### **5. Serving Uploaded Files**
 
 Uploaded files are typically stored on the server. To serve these files to clients, you can use the `serve-static` package.
+
+<audio src="C:\Users\10691\Downloads\服务上传的文件. 当文件上传到.mp3"></audio>
 
 #### **Step 1: Install `serve-static`**
 
@@ -220,6 +245,8 @@ You can handle upload errors using NestJS's built-in exception handling mechanis
 
 #### **Global Error Filter Example**
 
+<audio src="C:\Users\10691\Downloads\1, 在文件上传过程中，可能会.mp3"></audio>
+
 ```typescript
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common';
 
@@ -244,6 +271,8 @@ Attach this filter globally or to specific controllers to gracefully handle uplo
 ### **7. Storing Files in Cloud Services**
 
 Instead of saving files locally, you can store them in cloud storage like **Amazon S3**, **Google Cloud Storage**, or **Azure Blob Storage**.
+
+<audio src="C:\Users\10691\Downloads\我们将重点讲解如何将文件上传到.mp3"></audio>
 
 #### **Example: Upload to S3**
 
@@ -281,6 +310,8 @@ Instead of saving files locally, you can store them in cloud storage like **Amaz
 
 ### **8. Best Practices for File Uploads**
 
+<audio src="C:\Users\10691\Downloads\1. __Validate F.mp3"></audio>
+
 1. **Validate File Size and Type**:
    - Prevent malicious files or oversized uploads with `limits` and `fileFilter`.
 
@@ -300,6 +331,8 @@ Instead of saving files locally, you can store them in cloud storage like **Amaz
 ---
 
 ### **Summary**
+
+<audio src="C:\Users\10691\Downloads\- Use __Multer_.mp3"></audio>
 
 - Use **Multer** with `FileInterceptor` or `FilesInterceptor` for handling single or multiple file uploads.
 - Configure custom storage options (e.g., disk, cloud storage like S3).
