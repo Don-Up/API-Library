@@ -1,6 +1,6 @@
 # Internationalization (i18n) in Next.js
 
-<audio src="../../../../Downloads/2024年12月19日13点41分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点41分.mp3"></audio>
 
 Internationalization, often abbreviated as **i18n** (where "18" refers to the number of letters between "i" and "n"), is the process of preparing a website or application to support multiple languages and regions. Next.js provides built-in support for i18n, enabling developers to build multilingual websites with ease. This feature allows you to serve content in different languages, handle locale-based routing, and detect user preferences automatically.
 
@@ -8,7 +8,7 @@ Internationalization, often abbreviated as **i18n** (where "18" refers to the nu
 
 ## **Objective**
 
-<audio src="../../../../Downloads/2024年12月19日13点43分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点43分.mp3"></audio>
 
 The goal of this section is to:
 
@@ -23,7 +23,7 @@ By the end, you'll be able to build multilingual websites using Next.js and tail
 
 ## **1. Why Internationalization Matters**
 
-<audio src="../../../../Downloads/2024年12月19日13点44分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点44分.mp3"></audio>
 
 ### **Benefits of i18n:**
 - **Reach a Global Audience**: Multilingual websites allow businesses to engage users in their native languages, improving accessibility and user experience.
@@ -35,7 +35,7 @@ By the end, you'll be able to build multilingual websites using Next.js and tail
 
 ## **2. Overview of Next.js i18n**
 
-<audio src="../../../../Downloads/2024年12月19日13点46分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点46分.mp3"></audio>
 
 Next.js has built-in support for i18n, which includes:
 - **Locale-Based Routing**: Automatically route users based on their preferred language.
@@ -49,7 +49,7 @@ Next.js has built-in support for i18n, which includes:
 
 ### **Step 1: Update `next.config.js`**
 
-<audio src="../../../../Downloads/2024年12月19日13点48分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点48分.mp3"></audio>
 
 To enable i18n in your Next.js app, add the `i18n` property to your `next.config.js` file.
 
@@ -309,7 +309,7 @@ export function middleware(request) {
 
 ## **9. Best Practices for Internationalization**
 
-<audio src="../../../../Downloads/2024年12月19日13点54分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点54分.mp3"></audio>
 
 1. **Start with a Plan**:
    - Define all the locales your application will support.
@@ -334,6 +334,6 @@ export function middleware(request) {
 
 ## **10. Summary**
 
-<audio src="../../../../Downloads/2024年12月19日13点52分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点52分.mp3"></audio>
 
 Next.js provides powerful built-in i18n support, making it easy to build multilingual websites with locale-based routing, automatic language detection, and fallback mechanisms. By integrating third-party libraries like `react-i18next` or `next-translate`, you can manage complex translations and dynamic content efficiently. When combined with SEO best practices, internationalization in Next.js enables you to reach a global audience and deliver a personalized, localized experience for your users.

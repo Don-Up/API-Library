@@ -43,6 +43,8 @@ This example demonstrates how to stream a large file (e.g., a video) to a client
 
 Create a controller to handle file streaming.
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日02点39分.mp3"></audio>
+
 ```typescript
 import { Controller, Get, Res, HttpException, HttpStatus } from '@nestjs/common';
 import { Response } from 'express';
@@ -98,6 +100,8 @@ export class FilesController {
 For video or audio streaming, you often need to support **range requests** so clients (e.g., media players) can request specific parts of the file.
 
 ##### **Controller Implementation**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日02点44分.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Req, Res, HttpException, HttpStatus } from '@nestjs/common';
@@ -170,6 +174,8 @@ export class FilesController {
 If your files are stored in cloud services like **Amazon S3** or **Google Cloud Storage**, you can stream files directly from these services without downloading them to your server.
 
 #### **Example: Streaming from Amazon S3**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日02点49分.mp3"></audio>
 
 1. Install the AWS SDK:
 

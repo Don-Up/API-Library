@@ -1,14 +1,21 @@
 # Advanced Features in Next.js
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点26分.mp3"></audio>
+
 Next.js is a powerful framework that provides several advanced features to handle scaling, customization, and unique use cases. In this section, we’ll explore some critical features like **Static Export**, **Custom App and Document**, **Custom Error Pages**, and **Edge Functions**. These features allow you to fine-tune your Next.js applications for advanced scenarios, scalability, and a global audience.
 
 ---
 
 ## **1. Static Export**
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点27分.mp3"></audio>
+
 Next.js allows you to export your application as a fully static site using the `next export` command. This is useful for deploying your site to static hosting platforms (e.g., Netlify, GitHub Pages, or AWS S3), where server-side rendering is not required.
 
 ### **How Static Export Works**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点28分.mp3"></audio>
+
 - The `next export` command generates **static HTML and assets** for your site.
 - It’s ideal for use cases where you don't need dynamic server-side logic (e.g., marketing sites, blogs, or documentation).
 
@@ -50,10 +57,16 @@ Next.js allows you to export your application as a fully static site using the `
    - Upload the `/out` directory to any static hosting service (e.g., Netlify, GitHub Pages, or AWS S3).
 
 ### **Limitations of Static Export**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点30分.mp3"></audio>
+
 - No support for `getServerSideProps`, as server-side logic is not available.
 - Dynamic routing pages with `getStaticPaths` must use the `fallback: false` or `blocking` mode to pre-render all paths at build time.
 
 ### **Use Cases**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点30分 (2).mp3"></audio>
+
 - Marketing or landing pages.
 - Blogs or documentation sites (e.g., a static blog using Markdown files).
 - Applications that don’t require dynamic user sessions or frequent updates.
@@ -182,6 +195,8 @@ export default function Custom500() {
 
 ## **4. Edge Functions**
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点38分.mp3"></audio>
+
 Edge Functions in Next.js allow you to run server-side code closer to the user at the **edge of the content delivery network (CDN)**. This results in lower latency and faster response times.
 
 ### **Key Features of Edge Functions**
@@ -225,6 +240,8 @@ export const config = {
 ---
 
 ## **5. Summary**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点35分.mp3"></audio>
 
 By leveraging Next.js's advanced features, you can build scalable, performant, and highly customized applications tailored to your specific needs. Here's a recap:
 

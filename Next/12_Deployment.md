@@ -1,10 +1,14 @@
 # Deployment in Next.js
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日19点47分.mp3"></audio>
+
 Deploying a **Next.js application** to production is the final step in building a scalable, fast, and user-friendly web application. Next.js is designed to be flexible and supports multiple deployment environments, including **serverless platforms**, **traditional servers**, and **static hosting**. With its hybrid rendering capabilities (Static Site Generation, Server-Side Rendering, and Client-Side Rendering), deploying a Next.js app can vary depending on your use case.
 
 ---
 
 ## **Objective**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日19点48分.mp3"></audio>
 
 The objective of this section is to:
 
@@ -22,6 +26,9 @@ By the end, you'll have a clear understanding of how to deploy your Next.js appl
 Before deploying your app, ensure the following steps are completed:
 
 1. **Run Production Build**:
+
+   <audio src="C:\Users\10691\Downloads\2024年12月20日00点55分.mp3"></audio>
+
    - Build your app using the production mode to optimize performance.
    - Run the following command:
      ```bash
@@ -30,6 +37,9 @@ Before deploying your app, ensure the following steps are completed:
      This generates an optimized `.next` folder containing static assets, server-side files, and client-side JavaScript.
 
 2. **Test Locally in Production Mode**:
+
+   <audio src="C:\Users\10691\Downloads\2024年12月20日00点57分.mp3"></audio>
+
    - Use the `start` command to simulate the production environment locally:
      ```bash
      npm run start
@@ -37,6 +47,9 @@ Before deploying your app, ensure the following steps are completed:
    - This ensures that any issues with the production build are caught early.
 
 3. **Set Environment Variables**:
+
+   <audio src="C:\Users\10691\Downloads\2024年12月20日00点59分.mp3"></audio>
+
    - Add any sensitive information (e.g., API keys, database credentials) to environment variables.
    - Create a `.env` file in the root of your project:
      ```
@@ -49,6 +62,9 @@ Before deploying your app, ensure the following steps are completed:
    - Access environment variables in your app via `process.env`.
 
 4. **Optimize App for Performance**:
+
+   <audio src="C:\Users\10691\Downloads\2024年12月20日01点01分.mp3"></audio>
+
    - Use **Static Site Generation (SSG)** wherever possible for faster load times.
    - Optimize images using the built-in `<Image>` component.
    - Minify and tree-shake JavaScript by default with Next.js.
@@ -58,6 +74,8 @@ Before deploying your app, ensure the following steps are completed:
 ## **2. Deployment Options**
 
 ### **2.1 Deploying to Vercel**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点05分.mp3"></audio>
 
 [Vercel](https://vercel.com/) is the creator of Next.js and the recommended platform for deploying Next.js applications. Vercel offers seamless integration, automatic optimizations, and serverless functions.
 
@@ -86,6 +104,8 @@ Before deploying your app, ensure the following steps are completed:
 ---
 
 ### **2.2 Deploying to Netlify**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点10分.mp3"></audio>
 
 [Netlify](https://www.netlify.com/) is a popular platform for deploying static and serverless web apps. While it is optimized for static sites, it also supports Next.js apps with server-side rendering and API routes via Netlify Functions.
 
@@ -148,7 +168,7 @@ For serverless hosting:
 
 ### **2.4 Deploying with Docker**
 
-Docker allows you to containerize your Next.js app, making it portable and consistent across environments.
+Docker allows you to **containerize**(容器化) your Next.js app, making it portable and consistent across environments.
 
 #### **Steps to Deploy with Docker:**
 
@@ -186,6 +206,8 @@ Docker allows you to containerize your Next.js app, making it portable and consi
 
 ## **3. Best Practices for Next.js Deployment**
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点18分.mp3"></audio>
+
 ### **3.1 Optimize Builds**
 - Use **Static Site Generation (SSG)** for pages that don’t change frequently.
 - Use **Incremental Static Regeneration (ISR)** for pages that need periodic updates.
@@ -211,6 +233,8 @@ Docker allows you to containerize your Next.js app, making it portable and consi
 
 ## **4. Advanced Deployment Scenarios**
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点22分.mp3"></audio>
+
 ### **4.1 Hybrid Deployment**
 If you use both SSR and SSG:
 - Deploy SSR pages to a serverless platform (e.g., AWS Lambda, Vercel Functions).
@@ -221,6 +245,7 @@ To reduce latency for users worldwide:
 - Deploy your app to multiple regions using platforms like Vercel or AWS CloudFront.
 
 ### **4.3 CI/CD Integration**
+
 - Use Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate testing and deployment.
 - Example with **GitHub Actions**:
   ```yaml
@@ -250,6 +275,8 @@ To reduce latency for users worldwide:
 
 ## **5. Common Deployment Issues and Solutions**
 
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点23分.mp3"></audio>
+
 1. **Missing Environment Variables**:
    - Ensure all required variables are set in the production environment.
    - Use `.env.production` for production-specific variables.
@@ -269,5 +296,7 @@ To reduce latency for users worldwide:
 ---
 
 ## **6. Summary**
+
+<audio src="C:\Users\10691\Downloads\2024年12月20日01点23分 (2).mp3"></audio>
 
 Deploying a Next.js application to production is straightforward and flexible, thanks to its support for multiple deployment platforms and rendering strategies. Whether you choose **Vercel** for seamless integration or a custom setup using **Docker**, Next.js adapts to your needs. By following best practices, optimizing performance, and monitoring your app in production, you can ensure a smooth and reliable experience for your users.

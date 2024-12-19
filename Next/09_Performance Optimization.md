@@ -1,21 +1,21 @@
 # Performance Optimization in Next.js
 
-<audio src="../../../../Downloads/2024年12月19日13点55分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点55分.mp3"></audio>
 
-Performance is a critical aspect of any web application. A high-performing application ensures faster load times, better user experience, improved Core Web Vitals, and higher search engine rankings. Next.js, a React-based framework, is inherently designed with performance in mind. It provides several built-in features and tools to help developers optimize their applications out of the box.
+Performance is a critical aspect of any web application. A **high-performing**(高性能) application ensures faster load times, better user experience, improved **Core Web Vitals**(核心Web性能指标), and higher search engine rankings. Next.js, a React-based framework, is inherently designed with performance in mind. It provides several built-in features and tools to help developers optimize their applications out of the box.
 
 ---
 
 ## **Objective**
 
-<audio src="../../../../Downloads/2024年12月19日13点57分.mp3"></audio>
+<audio src="../mp3/2024年12月19日13点57分.mp3"></audio>
 
 The goal of this section is to:
 
 1. Understand the key performance optimization features in Next.js.
 2. Learn how to implement best practices for faster load times and improved Core Web Vitals.
 3. Explore tools and techniques like **automatic code splitting**, **image optimization**, and **server-side rendering**.
-4. Learn how to diag[   ]nose and resolve performance bottlenecks.
+4. Learn how to diagnose and resolve performance bottlenecks.
 
 By the end, you’ll be equipped with the knowledge to build highly optimized Next.js applications that deliver exceptional performance.
 
@@ -43,7 +43,7 @@ Each of these features addresses key performance concerns for modern web applica
 
 ### **2.1 Automatic Code Splitting**
 
-<audio src="../../../../Downloads/2024年12月19日14点17分.mp3"></audio>
+<audio src="../mp3/2024年12月19日14点17分.mp3"></audio>
 
 Next.js automatically splits your code into smaller bundles. Instead of loading the entire application, only the JavaScript required for the current page is loaded.
 
@@ -59,6 +59,8 @@ Next.js automatically splits your code into smaller bundles. Instead of loading 
 ---
 
 ### **2.2 Rendering Strategies**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日17点55分.mp3"></audio>
 
 Next.js offers multiple rendering strategies to optimize performance based on your use case:
 
@@ -125,6 +127,8 @@ export default function Page({ data }) {
 
 ### **2.3 Image Optimization**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点01分.mp3"></audio>
+
 Next.js provides a built-in `<Image>` component that optimizes images automatically by resizing, compressing, and serving them in modern formats like WebP.
 
 #### **Key Features:**
@@ -157,9 +161,14 @@ export default function Home() {
 
 ### **2.4 Built-In Lazy Loading**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点11分.mp3"></audio>
+
 Next.js lazy loads assets like images, components, or third-party libraries that are not needed during the initial page load. This reduces page size and speeds up initial rendering.
 
 **Example: Dynamic Import for Lazy Loading**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点17分.mp3"></audio>
+
 ```javascript
 import dynamic from 'next/dynamic';
 
@@ -179,6 +188,9 @@ export default function Page() {
 Next.js prefetches pages linked using the `<Link>` component. When users hover over or scroll near a link, the page is preloaded in the background.
 
 **Example: Prefetching with `<Link>`**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点19分.mp3"></audio>
+
 ```javascript
 import Link from 'next/link';
 
@@ -197,9 +209,14 @@ export default function Home() {
 
 ### **2.6 Edge Functions**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点28分.mp3"></audio>
+
 Edge functions in Next.js allow you to run server-side logic closer to the user’s location. This reduces latency and improves performance for tasks like redirects, authentication, and API calls.
 
 **Example: Middleware at the Edge**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点22分.mp3"></audio>
+
 ```javascript
 import { NextResponse } from 'next/server';
 
@@ -217,6 +234,8 @@ export function middleware(request) {
 
 ### **2.7 Automatic Asset Optimization**
 
+<audio src="C:\Users\10691\Downloads\Next js automat.mp3"></audio>
+
 Next.js automatically optimizes CSS, JavaScript, and other static assets by:
 - Minifying CSS/JS files.
 - Tree-shaking unused code.
@@ -226,11 +245,15 @@ Next.js automatically optimizes CSS, JavaScript, and other static assets by:
 
 ### **2.8 API Routes**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点30分.mp3"></audio>
+
 Next.js API routes provide serverless functions for backend logic. By co-locating server logic with frontend code, you reduce the need for external API calls, improving performance.
 
 ---
 
 ## **3. Core Web Vitals & Next.js**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点33分.mp3"></audio>
 
 Core Web Vitals are a set of metrics used by Google to measure the user experience of a web page. Next.js provides built-in tools to optimize these metrics.
 
@@ -249,10 +272,14 @@ Core Web Vitals are a set of metrics used by Google to measure the user experien
 
 ## **4. Performance Monitoring Tools**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点38分.mp3"></audio>
+
 Next.js provides tools to monitor and debug performance:
 
 ### **4.1 Lighthouse**
-Run Google Lighthouse to audit your application’s performance, accessibility, and SEO. Use `next build` to ensure your application is production-ready before testing.
+Run Google Lighthouse to audit your application’s performance, accessibility, and SEO. Use `next build` to ensure your application is **production-ready** before testing.
+
+> production-ready(生产就绪)：指产品或系统已经通过了所有必要的测试和验证，可以投入大规模生产或正式使用。
 
 ### **4.2 `next dev` and `next build`**
 - Use `next dev` for development and debugging.
@@ -260,8 +287,8 @@ Run Google Lighthouse to audit your application’s performance, accessibility, 
 
 ### **4.3 `next/script`**
 Optimize third-party scripts using the `<Script>` component:
-- Defer loading.
-- Load scripts asynchronously.
+- **Defer** loading.
+- Load scripts **asynchronously**.
 
 **Example: Lazy Loading a Script**
 ```javascript
@@ -281,9 +308,11 @@ export default function Page() {
 
 ## **5. Best Practices for Performance Optimization**
 
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点43分.mp3"></audio>
+
 1. **Choose the Right Rendering Strategy**:
-   - Use SSG for static content and ISR for dynamic but infrequently updated content.
-   - Use SSR for personalized content.
+   - Use SSG for **static** content and ISR for **dynamic but infrequently updated** content.
+   - Use SSR for **personalized** content.
 
 2. **Optimize Images**:
    - Always use the `<Image>` component for automatic optimization.
@@ -308,5 +337,7 @@ export default function Page() {
 ---
 
 ## **Summary**
+
+<audio src="C:\Users\10691\Downloads\2024年12月19日18点44分.mp3"></audio>
 
 Next.js makes performance optimization straightforward by providing features like automatic code splitting, image optimization, and multiple rendering strategies out of the box. By leveraging these tools and adhering to best practices, you can build high-performing, scalable web applications that deliver a seamless user experience. Performance optimization is not just about faster load times—it’s about creating an application that is well-optimized for both users and search engines, ensuring success in today’s competitive digital landscape.
