@@ -1,5 +1,7 @@
 # Middleware in Next.js
 
+<audio src="../../../../Downloads/2024年12月19日12点03分.mp3"></audio>
+
 Middleware in Next.js allows you to run custom logic **before a request is completed**. It acts as a layer that intercepts requests and responses, giving you the ability to modify or redirect them, check for authentication, perform logging, or handle other tasks **before the final response is sent to the client**.
 
 Introduced in Next.js 12, middleware works on both server-side and edge environments, making it a powerful tool for building modern, performant web applications.
@@ -7,6 +9,8 @@ Introduced in Next.js 12, middleware works on both server-side and edge environm
 ---
 
 ## **Objective**
+
+<audio src="../../../../Downloads/2024年12月19日12点04分.mp3"></audio>
 
 The goal of this section is to:
 
@@ -21,6 +25,8 @@ By the end, you'll be able to implement middleware effectively and optimize requ
 
 ## **1. What Is Middleware?**
 
+<audio src="../../../../Downloads/2024年12月19日12点07分.mp3"></audio>
+
 Middleware is a function that executes during the server-side request lifecycle **before the request is completed**. It allows you to:
 
 - **Intercept requests**: Modify requests or responses dynamically.
@@ -28,6 +34,7 @@ Middleware is a function that executes during the server-side request lifecycle 
 - **Redirect or rewrite responses**: Change the destination of a request or modify the response data.
 
 **Key Features of Middleware in Next.js:**
+
 - Runs at the **edge** for improved performance (when deployed on platforms like Vercel).
 - Executes **before rendering** or hitting an API route.
 - Can modify requests (`req`) and responses (`res`), or even terminate them.
@@ -35,6 +42,8 @@ Middleware is a function that executes during the server-side request lifecycle 
 ---
 
 ## **2. How Middleware Works in Next.js**
+
+<audio src="../../../../Downloads/2024年12月19日12点10分.mp3"></audio>
 
 Middleware in Next.js is implemented using a file called `_middleware.js` or `middleware.js`. It runs **before rendering a page or routing to an API endpoint**.
 
@@ -51,6 +60,8 @@ When a request is made to your application:
 ---
 
 ## **3. Creating Middleware**
+
+<audio src="../../../../Downloads/2024年12月19日12点12分.mp3"></audio>
 
 Middleware is defined in a `middleware.js` file located in the **root of your project** or within specific routes.
 
@@ -72,6 +83,8 @@ Middleware is defined in a `middleware.js` file located in the **root of your pr
 ---
 
 ### **Middleware API**
+
+<audio src="../../../../Downloads/2024年12月19日12点21分.mp3"></audio>
 
 The middleware function receives a `Request` object and must return a `Response` object (or allow the request to continue).
 
@@ -99,6 +112,12 @@ export function middleware(request) {
 
 Redirect unauthenticated users to a login page:
 
+<audio src="../../../../Downloads/2024年12月19日12点29分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点32分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点34分.mp3"></audio>
+
 ```javascript
 import { NextResponse } from 'next/server';
 
@@ -119,6 +138,12 @@ export function middleware(request) {
 ---
 
 #### **4.2 Geo-Location-Based Routing**
+
+<audio src="../../../../Downloads/2024年12月19日12点44分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点48分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点51分.mp3"></audio>
 
 Use the `x-vercel-ip-country` header to detect the user's location and route them accordingly:
 
@@ -144,6 +169,12 @@ export function middleware(request) {
 
 Modify the response to include custom headers for security or caching purposes:
 
+<audio src="../../../../Downloads/2024年12月19日12点56分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点58分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日12点59分.mp3"></audio>
+
 ```javascript
 import { NextResponse } from 'next/server';
 
@@ -153,7 +184,7 @@ export function middleware(request) {
   // Add custom headers
   response.headers.set('X-Custom-Header', 'My Custom Value');
   response.headers.set('Cache-Control', 'max-age=3600');
-
+   
   return response;
 }
 ```
@@ -163,6 +194,12 @@ export function middleware(request) {
 #### **4.4 Rewriting URLs**
 
 Rewrite the URL to serve a different page without changing the URL in the browser:
+
+<audio src="../../../../Downloads/2024年12月19日13点12分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日13点15分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日13点18分.mp3"></audio>
 
 ```javascript
 import { NextResponse } from 'next/server';
@@ -183,6 +220,12 @@ export function middleware(request) {
 ---
 
 #### **4.5 Middleware for Specific Routes**
+
+<audio src="../../../../Downloads/2024年12月19日13点21分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日13点24分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日13点26分.mp3"></audio>
 
 If you only want middleware to run for specific routes, use a `matcher` configuration:
 
@@ -211,6 +254,8 @@ If you only want middleware to run for specific routes, use a `matcher` configur
 
 ## **6. Middleware Best Practices**
 
+<audio src="../../../../Downloads/2024年12月19日13点30分.mp3"></audio>
+
 1. **Keep Middleware Lightweight**:
    - Avoid heavy computations or database queries. Middleware should be fast and efficient.
    - Offload complex logic to API routes or server-side functions.
@@ -231,6 +276,8 @@ If you only want middleware to run for specific routes, use a `matcher` configur
 
 ## **7. Deployment and Edge Performance**
 
+<audio src="../../../../Downloads/2024年12月19日13点31分.mp3"></audio>
+
 When deployed on platforms like **Vercel**, middleware runs at the **edge**. This means it runs closer to the user’s location, reducing latency and improving performance. Middleware's ability to execute at the edge makes it ideal for:
 
 - **Geo-location-based routing**.
@@ -240,6 +287,8 @@ When deployed on platforms like **Vercel**, middleware runs at the **edge**. Thi
 ---
 
 ## **8. Common Use Cases**
+
+<audio src="../../../../Downloads/2024年12月19日13点33分.mp3"></audio>
 
 Here are some real-world applications of middleware in Next.js:
 
@@ -261,5 +310,7 @@ Here are some real-world applications of middleware in Next.js:
 ---
 
 ## **9. Summary**
+
+<audio src="../../../../Downloads/2024年12月19日13点34分.mp3"></audio>
 
 Middleware in Next.js provides a powerful way to intercept and modify requests before they are completed. Whether you need to handle authentication, geo-location, redirects, or custom headers, middleware allows you to implement this functionality efficiently. By running at the edge, middleware ensures low latency and better performance, making it an essential tool for building modern, scalable web applications. Understanding and leveraging middleware effectively will help you optimize your application's request handling and user experience.

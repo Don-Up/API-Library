@@ -1,17 +1,21 @@
 # Performance Optimization in Next.js
 
+<audio src="../../../../Downloads/2024年12月19日13点55分.mp3"></audio>
+
 Performance is a critical aspect of any web application. A high-performing application ensures faster load times, better user experience, improved Core Web Vitals, and higher search engine rankings. Next.js, a React-based framework, is inherently designed with performance in mind. It provides several built-in features and tools to help developers optimize their applications out of the box.
 
 ---
 
 ## **Objective**
 
+<audio src="../../../../Downloads/2024年12月19日13点57分.mp3"></audio>
+
 The goal of this section is to:
 
 1. Understand the key performance optimization features in Next.js.
 2. Learn how to implement best practices for faster load times and improved Core Web Vitals.
 3. Explore tools and techniques like **automatic code splitting**, **image optimization**, and **server-side rendering**.
-4. Learn how to diagnose and resolve performance bottlenecks.
+4. Learn how to diag[   ]nose and resolve performance bottlenecks.
 
 By the end, you’ll be equipped with the knowledge to build highly optimized Next.js applications that deliver exceptional performance.
 
@@ -39,9 +43,11 @@ Each of these features addresses key performance concerns for modern web applica
 
 ### **2.1 Automatic Code Splitting**
 
+<audio src="../../../../Downloads/2024年12月19日14点17分.mp3"></audio>
+
 Next.js automatically splits your code into smaller bundles. Instead of loading the entire application, only the JavaScript required for the current page is loaded.
 
-#### **How It Works:**
+#### **How It Works:**              
 - Each page in your application has its own JavaScript bundle.
 - Shared dependencies (e.g., React, libraries) are split into separate chunks and reused across pages.
 

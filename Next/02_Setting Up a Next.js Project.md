@@ -1,5 +1,7 @@
 # Setting Up a Next.js Project
 
+<audio src="../../../../Downloads/2024年12月19日08点06分.mp3"></audio>
+
 Next.js makes it easy to get started with building powerful, modern web applications. In this section, we’ll walk through the steps to initialize and run a Next.js application, even if you’re new to the framework or web development.
 
 ---
@@ -71,6 +73,8 @@ pnpm create next-app my-next-app
 
 ### **3. Follow the Setup Prompts**
 
+<audio src="../../../../Downloads/2024年12月19日08点11分.mp3"></audio>
+
 After running the command, you’ll be prompted with some questions to customize your project setup. For example:
 
 1. **TypeScript**: Do you want to use TypeScript? (Yes/No)  
@@ -117,6 +121,8 @@ This will start a development server, typically accessible at [http://localhost:
 ---
 
 ### **6. Explore the Project Structure**
+
+<audio src="../../../../Downloads/2024年12月19日08点13分.mp3"></audio>
 
 Here’s what the basic folder structure of a Next.js project looks like:
 
@@ -178,5 +184,7 @@ Your app will now run in production mode, ready for deployment.
 ---
 
 ## **Summary**
+
+<audio src="../../../../Downloads/2024年12月19日08点16分.mp3"></audio>
 
 Setting up a Next.js project is simple and quick, thanks to the `create-next-app` CLI tool. By initializing your project, starting the development server, and exploring the project structure, you’ve taken the first steps toward building modern, high-performance web applications. Next.js provides a strong foundation so you can focus on building features rather than setting up boilerplate code.

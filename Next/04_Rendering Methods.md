@@ -1,5 +1,7 @@
 # Rendering Methods in Next.js
 
+<audio src="../../../../Downloads/2024年12月19日09点24分.mp3"></audio>
+
 Next.js is a powerful React framework that offers multiple **rendering strategies** to optimize performance, user experience, and SEO. These strategies allow developers to choose how and when data is fetched and rendered for their web applications. Understanding these rendering methods is key to building efficient and scalable applications.
 
 ---
@@ -17,6 +19,8 @@ By the end of this guide, you’ll be able to select the appropriate rendering m
 ---
 
 ## **Overview of Rendering Methods**
+
+<audio src="../../../../Downloads/2024年12月19日09点27分.mp3"></audio>
 
 Next.js offers four main rendering methods:
 
@@ -43,6 +47,8 @@ Next.js offers four main rendering methods:
 ---
 
 ## **1. Static Generation (SG)**
+
+<audio src="../../../../Downloads/2024年12月19日09点30分.mp3"></audio>
 
 Static Generation is the process of pre-rendering pages **at build time**. The HTML is generated once and served to all users, ensuring fast load times.
 
@@ -97,6 +103,8 @@ export default function Blog({ posts }) {
 
 ## **2. Server-Side Rendering (SSR)**
 
+<audio src="../../../../Downloads/2024年12月19日09点37分.mp3"></audio>
+
 Server-Side Rendering generates the HTML **on each request**, ensuring that users always see the most up-to-date content.
 
 ### **Key Features:**
@@ -150,6 +158,8 @@ export default function Profile({ user }) {
 
 ## **3. Client-Side Rendering (CSR)**
 
+<audio src="../../../../Downloads/2024年12月19日09点39分.mp3"></audio>
+
 Client-Side Rendering fetches data and renders content entirely in the browser after the page has loaded.
 
 ### **Key Features:**
@@ -199,6 +209,8 @@ export default function Dashboard() {
 ---
 
 ## **4. Incremental Static Regeneration (ISR)**
+
+<audio src="../../../../Downloads/2024年12月19日09点42分.mp3"></audio>
 
 ISR bridges the gap between Static Generation and Server-Side Rendering by allowing static pages to be updated **at runtime** without rebuilding the entire application.
 
@@ -263,6 +275,8 @@ export default function Blog({ posts }) {
 
 ## **Choosing the Right Rendering Method**
 
+<audio src="../../../../Downloads/2024年12月19日09点44分.mp3"></audio>
+
 To choose the right method, ask yourself the following:
 
 1. **Does the content need to be SEO-friendly?**
@@ -282,5 +296,7 @@ To choose the right method, ask yourself the following:
 ---
 
 ## **Summary**
+
+<audio src="../../../../Downloads/2024年12月19日09点45分.mp3"></audio>
 
 Next.js offers a flexible set of rendering strategies to optimize performance and user experience. By choosing the appropriate method—Static Generation, Server-Side Rendering, Client-Side Rendering, or Incremental Static Regeneration—you can balance speed, SEO, and data freshness for your application. Mastering these methods will empower you to build highly efficient and scalable web applications tailored to your specific requirements.

@@ -1,6 +1,8 @@
 # Image Optimization in Next.js
 
-Next.js provides a built-in **Image Optimization** feature through the `<Image>` component, which allows you to serve optimized images without installing additional libraries or tools. Optimizing images is crucial for improving **performance**, **user experience**, and **SEO**, as images often account for the largest portion of a web page’s file size.
+<audio src="../../../../Downloads/2024年12月19日09点55分.mp3"></audio>
+
+Next.js provides a built-in **Image Optimization** feature through the `<Image>` component, which allows you to serve optimized images without installing additional libraries or tools. Optimizing images is crucial for improving **performance**, **user experience**, and **SEO**, as images often **account for**(占据) the largest portion of a web page’s file size.
 
 ---
 
@@ -18,6 +20,8 @@ By the end, you’ll know how to deliver fast, efficient, and responsive images 
 ---
 
 ## **1. Why Image Optimization Matters**
+
+<audio src="../../../../Downloads/2024年12月19日09点59分.mp3"></audio>
 
 Optimized images can significantly improve the performance of web applications by:
 
@@ -37,6 +41,8 @@ Next.js simplifies image optimization by automating tasks like resizing, lazy lo
 ---
 
 ## **2. The Next.js `<Image>` Component**
+
+<audio src="../../../../Downloads/2024年12月19日10点02分.mp3"></audio>
 
 Next.js introduces the `<Image>` component in the `next/image` package. It provides built-in support for image optimization, making it a preferred choice over the traditional `<img>` tag.
 
@@ -59,6 +65,8 @@ Next.js introduces the `<Image>` component in the `next/image` package. It provi
 To use the `<Image>` component, follow these steps:
 
 #### **Example: Basic Usage**
+
+<audio src="../../../../Downloads/2024年12月19日10点12分.mp3"></audio>
 
 1. Import the `Image` component from `next/image`:
 
@@ -101,6 +109,8 @@ Next.js supports responsive images through the `layout` attribute. This is usefu
 
 #### **Example: Responsive Images with `layout="responsive"`**
 
+<audio src="../../../../Downloads/2024年12月19日10点21分.mp3"></audio>
+
 ```javascript
 import Image from 'next/image';
 
@@ -132,7 +142,7 @@ Lazy loading is enabled by default in the `<Image>` component. Images are only l
 
 #### **Example: Lazy Loading**
 
-No additional configuration is needed. Just use the `<Image>` component:
+*No additional configuration is needed*. Just use the `<Image>` component:
 
 ```javascript
 <Image
@@ -151,9 +161,11 @@ No additional configuration is needed. Just use the `<Image>` component:
 
 ### **6. Blur-Up Placeholder**
 
-The `placeholder="blur"` attribute creates a low-quality blurred version of the image as a placeholder while the full image loads.
+The `placeholder="blur"` attribute creates a **low-quality blurred version** of the image as a placeholder while the full image loads.
 
 #### **Example: Blur-Up Placeholder**
+
+<audio src="../../../../Downloads/2024年12月19日10点29分.mp3"></audio>
 
 ```javascript
 import Image from 'next/image';
@@ -186,6 +198,8 @@ export default function BlurExample() {
 If your images are hosted externally (not in the `public/` directory), you need to configure the `next.config.js` file to allow external domains.
 
 #### **Example: Configuring External Domains**
+
+<audio src="../../../../Downloads/2024年12月19日10点39分.mp3"></audio>
 
 1. Add the `images` property to your `next.config.js`:
 
@@ -222,6 +236,10 @@ You can use a custom image loader if you want to integrate with a third-party im
 
 #### **Example: Cloudinary Custom Loader**
 
+<audio src="../../../../Downloads/2024年12月19日11点50分.mp3"></audio>
+
+<audio src="../../../../Downloads/2024年12月19日11点52分.mp3"></audio>
+
 1. Define a custom loader function:
 
    ```javascript
@@ -251,6 +269,8 @@ You can use a custom image loader if you want to integrate with a third-party im
 ---
 
 ## **9. Image Optimization Best Practices**
+
+<audio src="../../../../Downloads/2024年12月19日11点55分.mp3"></audio>
 
 1. **Always Use the `<Image>` Component**:
    - Avoid `<img>` tags unless absolutely necessary, as they lack optimization features.
@@ -286,5 +306,7 @@ You can use a custom image loader if you want to integrate with a third-party im
 ---
 
 ## **Summary**
+
+<audio src="../../../../Downloads/2024年12月19日11点56分.mp3"></audio>
 
 Image optimization is a critical aspect of building fast and efficient web applications. With Next.js's `<Image>` component, you can effortlessly serve optimized, responsive, and lazy-loaded images, improving performance and user experience. By leveraging features like automatic optimization, blur-up placeholders, and responsive layouts, you can ensure that your application delivers high-quality visuals without compromising speed. Mastering these techniques will help you build better-performing and user-friendly Next.js applications.

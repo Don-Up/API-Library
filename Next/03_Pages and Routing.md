@@ -1,5 +1,7 @@
 # Pages and Routing in Next.js
 
+<audio src="../../../../Downloads/2024年12月19日08点18分.mp3"></audio>
+
 Next.js simplifies routing by using a **file-based routing system**, eliminating the need for external libraries like `react-router`. Every file inside the `pages/` directory automatically becomes a route in your application. This approach makes it straightforward to build and manage routes, even in large applications.
 
 ---
@@ -45,6 +47,8 @@ In Next.js, routing is based on the structure of the `pages/` directory. Each fi
 ---
 
 ## **2. Dynamic Routes**
+
+<audio src="../../../../Downloads/Dynamic routing.mp3"></audio>
 
 Dynamic routing allows you to create routes based on data or parameters. In Next.js, you can define dynamic routes by wrapping a file or folder name with square brackets (`[param]`).
 
@@ -125,6 +129,8 @@ Nested routes allow you to build hierarchical navigation structures, such as cat
 Catch-all routes handle multiple dynamic segments. You can create these routes by using `[...param]` in the file name.
 
 ### **Example: Catch-All Route**
+
+<audio src="../../../../Downloads/2024年12月19日08点44分.mp3"></audio>
 
 1. Create a file: `pages/docs/[...slug].js`.
 2. Add the following code:
@@ -213,6 +219,8 @@ Next.js allows you to create a custom 404 page by defining a `404.js` file in th
 
 Next.js provides a built-in `Link` component for client-side navigation between pages, which is optimized for performance (e.g., prefetching pages).
 
+<audio src="../../../../Downloads/2024年12月19日08点56分.mp3"></audio>
+
 ### **Example: Using the `Link` Component**
 
 1. Add a navigation link to the homepage (`pages/index.js`):
@@ -232,6 +240,7 @@ Next.js provides a built-in `Link` component for client-side navigation between 
 2. Clicking the link will take you to the `/about` page.
 
 **Key Points:**
+
 - The `Link` component improves performance by prefetching the linked page when it appears in the viewport.
 
 ---
@@ -241,6 +250,8 @@ Next.js provides a built-in `Link` component for client-side navigation between 
 In addition to the `Link` component, you can navigate between routes programmatically using the `useRouter` hook.
 
 ### **Example: Programmatic Navigation**
+
+<audio src="../../../../Downloads/2024年12月19日09点06分.mp3"></audio>
 
 1. Update `pages/index.js`:
    ```jsx
@@ -267,5 +278,7 @@ In addition to the `Link` component, you can navigate between routes programmati
 ---
 
 ## **Summary**
+
+<audio src="../../../../Downloads/2024年12月19日09点10分.mp3"></audio>
 
 Next.js's file-based routing system is powerful and intuitive, allowing developers to easily create static, dynamic, and nested routes. By leveraging features like dynamic routing, catch-all routes, and API routes, you can build complex navigation structures with minimal configuration. Additionally, built-in tools like the `Link` component and `useRouter` hook make navigation seamless and optimized for performance. Mastering this routing system is essential for building scalable applications with Next.js.
