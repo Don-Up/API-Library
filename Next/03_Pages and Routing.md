@@ -136,7 +136,7 @@ Catch-all routes handle multiple dynamic segments. You can create these routes b
 2. Add the following code:
 
    ```jsx
-   import { useRouter } from 'next/router';
+   		import { useRouter } from 'next/router';
 
    export default function Docs() {
      const router = useRouter();
