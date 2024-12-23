@@ -30,7 +30,7 @@
 
 #### **Basic Formik Example**
 
-<audio src="../..\..\mp3\这段代码使用了 `Formik.mp3"></audio>
+<audio src="..\mp3\这段代码使用了 `Formik.mp3"></audio>
 
 ```javascript
 import React from 'react';
