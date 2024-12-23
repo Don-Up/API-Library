@@ -8,7 +8,7 @@ Configuration management is a critical part of any application, especially when 
 
 ### **Key Features of `@nestjs/config`**
 
-<audio src="../../mp3/1. __Centralize.mp3"></audio>
+<audio src="../../mp3/1. __Centralize (2).mp3"></audio>
 
 1. **Centralized Configuration**: Manage all environment variables and settings in one place.
 2. **Environment-Specific Settings**: Load different configurations for different environments (`.env` files).

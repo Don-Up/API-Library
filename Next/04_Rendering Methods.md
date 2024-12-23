@@ -112,7 +112,7 @@ Server-Side Rendering generates the HTML **on each request**, ensuring that user
 - Useful for personalized or frequently updated data.
 
 ### **When to Use:**
-- Applications that require fresh, up-to-date data (e.g., news feeds, dynamic dashboards).
+- Applications that require fresh, up-to-date data (e.g., **news feeds**(新闻订阅/动态), dynamic dashboards).
 - Pages that need to be personalized for each user (e.g., user profiles).
 
 ### **How to Implement:**

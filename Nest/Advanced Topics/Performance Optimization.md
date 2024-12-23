@@ -1,6 +1,6 @@
 ### **Performance Optimization in NestJS Applications**
 
-<audio src="C:\Users\10691\Downloads\2024年12月18日20点43分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月18日20点43分.mp3"></audio>
 
 Performance optimization is crucial for building scalable and high-performing NestJS applications. By leveraging caching, lazy loading, and database query optimization, you can ensure your application can handle high traffic and reduce response times.
 
@@ -8,7 +8,7 @@ Performance optimization is crucial for building scalable and high-performing Ne
 
 ### **1. Caching in NestJS**
 
-<audio src="C:\Users\10691\Downloads\Caching helps r.mp3"></audio>
+<audio src="..\..\mp3\Caching helps r.mp3"></audio>
 
 Caching helps reduce the load on your server by storing frequently accessed data, which can be returned without recalculating or querying the database. NestJS supports caching through its built-in `@nestjs/cache-manager` package, and you can integrate external caching solutions like **Redis** for distributed caching.
 
@@ -323,7 +323,7 @@ Use tools like **Prometheus**, **Grafana**, or **New Relic** to monitor performa
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\- __Caching___ .mp3"></audio>
+<audio src="..\..\mp3\- __Caching___ .mp3"></audio>
 
 - **Caching**:
   - Use in-memory caching for small-scale apps or Redis for distributed systems.

@@ -26,7 +26,7 @@ import { Controller, Get } from '@nestjs/common';
 export class UsersController {
   @Get() // Handles GET /users
   getAllUsers() {
-    return 'This will retur     n all users';
+    return 'This will return all users';
   }
 
   @Get(':id') // Handles GET /users/:id

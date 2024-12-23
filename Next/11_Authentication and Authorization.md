@@ -1,6 +1,6 @@
 # Authentication and Authorization in Next.js
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日18点47分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日18点47分.mp3"></audio>
 
 Authentication and authorization are crucial for securing your application and ensuring that users have access to the correct resources. **Authentication** verifies a user's identity (e.g., logging in), while **authorization** determines what a user is allowed to do (e.g., accessing specific pages, performing actions).
 
@@ -10,7 +10,7 @@ Next.js provides a flexible foundation for implementing both authentication and 
 
 ## **Objective**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日18点49分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日18点49分.mp3"></audio>
 
 The goal of this section is to:
 
@@ -26,7 +26,7 @@ By the end, you'll be equipped to handle user authentication and authorization i
 
 ## **1. Authentication vs. Authorization**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日18点57分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日18点57分.mp3"></audio>
 
 ### **Authentication**
 - Focuses on verifying **who the user is**.
@@ -44,7 +44,7 @@ By the end, you'll be equipped to handle user authentication and authorization i
 
 ## **2. Authentication Strategies in Next.js**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点04分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点04分.mp3"></audio>
 
 Next.js allows you to implement various authentication strategies depending on your requirements. Some common strategies include:
 
@@ -89,7 +89,7 @@ npm install next-auth
 #### **Step 2: Create an API Route for NextAuth**
 Create a file at `pages/api/auth/[...nextauth].js`:
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点14分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点14分.mp3"></audio>
 
 ```javascript
 import NextAuth from 'next-auth';
@@ -113,7 +113,7 @@ export default NextAuth({
 
 #### **Step 3: Protect Pages**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点23分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点23分.mp3"></audio>
 
 Use the `useSession` hook from NextAuth to check the user's login status:
 
@@ -144,7 +144,7 @@ export default function Home() {
 #### **Step 4: Protect API Routes**
 You can protect API routes using `getServerSession`:
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点26分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点26分.mp3"></audio>
 
 ```javascript
 import { getServerSession } from 'next-auth';
@@ -172,7 +172,7 @@ Create `pages/api/auth/signup.js` and `pages/api/auth/login.js`:
 
 **Signup Endpoint:**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点29分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点29分.mp3"></audio>
 
 ```javascript
 import bcrypt from 'bcrypt';
@@ -197,7 +197,7 @@ export default async function handler(req, res) {
 
 **Login Endpoint:**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点32分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点32分.mp3"></audio>
 
 ```javascript
 import jwt from 'jsonwebtoken';
@@ -232,7 +232,7 @@ export default async function handler(req, res) {
 #### **Step 2: Protect Pages**
 Use the `getServerSideProps` function to verify the user's JWT and protect server-rendered pages:
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点34分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点34分.mp3"></audio>
 
 ```javascript
 import jwt from 'jsonwebtoken';
@@ -275,7 +275,7 @@ You can use middleware in Next.js to protect routes dynamically.
 
 **Example: Authentication Middleware**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点37分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点37分.mp3"></audio>
 
 ```javascript
 import { NextResponse } from 'next/server';
@@ -313,7 +313,7 @@ Assign roles to users (e.g., `admin`, `user`) and restrict access based on their
 
 **Example: Restricting Admin Pages**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点40分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点40分.mp3"></audio>
 
 ```javascript
 export async function getServerSideProps({ req }) {
@@ -344,7 +344,7 @@ Instead of roles, assign specific permissions to users and check for those permi
 
 **Example: Permission Check**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点42分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点42分.mp3"></audio>
 
 ```javascript
 const userPermissions = ['read', 'write']; // Fetched from the database
@@ -358,7 +358,7 @@ if (!userPermissions.includes('admin')) {
 
 ## **5. Best Practices for Authentication**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点44分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点44分.mp3"></audio>
 
 1. **Use Secure Password Storage**:
    - Always hash passwords using a library like `bcrypt`.
@@ -382,6 +382,6 @@ if (!userPermissions.includes('admin')) {
 
 ## **6. Summary**
 
-<audio src="C:\Users\10691\Downloads\2024年12月19日19点45分.mp3"></audio>
+<audio src="..\mp3\2024年12月19日19点45分.mp3"></audio>
 
 Next.js provides a flexible foundation for implementing authentication and authorization. Whether you choose a library like **NextAuth.js** for simplicity or build a custom solution with **JWTs** and API routes, Next.js makes it easy to secure your application. By combining authentication with role-based or permission-based authorization, you can create robust, secure, and user-friendly applications tailored to your specific requirements. Always follow best practices to ensure the security and scalability of your authentication system.

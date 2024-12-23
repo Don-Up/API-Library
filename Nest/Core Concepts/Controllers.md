@@ -10,6 +10,8 @@ A controller defines **routes** (endpoints) that clients can call. It processes 
 
 ### **Key Responsibilities of Controllers**
 
+<audio src="../../../../../Downloads/2024年12月20日07点58分.mp3"></audio>
+
 1. **Route Handling**:
    - Define and handle HTTP routes (e.g., `GET`, `POST`, `PUT`, `DELETE`).
 
@@ -25,6 +27,8 @@ A controller defines **routes** (endpoints) that clients can call. It processes 
 ---
 
 ### **How Controllers Work**
+
+<audio src="../../../../../Downloads/2024年12月20日07点59分.mp3"></audio>
 
 Controllers in Nest.js are **classes** decorated with the `@Controller()` decorator. Each method in the controller is typically associated with a specific HTTP request method (e.g., `GET`, `POST`, etc.) and a route path.
 

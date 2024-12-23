@@ -1,6 +1,6 @@
 ### **WebSockets in NestJS**
 
-<audio src="C:\Users\10691\Downloads\WebSockets enab.mp3"></audio>
+<audio src="..\..\mp3\WebSockets enab.mp3"></audio>
 
 WebSockets enable real-time, bidirectional communication between clients and servers, making them ideal for applications like chat systems, notifications, live updates, or multiplayer games. NestJS provides built-in support for WebSockets through the `@nestjs/websockets` package, along with decorators and tools to make implementation smooth and scalable.
 
@@ -38,7 +38,7 @@ This creates a file like `chat.gateway.ts` with a basic structure.
 
 Here’s how you can implement a WebSocket Gateway for a chat app:
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点12分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点12分.mp3"></audio>
 
 ```typescript
 import {
@@ -88,7 +88,7 @@ export class ChatGateway implements OnGatewayConnection, OnGatewayDisconnect {
 
 #### **Explanation**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点14分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点14分.mp3"></audio>
 
 1. **`@WebSocketGateway`**:
    - Decorator for defining a WebSocket gateway.
@@ -126,7 +126,7 @@ npm install socket.io-client
 
 #### **Basic Frontend for Chat**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点23分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点23分.mp3"></audio>
 
 Here’s an example of how to connect to the WebSocket server and send/receive messages in a React app:
 
@@ -210,7 +210,7 @@ export default ChatApp;
 
 - Use WebSocket middleware to authenticate users during the connection phase.
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点26分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点26分.mp3"></audio>
 
 ```typescript
 import { Injectable, NestMiddleware } from '@nestjs/common';
@@ -236,7 +236,7 @@ Attach this middleware to your WebSocket gateway during initialization.
 
 Namespaces allow you to create separate communication channels for different features.
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点29分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点29分.mp3"></audio>
 
 ```typescript
 @WebSocketGateway({ namespace: '/chat' })
@@ -261,7 +261,7 @@ const notificationSocket = io('http://localhost:3000/notifications');
 
 #### **4.3 Rooms**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点31分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点31分.mp3"></audio>
 
 Rooms allow grouping clients into specific channels for targeted communication (e.g., private chats or group chats).
 
@@ -315,7 +315,7 @@ export class NotificationsGateway {
 
 ### **6. Best Practices for WebSocket Development**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点16分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点16分.mp3"></audio>
 
 1. **Authentication**:
    - Use middleware or tokens to verify user identity during connection.
@@ -337,7 +337,7 @@ export class NotificationsGateway {
 
 ### **Summary**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点17分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点17分.mp3"></audio>
 
 - Use `@nestjs/websockets` to build real-time features like chat applications or notification systems.
 - Build WebSocket gateways to handle events (e.g., `message`, `notification`).

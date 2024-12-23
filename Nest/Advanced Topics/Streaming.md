@@ -1,6 +1,6 @@
 ### **Streaming Large Files in NestJS Using the Streams API**
 
-<audio src="C:\Users\10691\Downloads\The __Streams A.mp3"></audio>
+<audio src="..\..\mp3\The __Streams A.mp3"></audio>
 
 The **Streams API** in Node.js is a powerful tool for handling large files efficiently. Instead of loading an entire file into memory, streams process data in chunks, making it possible to handle large files without exhausting system resources. This is especially useful for scenarios like serving videos, audio, or large datasets.
 
@@ -10,7 +10,7 @@ In this guide, we’ll explore how to stream large files in a **NestJS** applica
 
 ### **1. Why Use Streams for Large Files?**
 
-<audio src="C:\Users\10691\Downloads\- __Memory Effi.mp3"></audio>
+<audio src="..\..\mp3\- __Memory Effi.mp3"></audio>
 
 - **Memory Efficiency**: Streams process data in small chunks, avoiding memory overload.
 - **Performance**: Reduces latency as data is sent in chunks.
@@ -21,7 +21,7 @@ In this guide, we’ll explore how to stream large files in a **NestJS** applica
 
 ### **2. Understanding the Streams API**
 
-<audio src="C:\Users\10691\Downloads\2024年12月18日20点50分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月18日20点50分.mp3"></audio>
 
 Node.js provides different types of streams:
 - **Readable Stream**: For reading data.
@@ -43,7 +43,7 @@ This example demonstrates how to stream a large file (e.g., a video) to a client
 
 Create a controller to handle file streaming.
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点39分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点39分.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Res, HttpException, HttpStatus } from '@nestjs/common';
@@ -101,7 +101,7 @@ For video or audio streaming, you often need to support **range requests** so cl
 
 ##### **Controller Implementation**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点44分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点44分.mp3"></audio>
 
 ```typescript
 import { Controller, Get, Req, Res, HttpException, HttpStatus } from '@nestjs/common';
@@ -175,7 +175,7 @@ If your files are stored in cloud services like **Amazon S3** or **Google Cloud 
 
 #### **Example: Streaming from Amazon S3**
 
-<audio src="C:\Users\10691\Downloads\2024年12月20日02点49分.mp3"></audio>
+<audio src="..\..\mp3\2024年12月20日02点49分.mp3"></audio>
 
 1. Install the AWS SDK:
 
@@ -229,7 +229,7 @@ If your files are stored in cloud services like **Amazon S3** or **Google Cloud 
 
 ### **5. Best Practices for Streaming Large Files**
 
-<audio src="C:\Users\10691\Downloads\1. __Use Stream.mp3"></audio>
+<audio src="..\..\mp3\1. __Use Stream.mp3"></audio>
 
 1. **Use Streams for Memory Efficiency**:
    - Avoid loading the entire file into memory when working with large files.
@@ -253,7 +253,7 @@ If your files are stored in cloud services like **Amazon S3** or **Google Cloud 
 
 ### **6. Summary**
 
-<audio src="C:\Users\10691\Downloads\Streaming large.mp3"></audio>
+<audio src="..\..\mp3\Streaming large.mp3"></audio>
 
 Streaming large files using the Streams API in NestJS is an efficient way to handle scenarios like video/audio streaming or serving large logs. Here’s a quick recap:
 

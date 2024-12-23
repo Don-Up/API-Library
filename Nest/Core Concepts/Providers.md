@@ -10,6 +10,8 @@ Providers are typically used to handle application logic, interact with database
 
 ### **Key Responsibilities of Providers**
 
+<audio src="../../../../../Downloads/2024年12月20日08点17分.mp3"></audio>
+
 1. **Encapsulating Business Logic**:
    - Providers contain the application's core functionality and logic, keeping controllers lightweight and focused on handling HTTP requests and responses.
 
@@ -152,6 +154,8 @@ In addition to regular classes, providers in Nest.js can be defined in several w
 
 #### **1. Value Providers**
 
+<audio src="../../../../../Downloads/2024年12月20日08点40分.mp3"></audio>
+
 You can provide static values or constants using the `useValue` syntax.
 
 ```typescript
@@ -187,6 +191,8 @@ export class ApiService {
 ---
 
 #### **2. Factory Providers**
+
+<audio src="../../../../../Downloads/2024年12月20日08点44分.mp3"></audio>
 
 You can use factory functions to create and configure providers dynamically.
 
@@ -226,6 +232,8 @@ export class ApiService {
 ---
 
 #### **3. Class Providers**
+
+<audio src="../../../../../Downloads/2024年12月20日08点50分.mp3"></audio>
 
 You can use custom classes to provide specific implementations for a provider token.
 
@@ -268,6 +276,8 @@ export class AppService {
 
 #### **4. Async Providers**
 
+<audio src="../../../../../Downloads/2024年12月20日08点55分.mp3"></audio>
+
 For scenarios where a provider requires asynchronous initialization (e.g., loading configuration from a database), you can use `useFactory` with `async`.
 
 ```typescript
@@ -291,6 +301,8 @@ export class ConfigModule {}
 ### **Scope of Providers**
 
 By default, providers in Nest.js are **singleton**—a single instance is shared throughout the application. However, you can modify the scope to define the provider's lifecycle.
+
+<audio src="../../../../../Downloads/2024年12月20日09点02分.mp3"></audio>
 
 #### **1. Singleton Scope**
 - Default behavior: One instance is shared across the entire application.
@@ -325,6 +337,8 @@ export class TransientService {
 
 To make a provider available in other modules, it must be exported in its module.
 
+<audio src="../../../../../Downloads/2024年12月20日09点05分.mp3"></audio>
+
 #### **Example: Exporting a Provider**
 
 ```typescript
@@ -351,6 +365,8 @@ export class AppModule {}
 Testing providers is straightforward since they are standalone classes. Use **mock dependencies** to isolate the provider logic.
 
 #### **Example: Testing a Service**
+
+<audio src="../../../../../Downloads/2024年12月20日09点07分.mp3"></audio>
 
 ```typescript
 import { Test, TestingModule } from '@nestjs/testing';

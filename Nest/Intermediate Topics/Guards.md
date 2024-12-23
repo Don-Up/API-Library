@@ -2,7 +2,7 @@
 
 <audio src="..\..\mp3\Guards in __Nes.mp3"></audio>
 
-Guards in **Nest.js** are a feature designed to control access to routes or specific parts of an application. They act as gatekeepers and determine whether a request should proceed to the route handler or be denied. Guards are typically used for **authentication** and **authorization** but can be applied for other purposes like feature flag checks or custom access logic.
+Guards in **Nest.js** are a feature designed to control access to routes or specific parts of an application. They act as gatekeepers and determine whether a request should proceed to the route handler or be denied. Guards are typically used for **authentication** and **authorization** but can be applied for other purposes like **feature flag checks**(特性标志检查) or custom access logic.
 
 ---
 

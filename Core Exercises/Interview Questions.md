@@ -452,7 +452,7 @@ Proper choice of types is conducive to implement flexible layouts.
 
 ### 修正后的版本:
 
-<audio src="../../../../Downloads/In CSS, `block`.mp3"></audio>
+<audio src="../mp3/In CSS, `block`.mp3"></audio>
 
 在CSS中，`block`和`inline`是两种常见的元素显示类型，它们的主要区别如下：
 
@@ -522,7 +522,7 @@ HTTP/2是HTTP协议的升级版本，解决了HTTP/1.1中效率较低的问题�
 
 ------
 
-<audio src="../../../../Downloads/HTTP (Hypertext.mp3"></audio>
+<audio src="../mp3/HTTP (Hypertext.mp3"></audio>
 
 
 
@@ -565,7 +565,7 @@ HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP, design
 
 By combining encryption and authentication, HTTPS protects user privacy, prevents man-in-the-middle attacks, and is essential for secure communication in modern networks.
 
-<audio src="../../../../Downloads/HTTPS (Hypertex.mp3"></audio>
+<audio src="../mp3/HTTPS (Hypertex.mp3"></audio>
 
 ------
 
@@ -616,7 +616,7 @@ For instance, in a list, clicking any item can be captured by the parent element
 
 例如，在列表中点击任意项时，通过事件代理可以在父元素上捕获子元素的点击事件。事件代理常用于动态生成的元素处理，适用于性能优化和代码简化的场景。
 
-<audio src="../../../../Downloads/Event Delegatio.mp3"></audio>
+<audio src="../mp3/Event Delegatio.mp3"></audio>
 
 ## Explain the differences between AMD, CommonJS and ES modules
 
@@ -652,7 +652,7 @@ AMD（Asynchronous Module Definition）、CommonJS 和 ES 模块是三种常见�
 
 总体来看，AMD 偏向浏览器，CommonJS 偏向服务器，而 ES 模块是现代开发的主流选择。
 
-<audio src="../../../../Downloads/AMD (Asynchrono.mp3"></audio>
+<audio src="../mp3/AMD (Asynchrono.mp3"></audio>
 
 # Array.prototype.forEach()` vs `Array.prototype.map()`
 
@@ -708,7 +708,7 @@ In summary, `forEach()` is better suited for operations without a return value, 
 
 总之，`forEach()` 更适合处理无返回值的操作，而 `map()` 是用来创建新数组的。选择时应根据需求决定。
 
-<audio src="../../../../Downloads/Array prototype.mp3"></audio>
+<audio src="../mp3/Array prototype.mp3"></audio>
 
 
 
@@ -761,7 +761,7 @@ Each has its own use case, so choose the appropriate method as needed.
 
 两者适用场景不同，应根据需求选择合适的方法。
 
-<audio src="../../../../Downloads/`instance of` i.mp3"></audio>
+<audio src="../mp3/`instance of` i.mp3"></audio>
 
 ## Explain `new` operator in JavaScript. What exactly does it do?
 
@@ -799,7 +799,7 @@ Objects created with `new` combine the characteristics of the constructor and it
 
 通过 `new` 创建的对象具有构造函数和原型的双重特性，使其成为构造函数实例的重要工具。
 
-<audio src="../../../../Downloads/The `new` opera.mp3"></audio>
+<audio src="../mp3/The `new` opera.mp3"></audio>
 
 ------
 
@@ -826,6 +826,34 @@ Your original translation was already very accurate!
 
    Microtasks have higher priority than macrotasks and can be nested within the *same* *event loop iteration*. For example, callbacks from `Promise.then` execute earlier *than those* from `setTimeout`. Properly managing these tasks helps optimize performance and *task execution order*.
 
-   <audio src="../../../../Downloads/__Macrotasks__ .mp3"></audio>
+   <audio src="../mp3/__Macrotasks__ .mp3"></audio>
 
-###### 
+
+
+
+
+Your translation is clear and well-structured, but there are a few areas where small adjustments can make the text more natural and precise. Here's a refined version:
+
+------
+
+`Connection: Keep-Alive` is part of the HTTP request header used to keep the connection between the client and server open instead of closing it immediately after each request is completed. Its primary purposes include:*
+
+1. **Minimizing overhead**: Keeping the connection open *avoids* the *repeated overhead* of establishing and closing TCP connections, improving network resource utilization.
+2. **Improving performance**: Multiple requests can be sent over a single connection without creating a new connection for each request, enhancing responsiveness.
+3. **Long-connection mechanism**: By negotiating with the server, the connection can be *kept* open for a certain period (typically *defined* by timeout or request limits), making it suitable for scenarios requiring frequent requests.
+
+For example, when a browser loads a webpage, maintaining the connection reduces load times and optimizes the user experience. Modern HTTP protocols like HTTP/2 have similar functionality enabled by default, *eliminating the need to* set this header explicitly.
+
+<audio src="../../../../Downloads/2024年12月23日10点06分.mp3"></audio>
+
+------
+
+### Evaluation of your translation:
+
+- "Sustainable" was replaced with "open" for better alignment with typical phrasing in technical contexts.
+- "Improving responsiveness" instead of "improving responsiveness" to align verb tense.
+- "Long-connection mechanism" now starts with a capital for consistency.
+- Simplified "by default referring to" to "typically defined by" for conciseness.
+- Slightly restructured the example for better flow.
+
+Your original translation is excellent; these changes are minor refinements.
