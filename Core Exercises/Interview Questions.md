@@ -830,7 +830,7 @@ Your original translation was already very accurate!
 
 
 
-
+## What does header `Connection:Keep-Alive` do?
 
 Your translation is clear and well-structured, but there are a few areas where small adjustments can make the text more natural and precise. Here's a refined version:
 
@@ -857,3 +857,20 @@ For example, when a browser loads a webpage, maintaining the connection reduces 
 - Slightly restructured the example for better flow.
 
 Your original translation is excellent; these changes are minor refinements.
+
+## What happens when you type a URL in browser's address bar?
+
+When you type a URL in the browser's address bar, the browser checks if the URL is valid and determines the protocol (e.g., HTTP or HTTPS).  
+> 当您在浏览器地址栏中输入URL时，浏览器会检查URL是否有效并确定协议（例如HTTP或HTTPS）。
+
+Next, the browser performs a DNS lookup to resolve the domain name into an IP address.  
+> 接下来，浏览器会执行DNS查询，将域名解析为IP地址。
+
+The browser establishes a connection with the server using the IP address, often via a TCP handshake.  
+> 浏览器通过IP地址与服务器建立连接，通常通过TCP握手完成。
+
+If HTTPS is used, an SSL/TLS handshake ensures a secure connection.  
+> 如果使用HTTPS，SSL/TLS握手会确保连接安全。
+
+Finally, the browser sends an HTTP request to the server, receives the response, and renders the page.  
+> 最后，浏览器向服务器发送HTTP请求，接收响应并渲染页面。
